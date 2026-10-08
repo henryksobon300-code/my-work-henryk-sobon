@@ -1,5 +1,7 @@
 # Henryk Soboń — Quantum Computing, Quantum Codes & Formal Verification
 
+<img src="Screenshot_20261008-214406~2.jpg" alt="Portrait of Henryk Soboń" width="280" align="right">
+
 **qLDPC • Quantum Error Correction • SAT • CHC • Formal Verification • Computational Discovery • Machine-Checkable Proofs**
 
 Independent work on quantum error-correcting codes, qLDPC, SAT/CHC verification, program equivalence, structural equivalence and machine-checkable computational results.
