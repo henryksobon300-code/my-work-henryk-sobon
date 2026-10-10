@@ -53,6 +53,16 @@ For SAT Competition benchmark `vdwb_k6_n400.sanitized.cnf.xz`, I produced a comp
 - Proposed metadata change: `unknown → sat`
 - Status: **OPEN / awaiting maintainer review**
 
+### SYNTCOMP 2026 — parity realizability
+
+For `steadygame_pb_12_pe_`, one of five instances without a recorded verdict in the reconstructed 2026 virtual-best results, I produced a directly checkable nine-state environment counterstrategy establishing **UNREALIZABLE**.
+
+- Public provenance record: research/SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md
+- Tracking issue: https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1
+- Independent public replay: 144 controller assignments checked; certificate PASS
+- Negative control: deliberately corrupted witness rejected
+- Scope: author-side reproducible evidence; no official SYNTCOMP competition validation is claimed
+
 ## Research areas
 
 - Quantum computing and quantum error correction
