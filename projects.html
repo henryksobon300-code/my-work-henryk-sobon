@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Research Results & Public Discussions — Henryk Soboń</title>
+<meta name="description" content="Public research contribution index: accepted code changes, maintainer-confirmed findings, open benchmark reports, verification records and original GitHub discussions.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html">
+<meta property="og:type" content="website"><meta property="og:title" content="Research Results & Public Discussions — Henryk Soboń">
+<style>
+:root{color-scheme:dark;--bg:#0e1420;--panel:#151e2c;--ink:#f0f3f9;--muted:#b6c2d3;--link:#9dd0ff;--line:#344255;--good:#b5dfcc;--wait:#e9d9a7;--quiet:#a8b6c9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--link);text-underline-offset:3px}a:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:3px}a:hover{color:#cce8ff}
+header,footer{border-bottom:1px solid var(--line)}footer{border-bottom:0;border-top:1px solid var(--line);padding:32px 0 60px}
+.wrap{max-width:1050px;padding:0 24px;margin:auto}.top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:17px 0}
+.top strong{font-size:.95rem}.topnav{display:flex;gap:18px;flex-wrap:wrap}.topnav a{font-size:.88rem}
+main{padding:48px 0 80px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-weight:700;font-size:.75rem;color:#adc8e7}
+h1{font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.12;letter-spacing:-.035em;margin:14px 0 19px}
+h2{font-size:1.6rem;letter-spacing:-.025em;margin:0 0 10px}h3{font-size:1.09rem;line-height:1.35;margin:7px 0 9px}
+p{color:var(--muted);margin:0 0 13px}.lead{font-size:1.1rem;max-width:760px}
+.jump{display:flex;flex-wrap:wrap;gap:14px;margin:26px 0 5px}.jump a{font-size:.89rem}
+section{margin:45px 0 0;padding:32px 0 0;border-top:1px solid var(--line)}.description{margin-bottom:24px;max-width:780px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.entry{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:22px;min-width:0}
+.status{font-size:.73rem;letter-spacing:.09em;font-weight:750;text-transform:uppercase;color:var(--good)}.pending .status{color:var(--wait)}.archived .status{color:var(--quiet)}
+.entry p{font-size:.92rem}.refs{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:16px;font-size:.9rem}.refs a{font-weight:600}
+.note{padding:14px 19px;border-left:3px solid #7da9cb;background:#152235;border-radius:0 6px 6px 0;max-width:850px}
+details{border:1px solid var(--line);border-radius:9px;padding:14px 20px}summary{cursor:pointer;font-weight:650}
+.small{font-size:.84rem}footer p{font-size:.85rem}
+@media(max-width:700px){.wrap{padding:0 19px}main{padding:32px 0 55px}.grid{grid-template-columns:1fr}section{padding-top:28px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap top"><strong>Henryk Soboń · Research</strong><nav class="topnav" aria-label="Navigation"><a href="./">Home</a><a href="projects.html" aria-current="page">All results</a><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXTERNAL_REVIEW.md">External review</a><a href="https://github.com/henryksobon300-code">GitHub</a></nav></div></header>
+<main class="wrap">
+<div class="eyebrow">Public evidence archive · Reviewed 24 October 2026</div>
+<h1>Research results & public discussions</h1>
+<p class="lead">An indexed record of concrete contributions, reproducible claims, original GitHub issues and pull requests. Each entry links to its source, where the complete public conversation, reviewer comments, code changes and outcome can be inspected.</p>
+<p class="note"><strong>How to read this page:</strong> “Merged” applies to an accepted pull request. “Maintainer-confirmed” means that a specific finding was independently checked or acted on. An issue marked “Closed” does not, by itself, establish scientific acceptance or a publication.</p>
+<nav class="jump" aria-label="On this page"><a href="#merged">Merged author PRs</a><a href="#maintainers">Maintainer-confirmed findings</a><a href="#pending">Awaiting review</a><a href="#other">Other experiments</a><a href="#archive">Withdrawn and duplicate reports</a></nav>
+<section id="merged" aria-labelledby="merged-title">
+<div class="eyebrow">Accepted software changes</div><h2 id="merged-title">Two merged pull requests authored by me</h2>
+<p class="description">Each source PR has a <strong>Conversation</strong> tab for discussion and a <strong>Files changed</strong> tab for reviewed code.</p>
+<div class="grid">
+<article class="entry"><div class="status">Merged · 4 Oct 2026</div><h3>CSS row-space intersection invariant</h3><p>Added an existing GF(2) identity as a verifier diagnostic with regression checks in qLDPC Challenge. This is implementation work, not a claim to a new mathematical theorem.</p><div class="refs"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QEC_INTERSECTION.md">Case study</a><a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2740">PR + complete discussion</a><a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5405628122">Independent review</a><a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2740/files">Code changes</a></div></article>
+<article class="entry"><div class="status">Merged · 23 Oct 2026</div><h3>Exact-distance transfer across Campaign 4</h3><p>Applied exact-distance metadata to five entries with explicitly verified permutation equivalences to an existing [[288,12,12]] reference. Audit: 39 records, 29 equivalence classes.</p><div class="refs"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QCODE_CAMPAIGN4.md">Case study</a><a href="https://github.com/qiskit-community/qcode-discovery/pull/11">PR + discussion</a><a href="https://github.com/qiskit-community/qcode-discovery/pull/11#issuecomment-6368684584">Independent reviewer confirmation</a><a href="https://github.com/qiskit-community/qcode-discovery/pull/11/files">Code changes</a></div></article>
+</div></section>
+<section id="maintainers" aria-labelledby="maintainers-title">
+<div class="eyebrow">External checks and corrections</div><h2 id="maintainers-title">Findings confirmed or adopted by maintainers</h2>
+<div class="grid">
+<article class="entry"><div class="status">Confirmed · maintainer PR merged 3 Oct</div><h3>Four duplicate qLDPC code clusters</h3><p>I provided explicit physical-qubit permutations; maintainers independently checked them and removed four redundant entries through their own PR. That PR is not one of my merged PRs.</p><div class="refs"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QEC_FOUR_CLUSTERS.md">Case study</a><a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2643">Original issue + comments</a><a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2643#issuecomment-5970310657">Maintainer response</a><a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2702">Maintainer's merged PR</a></div></article>
+<article class="entry"><div class="status">Confirmed · corrected October 2026</div><h3>Two binary-CHC benchmark verdicts</h3><p>Exact evidence for two specific demo/06 O0/O2 benchmarks led the repository maintainer to confirm their UNSAT classification and correct the expected results table.</p><div class="refs"><a href="https://github.com/aaronbembenek/binary-chc-problems/issues/1">Original issue and public evidence</a><a href="https://github.com/aaronbembenek/binary-chc-problems">Maintained repository</a></div></article>
+<article class="entry"><div class="status">Independently reproduced · existing upstream check</div><h3>Ten reducible Campaign 4 codes</h3><p>An independently reproduced structural observation: exactly ten of 39 records decompose. The maintainer clarified that the relevant connectivity checks were already present upstream.</p><div class="refs"><a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2942">Original report</a><a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835">Independent reproduction and limitation</a></div></article>
+</div></section>
+<section id="pending" aria-labelledby="pending-title">
+<div class="eyebrow">Open submissions</div><h2 id="pending-title">Awaiting independent adoption or certification</h2>
+<p class="description">These records contain author-side results and evidence; they are <strong>not</strong> described as organizer-confirmed competition results.</p>
+<div class="grid">
+<article class="entry pending"><div class="status">Open · data correction proposed</div><h3>SAT benchmark vdwb_k6_n400</h3><p>Reported 400-variable satisfying assignment checked against 31,600 clauses; upstream metadata remains under review.</p><div class="refs"><a href="https://github.com/satcompetition/2026/issues/2">Public issue</a><a href="https://github.com/Udopia/gbd-data/pull/3">GBD PR + discussion</a></div></article>
+<article class="entry pending"><div class="status">Open · external replay pending</div><h3>CHC-COMP — eight quic3 benchmarks</h3><p>Reported SAT models and negative controls for standard_init2–9. Organizer acceptance has not been recorded.</p><div class="refs"><a href="https://github.com/chc-comp/chc-comp26-benchmarks/issues/11">Evidence, reviewer discussion and status</a></div></article>
+<article class="entry pending"><div class="status">Open · external replay pending</div><h3>CHC-COMP — O3 array benchmark</h3><p>An author-side validated model for a specific array benchmark; third-party acceptance is outstanding.</p><div class="refs"><a href="https://github.com/chc-comp/chc-comp26-benchmarks/issues/10">Original issue and evidence</a></div></article>
+<article class="entry pending"><div class="status">Open · external replay pending</div><h3>CHC-COMP — goal71</h3><p>Reported model and controls for the exact ADTRem/clam/goal71 benchmark.</p><div class="refs"><a href="https://github.com/chc-comp/chc-comp26-benchmarks/issues/9">Original issue and evidence</a></div></article>
+<article class="entry pending"><div class="status">Open · external replay pending</div><h3>VMT / CHC — array initialization</h3><p>Author-side models for two array initialization instances, pending an upstream verdict update.</p><div class="refs"><a href="https://github.com/chc-comp/vmt-chc-benchmarks/issues/1">Original issue and evidence</a></div></article>
+<article class="entry pending"><div class="status">Open · author evidence</div><h3>SYNTCOMP 2026 — parity witnesses</h3><p>Public witness record and machine-checkable evidence. Not an official submitted competition result, ranking or organizer certificate.</p><div class="refs"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1">Public issue</a><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md">Research record</a></div></article>
+</div></section>
+<section id="other" aria-labelledby="other-title">
+<div class="eyebrow">Experiments and historical branches</div><h2 id="other-title">Other computational research</h2>
+<p>MathemaSpace covers several separate, evolving experimental methods. For public work, only a bounded <a href="https://github.com/henryksobon300-code/Mathemaspace">CORE-013 demonstration</a> is linked as an executable repository here. Other reported projects—including HAAL diagnosis, state-space equivalence, finite Baum–Sweet computations, QEC audits and the rotor-graph concept—have different evidence requirements and disclosure restrictions.</p>
+<p><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/RESULTS_INDEX.md">See the full record and limits of each research thread</a></p>
+<p>Private scientific emails, unreleased engines and patent-sensitive documents are <strong>not</strong> published on this website. <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXTERNAL_REVIEW.md">Public external-review summary</a>.</p>
+</section>
+<section id="archive" aria-labelledby="archive-title">
+<div class="eyebrow">Transparent provenance</div><h2 id="archive-title">Withdrawn, duplicate or superseded public records</h2>
+<details><summary>Show unsuccessful or duplicate submissions</summary>
+<div class="grid" style="margin-top:17px">
+<article class="entry archived"><div class="status">Closed · not merged</div><h3>qLDPC Challenge PR #3362</h3><p>Not accepted as an upstream change. Review identified overlap with existing functionality and packaging problems.</p><div class="refs"><a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/3362">PR + comments</a></div></article>
+<article class="entry archived"><div class="status">Closed · off-topic duplicate</div><h3>SAT Competition issue #3</h3><p>A duplicate of the quantum-code four-cluster report placed in an unrelated repository. Not a new result.</p><div class="refs"><a href="https://github.com/satcompetition/2026/issues/3">Archived issue</a></div></article>
+<article class="entry archived"><div class="status">Closed · incorporated into accepted PR</div><h3>qcode-discovery issue #8</h3><p>Initial Campaign 4 report, later resolved through merged PR #11. Counted only once as a research contribution.</p><div class="refs"><a href="https://github.com/qiskit-community/qcode-discovery/issues/8">Original issue</a></div></article>
+</div></details>
+</section>
+</main>
+<footer><div class="wrap"><p>Henryk Soboń · Independent technical research. Evidence/status snapshot: 24 October 2026.</p><p><a href="./">Return to home</a> · <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/RESULTS_INDEX.md">Machine-readable-in-repository Markdown index</a></p><p class="small">Public source links provide their own discussion and review histories. This website does not reproduce or imply permission to publish private correspondence.</p></div></footer>
+</body></html>
