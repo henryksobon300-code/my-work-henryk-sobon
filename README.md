@@ -8,7 +8,7 @@ Independent researcher working with exact structural checks, program and graph r
 
 I try to make each public claim inspectable: a specific problem, evidence, a verifier where possible, the external review status, and the limits of the result. These are technical contributions and research experiments, not a claim of formal academic affiliation or a comprehensive new theory.
 
-[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[All public results and issue/PR outcomes](research/RESULTS_INDEX.md)** · [Evidence and status register](RESEARCH_STATUS.md) · [External review record](research/EXTERNAL_REVIEW.md)
+[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[Website projects & public discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html)** · [Full GitHub source register](research/RESULTS_INDEX.md) · [Evidence and status register](RESEARCH_STATUS.md) · [External review record](research/EXTERNAL_REVIEW.md)
 
 ## Merged pull requests authored by me
 
