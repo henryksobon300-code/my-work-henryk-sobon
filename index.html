@@ -36,18 +36,22 @@ section{padding:44px 0;border-top:1px solid var(--rule)}.section-intro{max-width
 .method{border-left:3px solid #86accd;padding-left:22px;max-width:860px}
 .footer{padding:30px 0 55px;border-top:1px solid var(--rule);font-size:.85rem;color:var(--subtle)}.footer p{font-size:.85rem}
 @media(max-width:720px){.wrap{padding:0 19px}.hero{grid-template-columns:1fr;gap:22px;padding-top:45px}.hero img{grid-row:1;width:130px;aspect-ratio:4/5}.grid{grid-template-columns:1fr}.navlinks{gap:15px}section{padding:36px 0}}
+a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padding:9px;border-radius:4px}a.skip:focus{left:7px;z-index:10}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
+<a class="skip" href="#top">Skip to content</a>
 <header>
 <div class="wrap nav">
 <a class="mark" href="#top">Henryk Soboń</a>
 <nav class="navlinks" aria-label="Main navigation">
 <a href="#contributions">Contributions</a>
+<a href="projects.html">Projects & discussions</a>
 <a href="#review">Under review</a>
 <a href="#correspondence">External review</a>
 <a href="#methods">Research approach</a>
-<a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/RESULTS_INDEX.md">All public results</a>
+<a href="projects.html">All public results</a>
 </nav>
 </div>
 </header>
@@ -61,7 +65,7 @@ section{padding:44px 0;border-top:1px solid var(--rule)}.section-intro{max-width
 <p>This site separates merged contributions and maintainer-confirmed findings from submissions that are still awaiting external review. The emphasis is on what can be checked, not on broad claims of novelty.</p>
 <div class="links">
 <a href="https://github.com/henryksobon300-code">GitHub profile ↗</a>
-<a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/RESULTS_INDEX.md">All results and projects ↗</a>
+<a href="projects.html">All projects &amp; public discussions ↗</a>
 </div>
 </div>
 <img src="Screenshot_20261008-214406~2.jpg" alt="Portrait of Henryk Soboń" width="205" height="256">
@@ -69,31 +73,31 @@ section{padding:44px 0;border-top:1px solid var(--rule)}.section-intro{max-width
 <section id="contributions" aria-labelledby="contrib-title">
 <div class="kicker">Externally accepted work</div>
 <h2 id="contrib-title">Selected public contributions</h2>
-<p class="section-intro">These results have publicly inspectable records. The distinction between changes I submitted directly and changes made by maintainers following my reports is intentional.</p>
+<p class="section-intro">These results have publicly inspectable records. Each original PR or issue opens the real GitHub discussion, including review and comments. My own merged changes are clearly distinguished from changes authored by maintainers in response to a finding.</p>
 <div class="grid">
 <article class="item">
 <div class="overline">Author PR · Merged 4 October 2026</div>
 <h3>CSS row-space intersection diagnostic</h3>
 <p>Added a tested GF(2) row-space intersection dimension diagnostic to the qLDPC Challenge verifier. The mathematical rank identity is established; the contribution is its implementation and regression coverage in this repository.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QEC_INTERSECTION.md">Read case study ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2740">Original PR #2740 ↗</a></div>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QEC_INTERSECTION.md">Read case study ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2740">Original PR and conversation ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5405628122">Independent review ↗</a></div>
 </article>
 <article class="item">
 <div class="overline">Author PR · Merged 23 October 2026</div>
 <h3>Exact-distance transfer in Campaign 4</h3>
 <p>Transferred exact-distance status to five records that are permutation-equivalent to an exact [[288,12,12]] reference. Explicit qubit maps, row-space comparisons and a replay verifier accompany the change.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QCODE_CAMPAIGN4.md">Read case study ↗</a> · <a href="https://github.com/qiskit-community/qcode-discovery/pull/11">Original PR #11 ↗</a></div>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QCODE_CAMPAIGN4.md">Read case study ↗</a> · <a href="https://github.com/qiskit-community/qcode-discovery/pull/11">Original PR and conversation ↗</a> · <a href="https://github.com/qiskit-community/qcode-discovery/pull/11#issuecomment-6368684584">Reviewer confirmation ↗</a></div>
 </article>
 <article class="item">
 <div class="overline">Author finding · Maintainer change merged 3 October 2026</div>
 <h3>Four duplicate qLDPC code clusters</h3>
 <p>Provided explicit qubit permutations for four equivalence pairs. The maintainer independently rechecked the result and merged a separate PR removing redundant entries. The merged PR belongs to the maintainer.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QEC_FOUR_CLUSTERS.md">Read case study ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2643">Original report ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2702">Maintainer PR ↗</a></div>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/CASE_QEC_FOUR_CLUSTERS.md">Read case study ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2643">Original report ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/2702">Maintainer PR ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2643#issuecomment-5970310657">Reviewer discussion ↗</a></div>
 </article>
 <article class="item">
 <div class="overline">Author finding · Maintainer confirmation October 2026</div>
 <h3>Two CHC benchmark verdict corrections</h3>
 <p>Submitted checkable UNSAT certificates for two specific bit-vector CHC instances, demo/06 O0 and O2. The maintainer confirmed the verdicts, updated the project's expected results and closed the issue.</p>
-<div class="inline-links"><a href="https://github.com/aaronbembenek/binary-chc-problems/issues/1">binary-chc-problems · Issue #1 ↗</a></div>
+<div class="inline-links"><a href="https://github.com/aaronbembenek/binary-chc-problems/issues/1">Original report &amp; public evidence ↗</a></div>
 </article>
 </div>
 </section>
@@ -105,19 +109,19 @@ section{padding:44px 0;border-top:1px solid var(--rule)}.section-intro{max-width
 <li><strong>SAT / Global Benchmark Database — vdwb_k6_n400.</strong><p>A 400-variable satisfying assignment and verifier support the proposed correction from UNKNOWN to SAT. The database PR is not yet merged. <a href="https://github.com/Udopia/gbd-data/pull/3">GBD PR #3 ↗</a></p></li>
 <li><strong>SYNTCOMP parity witness.</strong><p>A bounded, author-side counterstrategy and verification record are available; no official competition certificate or ranking is claimed. <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1">Public evidence record ↗</a></p></li>
 </ul>
-<p class="small">All publicly identified issues and pull requests — including completed, pending and closed-without-merge records — are in the <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/RESULTS_INDEX.md">complete results index</a>. Detailed status and evidence are in the <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/RESEARCH_STATUS.md">verification register</a>.</p>
+<p class="small">All publicly identified issues and pull requests — including completed, pending and closed-without-merge records — are in the <a href="projects.html">complete results index</a>. Detailed status and evidence are in the <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/RESEARCH_STATUS.md">verification register</a>.</p>
 </section>
 <section id="correspondence" aria-labelledby="external-title">
 <div class="kicker">Independent technical review</div>
 <h2 id="external-title">Evidence and external feedback</h2>
-<p>Public GitHub discussions contain reproducible checks, reviewer questions, accepted corrections and limitations. They can be read directly using the links provided in each case study.</p>
+<p>Click <strong>Original PR and conversation</strong> or <strong>Original issue</strong> for the actual GitHub discussion. The PR Conversation tab shows review messages and the Files changed tab shows code-level review; select a specific reviewer link when available.</p>
 <p>Other private scientific correspondence has informed experiments in dynamic graphs, machine equivalence and state diagnosis. It is not presented here as a public testimonial or institutional endorsement. Private messages are not reproduced without permission.</p>
 <p><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXTERNAL_REVIEW.md">Read the public external-review record ↗</a></p>
 </section>
 <section aria-labelledby="catalog-title">
 <div class="kicker">Complete inventory</div><h2 id="catalog-title">Browse all research records</h2>
 <p>The front page intentionally highlights accepted work. A separate indexed record preserves all identified public issues and pull requests, including unresolved validation requests, unsuccessful submissions and experiments with narrower evidence.</p>
-<p><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/RESULTS_INDEX.md">Open the complete projects and results index ↗</a></p>
+<p><a href="projects.html">Explore the projects directory and original conversations ↗</a></p>
 </section>
 <section id="methods" aria-labelledby="methods-title">
 <div class="kicker">Experimental research</div>
