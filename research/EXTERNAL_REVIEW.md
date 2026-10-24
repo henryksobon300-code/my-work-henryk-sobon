@@ -8,11 +8,11 @@ This page records review that a visitor can independently inspect in **public pr
 
 ### Campaign 4 — qcode-discovery
 
-[PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11) contains a public independent review of the five proposed exact-distance transfers and the eventual merge into the repository. The accepted claim concerns five records proven permutation-equivalent to an existing exact reference.
+[PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11) ([direct reviewer confirmation](https://github.com/qiskit-community/qcode-discovery/pull/11#issuecomment-6368684584)) contains a public independent review of the five proposed exact-distance transfers and the eventual merge into the repository. The accepted claim concerns five records proven permutation-equivalent to an existing exact reference.
 
 ### CSS invariant in the qLDPC verifier
 
-[PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740) records the public discussion, requested fixes and accepted implementation of an established GF(2) rank invariant in the verifier.
+[PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740) ([direct independent review](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5405628122)) records the public discussion, requested fixes and accepted implementation of an established GF(2) rank invariant in the verifier.
 
 ### Four quantum-code equivalence clusters
 
@@ -24,7 +24,7 @@ This page records review that a visitor can independently inspect in **public pr
 
 ### Campaign 4 decomposition observation
 
-[Report #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) records an independent reconstruction of 39 records confirming ten reducible entries, **along with the maintainer's clarification that the relevant upstream connectivity checks already existed**.
+[Report #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) ([direct maintainer's reconstruction](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835)) records an independent reconstruction of 39 records confirming ten reducible entries, **along with the maintainer's clarification that the relevant upstream connectivity checks already existed**.
 
 ## Other expert conversations — restricted to private records
 
