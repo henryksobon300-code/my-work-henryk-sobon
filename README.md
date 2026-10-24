@@ -8,7 +8,7 @@ Independent researcher working with exact structural checks, program and graph r
 
 I try to make each public claim inspectable: a specific problem, evidence, a verifier where possible, the external review status, and the limits of the result. These are technical contributions and research experiments, not a claim of formal academic affiliation or a comprehensive new theory.
 
-[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Evidence and status register](RESEARCH_STATUS.md) · [GitHub profile](https://github.com/henryksobon300-code)
+[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[All public results and issue/PR outcomes](research/RESULTS_INDEX.md)** · [Evidence and status register](RESEARCH_STATUS.md) · [External review record](research/EXTERNAL_REVIEW.md)
 
 ## Merged pull requests authored by me
 
@@ -17,13 +17,13 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 - **Merged 4 October 2026** — [unitaryfoundation/qldpc-challenge PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740)
 - Added a computed GF(2) row-space intersection dimension diagnostic with regression tests to the trusted verifier.
 - `dim(row(H_X) ∩ row(H_Z)) = rank(H_X) + rank(H_Z) − rank([H_X; H_Z])`.
-- The identity is established mathematics; the contribution was its integration and verification in this codebase.
+- The identity is established mathematics; the contribution was its integration and verification in this codebase. [Read case study](research/CASE_QEC_INTERSECTION.md).
 
 ### 2. qcode-discovery — exact-distance status transfer, Campaign 4
 
 - **Merged 23 October 2026** — [qiskit-community/qcode-discovery PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11)
 - Certified five records as permutation-equivalent to an already exact `[[288,12,12]]` representative using explicit qubit maps, exact row-space checks and a replay verifier.
-- The audit covered 39 records in 29 equivalence classes. The change transfers exactness; it does not claim a newly discovered quantum code.
+- The audit covered 39 records in 29 equivalence classes. The change transfers exactness; it does not claim a newly discovered quantum code. [Read case study](research/CASE_QCODE_CAMPAIGN4.md).
 
 ## Findings confirmed and acted on by maintainers
 
@@ -31,7 +31,7 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 
 - [My issue #2643](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) provided explicit qubit permutations and row-space comparisons.
 - The maintainer independently verified the result and merged [their PR #2702](https://github.com/unitaryfoundation/qldpc-challenge/pull/2702) removing four duplicate entries on 3 October 2026.
-- **This was the maintainer's PR, not an additional PR authored by me.**
+- **This was the maintainer's PR, not an additional PR authored by me.** [Read case study](research/CASE_QEC_FOUR_CLUSTERS.md).
 
 ### Two bit-vector CHC benchmark verdicts
 
@@ -58,6 +58,6 @@ A [Campaign 4 decomposition report](https://github.com/unitaryfoundation/qldpc-c
 
 I distinguish: **(1)** code merged into a third-party repository, **(2)** findings independently confirmed and acted on by maintainers, **(3)** reproducible author-side calculations and certificates, and **(4)** hypotheses or prototypes still requiring validation.
 
-For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md).
+For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [complete public outcomes index](research/RESULTS_INDEX.md) tracks **all 11 authored issues and 4 PRs identified in the 24 October 2026 audit** and separately indexes experimental research. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
 *Last status review: 24 October 2026.*
