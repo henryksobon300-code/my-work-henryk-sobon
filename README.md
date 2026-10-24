@@ -1,78 +1,63 @@
-# Henryk Soboń — Quantum Computing, Quantum Codes & Formal Verification
+# Henryk Soboń — Independent Research & Technical Contributions
 
-<img src="Screenshot_20261008-214406~2.jpg" alt="Portrait of Henryk Soboń" width="280" align="right">
+<img src="Screenshot_20261008-214406~2.jpg" alt="Portrait of Henryk Soboń" width="225" align="right">
 
-**qLDPC • Quantum Error Correction • SAT • CHC • Formal Verification • Computational Discovery • Machine-Checkable Proofs**
+**Quantum error correction · qLDPC codes · formal verification · reproducible computational research**
 
-Independent work on quantum error-correcting codes, qLDPC, SAT/CHC verification, program equivalence, structural equivalence and machine-checkable computational results.
+Independent researcher working with exact structural checks, program and graph representations, SAT/CHC benchmarks and machine-checkable certificates.
 
-## Public contributions
+I try to make each public claim inspectable: a specific problem, evidence, a verifier where possible, the external review status, and the limits of the result. These are technical contributions and research experiments, not a claim of formal academic affiliation or a comprehensive new theory.
 
-### Merged contribution — qLDPC Challenge
+[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Evidence and status register](RESEARCH_STATUS.md) · [GitHub profile](https://github.com/henryksobon300-code)
 
-**CSS row-space intersection dimension invariant**
+## Merged pull requests authored by me
 
-I contributed the exact GF(2) diagnostic
+### 1. qLDPC Challenge — CSS row-space intersection diagnostic
 
-`dim(row(H_X) ∩ row(H_Z)) = rank(H_X) + rank(H_Z) - rank([H_X; H_Z])`
+- **Merged 4 October 2026** — [unitaryfoundation/qldpc-challenge PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740)
+- Added a computed GF(2) row-space intersection dimension diagnostic with regression tests to the trusted verifier.
+- `dim(row(H_X) ∩ row(H_Z)) = rank(H_X) + rank(H_Z) − rank([H_X; H_Z])`.
+- The identity is established mathematics; the contribution was its integration and verification in this codebase.
 
-to the public qLDPC Challenge verifier.
+### 2. qcode-discovery — exact-distance status transfer, Campaign 4
 
-- Pull request: https://github.com/unitaryfoundation/qldpc-challenge/pull/2740
-- Status: **MERGED**
-- Merge commit: `6535af57ee494f77dfe9f4c22f737b5486fbb7b4`
+- **Merged 23 October 2026** — [qiskit-community/qcode-discovery PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11)
+- Certified five records as permutation-equivalent to an already exact `[[288,12,12]]` representative using explicit qubit maps, exact row-space checks and a replay verifier.
+- The audit covered 39 records in 29 equivalence classes. The change transfers exactness; it does not claim a newly discovered quantum code.
 
-### Result adopted by maintainers — qLDPC code equivalence
+## Findings confirmed and acted on by maintainers
 
-I found explicit physical-qubit permutations resolving four previously unresolved equivalence clusters in the qLDPC Challenge.
+### Four duplicate qLDPC code clusters
 
-- Original issue and certificates: https://github.com/unitaryfoundation/qldpc-challenge/issues/2643
-- Maintainer implementation: https://github.com/unitaryfoundation/qldpc-challenge/pull/2702
-- Status: **MERGED**
+- [My issue #2643](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) provided explicit qubit permutations and row-space comparisons.
+- The maintainer independently verified the result and merged [their PR #2702](https://github.com/unitaryfoundation/qldpc-challenge/pull/2702) removing four duplicate entries on 3 October 2026.
+- **This was the maintainer's PR, not an additional PR authored by me.**
 
-The maintainer PR explicitly closes my issue and removes the four duplicate code entries after independent re-verification.
+### Two bit-vector CHC benchmark verdicts
 
-## Current public work
+- [My issue #1](https://github.com/aaronbembenek/binary-chc-problems/issues/1) supplied exact UNSAT certificates for `demo/06` O0 and O2 with an independent checker and a corrupted negative control.
+- The project maintainer confirmed both UNSAT results, updated the expected-results table and closed the issue in October 2026.
+- This establishes the verdicts for two exact test instances, not a general solver.
 
-### Quantum codes — Campaign 4 exact-distance transfer
+## Ongoing external review
 
-Five qLDPC Campaign 4 records are shown to be permutation-equivalent to an already exact `[[288,12,12]]` representative. The PR transfers exact distance using the repository's existing colored-BLISS equivalence machinery and explicit qubit maps.
+- [CHC-COMP: eight quic3 SAT models — issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11): **open**, with author-side validation and negative controls; awaiting external adoption.
+- [Additional CHC-COMP and VMT models](RESEARCH_STATUS.md): submitted for review; no organizer certification claimed.
+- [GBD SAT correction — PR #3](https://github.com/Udopia/gbd-data/pull/3): **open**; `vdwb_k6_n400` satisfying assignment and proposed metadata correction.
+- [SYNTCOMP parity witness](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1): independently checkable author-side evidence, without claiming a competition result.
 
-- Pull request: https://github.com/qiskit-community/qcode-discovery/pull/11
-- Status: **OPEN / under review**
-- Full Campaign 4 audit: 39 rows, 29 equivalence classes
-- Exact reference class: 6 records
-- Transfers verified: 5/5
+## Experimental methods and MathemaSpace
 
-### SAT / Global Benchmark Database
+I also develop **MathemaSpace**, a collection of research experiments concerning typed relations, alternative representations, state transitions, constrained observations and machine-checkable evidence. Distinct versions solve different tasks and should not be conflated.
 
-For SAT Competition benchmark `vdwb_k6_n400.sanitized.cnf.xz`, I produced a complete 400-variable satisfying assignment verified against all 31,600 clauses, together with a negative control.
+The public [CORE-013 reproducibility package](https://github.com/henryksobon300-code/Mathemaspace) is one bounded experimental test. Its README describes precisely what its tests can and cannot establish; it is not an institutional certification.
 
-- Public evidence: https://github.com/satcompetition/2026/issues/2
-- GBD correction PR: https://github.com/Udopia/gbd-data/pull/3
-- Proposed metadata change: `unknown → sat`
-- Status: **OPEN / awaiting maintainer review**
+A [Campaign 4 decomposition report](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) was independently reproduced by a maintainer, but related connectivity gates already existed upstream; I therefore do **not** present it as a newly implemented feature.
 
-### SYNTCOMP 2026 — parity realizability
+## Research practice
 
-For `steadygame_pb_12_pe_`, one of five instances without a recorded verdict in the reconstructed 2026 virtual-best results, I produced a directly checkable nine-state environment counterstrategy establishing **UNREALIZABLE**.
+I distinguish: **(1)** code merged into a third-party repository, **(2)** findings independently confirmed and acted on by maintainers, **(3)** reproducible author-side calculations and certificates, and **(4)** hypotheses or prototypes still requiring validation.
 
-- Public provenance record: research/SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md
-- Tracking issue: https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1
-- Independent public replay: 144 controller assignments checked; certificate PASS
-- Negative control: deliberately corrupted witness rejected
-- Scope: author-side reproducible evidence; no official SYNTCOMP competition validation is claimed
+For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md).
 
-## Research areas
-
-- Quantum computing and quantum error correction
-- qLDPC and CSS quantum codes
-- Exact code equivalence and structural invariants
-- SAT and CHC benchmark verification
-- Formal verification and machine-checkable certificates
-- Program and state-space equivalence
-- Computational discovery of structural relations
-
-## Principle
-
-Results listed here are linked to public repositories, explicit witnesses, verifiers, merged changes or reviewable pull requests whenever possible.
+*Last status review: 24 October 2026.*
