@@ -23,6 +23,7 @@ The qcode-discovery reviewer **independently checked the changes and confirmed t
 
 ## Public evidence
 - [Merged PR #11, code, verifier, review and acceptance](https://github.com/qiskit-community/qcode-discovery/pull/11)
+- [Direct link to independent reviewer verification](https://github.com/qiskit-community/qcode-discovery/pull/11#issuecomment-6368684584)
 - [Original issue #8 and initial public certificate](https://github.com/qiskit-community/qcode-discovery/issues/8)
 - Merge commit: `da9178fd65ffc2eec3dab46089f9879eb02d4b23`.
 
