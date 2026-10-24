@@ -1,7 +1,7 @@
 # Research results index
 
 **Henryk Soboń — public research portfolio**  
-**Snapshot:** 24 October 2026 · [Home](../README.md) · [Evidence/status ledger](../RESEARCH_STATUS.md)
+**Snapshot:** 24 October 2026 · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md)
 
 This is the **comprehensive index of identified public GitHub submissions**. It is deliberately not a ranking of scientific merit. In particular, **closed** does not always mean accepted, and a published GitHub issue is not a journal article or an official benchmark certificate. External review from private email is not reproduced here.
 
@@ -9,15 +9,15 @@ This is the **comprehensive index of identified public GitHub submissions**. It 
 
 | ID | Scope | Evidence | Result |
 | --- | --- | --- | --- |
-| A01 | qLDPC verifier: GF(2) CSS row-space intersection diagnostic | [My PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740) · [case study](CASE_QEC_INTERSECTION.md) | **Merged 4 Oct 2026.** Applied known identity with tests. |
-| A02 | Campaign 4: 5 exact-distance status transfers for permutation-equivalent CSS codes | [My PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11) · [case study](CASE_QCODE_CAMPAIGN4.md) | **Merged 23 Oct 2026.** Independent review and merge. |
+| A01 | qLDPC verifier: GF(2) CSS row-space intersection diagnostic | [My PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740) · [review](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5405628122) · [case study](CASE_QEC_INTERSECTION.md) | **Merged 4 Oct 2026.** Applied known identity with tests. |
+| A02 | Campaign 4: 5 exact-distance status transfers for permutation-equivalent CSS codes | [My PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11) · [reviewer confirmation](https://github.com/qiskit-community/qcode-discovery/pull/11#issuecomment-6368684584) · [case study](CASE_QCODE_CAMPAIGN4.md) | **Merged 23 Oct 2026.** Independent review and merge. |
 
 ## B. Confirmed findings that led to maintainer changes (2 distinct issues)
 
 | ID | Scope | Evidence | Result |
 | --- | --- | --- | --- |
 | B01 | 4 previously unresolved quantum code equivalence clusters | [My issue #2643](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) · [maintainer's PR #2702](https://github.com/unitaryfoundation/qldpc-challenge/pull/2702) · [case study](CASE_QEC_FOUR_CLUSTERS.md) | **Issue completed / maintainer PR merged 3 Oct 2026.** The PR is the maintainer's work, not mine. |
-| B02 | 2 bit-vector CHC demo/06 instances O0/O2 have UNSAT certificates | [My issue #1](https://github.com/aaronbembenek/binary-chc-problems/issues/1) · [case study](CASE_BINARY_CHC.md) | **Completed 12 Oct 2026.** Maintainer confirmed verdicts and corrected expected results. |
+| B02 | 2 bit-vector CHC demo/06 instances O0/O2 have UNSAT certificates | [My issue #1](https://github.com/aaronbembenek/binary-chc-problems/issues/1) · [original public issue and evidence](https://github.com/aaronbembenek/binary-chc-problems/issues/1) | **Completed 12 Oct 2026.** Maintainer confirmed verdicts and corrected expected results. |
 
 ## C. Externally reproduced observational result, with scope restriction (1 issue)
 
