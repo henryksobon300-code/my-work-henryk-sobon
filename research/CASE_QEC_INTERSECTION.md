@@ -24,6 +24,8 @@ The pull request incorporated the stacked-matrix rank computation into the qLDPC
 
 ## Evidence
 - [Merged original code and review discussion — PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740)
+- [First independent maintainer review](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5405628122)
+- [Second pass verifying the requested fixes](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5408209621)
 - [Original motivating reviewer discussion — 510-qubit candidate pair](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) (the four-cluster issue is a separate earlier result)
 - Merge commit: `6535af57ee494f77dfe9f4c22f737b5486fbb7b4`.
 
