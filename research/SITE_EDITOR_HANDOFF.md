@@ -19,6 +19,7 @@
 | Section | Current URL/file | Purpose |
 | --- | --- | --- |
 | Homepage | [Site](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · `index.html` | Photo, positioning and strongest externally verifiable contributions |
+| Browsable projects page | [Projects and discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · `projects.html` | Mobile-friendly directory and direct primary-source comment/review links |
 | GitHub intro | [README](../README.md) | Text-first public landing page and directory |
 | All projects/results | [RESULTS_INDEX.md](RESULTS_INDEX.md) | **Authoritative public inventory of all 11 identified issues and 4 PRs**, including closed/withdrawn/pending |
 | Evidence ledger | [RESEARCH_STATUS.md](../RESEARCH_STATUS.md) | Claim limits, exact sources and update status |
