@@ -41,4 +41,4 @@ The organizer indicated willingness to test a solver when resources allow. **No 
 **Author contact:** via this GitHub account.
 
 ---
-This record is deliberately separated from the private `Mathemaspace` repository and contains no private solver implementation.
+This record contains no private research-engine or solver implementation.
