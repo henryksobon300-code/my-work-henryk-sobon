@@ -30,7 +30,7 @@ This is the **comprehensive index of identified public GitHub submissions**. It 
 | ID | Scope | Evidence | Latest checked status |
 | --- | --- | --- | --- |
 | D01 | SAT benchmark `vdwb_k6_n400`: explicit satisfying assignment and proposed dataset status correction | [SAT Competition issue #2](https://github.com/satcompetition/2026/issues/2) · [GBD PR #3](https://github.com/Udopia/gbd-data/pull/3) | **Both open.** Assignment reported as satisfying 31,600/31,600 clauses; dataset change not merged. |
-| D02 | CHC-COMP: 8 quic3 `standard_init2`–`standard_init9` models | [Benchmark issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11) | **Open.** Author-side validation and deliberately corrupted controls; not an official validated verdict. |
+| D02 | CHC-COMP: 8 quic3 `standard_init2`–`standard_init9` models | [Benchmark issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11) · [public models and standalone generator](chc_comp_issue11/README.md) | **Open.** Author-side validation, deliberately corrupted controls, source hashes and a public reproducer; not an official validated verdict. |
 | D03 | CHC-COMP: `O3_sum_array` model | [Benchmark issue #10](https://github.com/chc-comp/chc-comp26-benchmarks/issues/10) | **Open.** Awaiting third-party confirmation. |
 | D04 | CHC-COMP: `goal71` model | [Benchmark issue #9](https://github.com/chc-comp/chc-comp26-benchmarks/issues/9) | **Open.** Awaiting third-party confirmation. |
 | D05 | VMT/CHC: two array initialization models | [Benchmark issue #1](https://github.com/chc-comp/vmt-chc-benchmarks/issues/1) | **Open.** Awaiting third-party confirmation. |
