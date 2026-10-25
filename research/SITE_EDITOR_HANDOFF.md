@@ -28,6 +28,7 @@
 | Four equivalence clusters | [CASE_QEC_FOUR_CLUSTERS.md](CASE_QEC_FOUR_CLUSTERS.md) | Maintainer-adopted finding with correct author credit |
 | Binary CHC demo/06 | [Public issue](https://github.com/aaronbembenek/binary-chc-problems/issues/1) | Maintainer-confirmed correction of two cases |
 | External review | [EXTERNAL_REVIEW.md](EXTERNAL_REVIEW.md) | Only public review milestones and anonymized descriptions of private feedback |
+| Other research branches | [EXPERIMENTAL_RESEARCH_INDEX.md](EXPERIMENTAL_RESEARCH_INDEX.md) | Bounded experiments beyond GitHub PRs, each with evidence limits and disclosure restrictions |
 | SYNTCOMP evidence | [Research record](SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md) | Author-side certificate and explicit lack of official result |
 
 ## Information architecture for a later custom-designed site
