@@ -30,7 +30,7 @@ This page records review that a visitor can independently inspect in **public pr
 
 There have also been technical conversations about:
 
-- A stateful rotor / dynamic-graph primitive (questions about convergence, computing paths and physical applications).
+- Unpublished mathematical/engineering concepts (technical questions about possible applications; no implementation details disclosed).
 - Resetless diagnosis on public automata models (criticism of the baseline and suggested pruning).
 - Formal equivalence of finite programs (clarifying what a finite-state isomorphism certificate does and does not prove relative to existing benchmarks).
 - Competition-grade parity-game witnesses and CHC model validation (reproducibility questions and outstanding official validation).
