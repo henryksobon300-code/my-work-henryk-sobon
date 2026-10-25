@@ -49,6 +49,7 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <a href="#contributions">Contributions</a>
 <a href="projects.html">Projects & discussions</a>
 <a href="#review">Under review</a>
+<a href="#additional">Other research</a>
 <a href="#correspondence">External review</a>
 <a href="#methods">Research approach</a>
 <a href="projects.html">All public results</a>
@@ -71,7 +72,7 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <img src="Screenshot_20261008-214406~2.jpg" alt="Portrait of Henryk Soboń" width="205" height="256">
 </div>
 <section id="contributions" aria-labelledby="contrib-title">
-<div class="kicker">Externally accepted work</div>
+<div class="kicker">Accepted changes and independent checks</div>
 <h2 id="contrib-title">Selected public contributions</h2>
 <p class="section-intro">These results have publicly inspectable records. Each original PR or issue opens the real GitHub discussion, including review and comments. My own merged changes are clearly distinguished from changes authored by maintainers in response to a finding.</p>
 <div class="grid">
@@ -99,6 +100,12 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <p>Submitted checkable UNSAT certificates for two specific bit-vector CHC instances, demo/06 O0 and O2. The maintainer confirmed the verdicts, updated the project's expected results and closed the issue.</p>
 <div class="inline-links"><a href="https://github.com/aaronbembenek/binary-chc-problems/issues/1">Original report &amp; public evidence ↗</a></div>
 </article>
+<article class="item">
+<div class="overline">Independent replication · bounded dataset finding</div>
+<h3>Ten decomposable Campaign 4 quantum codes</h3>
+<p>Identified ten decomposable entries among 39 records. The maintainer reconstructed the data independently and obtained the same ten; the relevant connectivity checks already existed upstream, so this is a confirmed data observation, not a newly merged verifier change.</p>
+<div class="inline-links"><a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2942">Original report and discussion ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835">Independent replication ↗</a></div>
+</article>
 </div>
 </section>
 <section id="review" aria-labelledby="review-title">
@@ -110,6 +117,43 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <li><strong>SYNTCOMP parity witness.</strong><p>A bounded, author-side counterstrategy and verification record are available; no official competition certificate or ranking is claimed. <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1">Public evidence record ↗</a></p></li>
 </ul>
 <p class="small">All publicly identified issues and pull requests — including completed, pending and closed-without-merge records — are in the <a href="projects.html">complete results index</a>. Detailed status and evidence are in the <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/RESEARCH_STATUS.md">verification register</a>.</p>
+</section>
+<section id="additional" aria-labelledby="additional-title">
+<div class="kicker">More research beyond merged pull requests</div>
+<h2 id="additional-title">Experiments, certificates and independent feedback</h2>
+<p class="section-intro">I have also worked on separate computational research problems that do not yet have the same level of outside acceptance as the merged contributions above. These records are kept visible <strong>with their actual verification limits</strong>, rather than being omitted or called confirmed discoveries.</p>
+<div class="grid">
+<article class="item">
+<div class="overline">Author-side certificate · official evaluation pending</div><h3>SYNTCOMP parity-game witnesses</h3>
+<p>Reported an environment counterstrategy for a previously no-verdict parity benchmark and replayed it via Knor/Oink tooling. Further five-instance and solver experiments are recorded separately. No official solver score or certificate has been awarded.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md">Methods and limits ↗</a> · <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1">Public record ↗</a></div>
+</article>
+<article class="item">
+<div class="overline">Technical review · comparison limitations identified</div><h3>HAAL state diagnosis — 71 public models</h3>
+<p>A bounded MathemaSpace V18 experiment on resetless model diagnosis. External feedback found important flaws in the nonadaptive baseline and opportunities for graph pruning. The number 71/71 is not a proof of superior performance.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read experiment scope ↗</a></div>
+</article>
+<article class="item">
+<div class="overline">Exact finite experiments · not EquiBench results</div><h3>Program Bridge — state-machine equivalence</h3>
+<p>Explored exact transition-system isomorphisms using recovered state and command mappings, finite exhaustive verifiers and negative controls. A benchmark author clarified that the test does not establish the category-specific EquiBench notion of equivalence.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read experiment scope ↗</a></div>
+</article>
+<article class="item">
+<div class="overline">Finite modular computation · unlimited claim unproven</div><h3>Baum–Sweet Hankel calculations</h3>
+<p>Archived calculations report nonzero determinants for orders 1–30,000 modulo two primes. This is a finite computation, not a proof of the open statement for all orders. No novelty priority is claimed.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read limitations ↗</a></div>
+</article>
+<article class="item">
+<div class="overline">Author-side structural certificates · outside acceptance pending</div><h3>Two additional CSS equivalence pairs</h3>
+<p>Separate archived checks concern 10-2-3/10-2-3-b and 12-2-4/12-2-4-b, including proposed coordinate maps and row-space comparisons. These have not been merged upstream or independently certified in this portfolio.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read evidence status ↗</a></div>
+</article>
+<article class="item">
+<div class="overline">Research programme · distinct experimental branches</div><h3>MathemaSpace / ABC-RLE / MRS / rotor concepts</h3>
+<p>Separate generations of computational representations, observation mechanisms and graph-state experiments. The public CORE-013 package demonstrates one bounded task; private engines and patent-sensitive rotor details remain unpublished.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Full research map ↗</a> · <a href="https://github.com/henryksobon300-code/Mathemaspace">Public CORE-013 repository ↗</a></div>
+</article>
+</div>
 </section>
 <section id="correspondence" aria-labelledby="external-title">
 <div class="kicker">Independent technical review</div>
@@ -135,7 +179,7 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 </section>
 </main>
 <footer class="wrap footer">
-<p>Henryk Soboń · Independent technical research · Status reviewed 24 October 2026.</p>
+<p>Henryk Soboń · Independent technical research · Status reviewed 25 October 2026.</p>
 <p>Primary-source links establish only the stated scope of each contribution. No academic affiliation, competition certification or scientific priority is implied.</p>
 </footer>
 </body>
