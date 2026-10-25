@@ -33,9 +33,9 @@ This ledger separates contributions merged into external repositories, maintaine
 
 ## Experimental research — not externally certified
 
-**MathemaSpace** is an ongoing line of computational experiments about representations, relations, state transitions and verification. Distinct branches and engines must not be treated as interchangeable. Experimental results require original code versions, frozen inputs, baselines, negative controls, independent replay and an explicit novelty/literature review before broader scientific claims can be made.
+**MathemaSpace** is an ongoing research program with separate experimental branches. Internal architecture and unreleased implementations are not disclosed here. Experimental results require original code versions, frozen inputs, baselines, negative controls, independent replay and an explicit novelty/literature review before broader scientific claims can be made.
 
-The separate [CORE-013 reproducibility repository](https://github.com/henryksobon300-code/Mathemaspace) documents one bounded experiment and explicitly **does not** claim institutional CODECHECK certification, general AI or universal reverse engineering.
+The MathemaSpace research engine and implementation remain in a private repository. Their code is not distributed through this public site, and no institutional certification or general AI claim is made here.
 
 ## Documentation principles
 
