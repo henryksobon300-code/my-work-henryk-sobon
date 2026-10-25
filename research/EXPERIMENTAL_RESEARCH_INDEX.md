@@ -37,14 +37,14 @@ A private scientific email discussing an idea is not equivalent to independent v
 
 ## 2. Author-side exact, finite, or reproducible experiments requiring broader review
 
-### QEC-DATA-02 — Two CSS stabilizer-code equivalence pairs
+### QEC-DATA-02 — Additional CSS data equivalence checks
 
 **Status:** archived author-side certificates; not upstream merged and not independently reviewed for this register.
 
 - Reported pairs: `10-2-3` versus `10-2-3-b`, and `12-2-4` versus `12-2-4-b`.
-- The 22 October 2026 PUBLIC/PRIVATE-separated handoff describes coordinate permutations and X/Z row-space checks with corrupted controls.
+- An author-side archive contains mathematical consistency checks and negative controls. Its private methods and source are not provided here.
 - **Limit:** this is equivalence of specific database entries, not discovery of new `[[n,k,d]]` code parameters or a new theorem.
-- The public-ready package has not been uploaded as a verified accessible artifact through this page. Private provenance and algorithmic history remain unpublished.
+- The archive has not been independently rechecked for publication through this page. Private provenance and algorithmic history remain unpublished.
 
 ### MATH-FIN-01 — Baum–Sweet / TheoremDB P2422
 
@@ -68,16 +68,13 @@ A private scientific email discussing an idea is not equivalent to independent v
 
 **Status:** reported finite-state certificates; external feedback established a semantic mismatch with a published benchmark.
 
-- Experimental cases use state and command bijections and test commuting transitions under `P(T_A(c,s)) = T_B(C(c),P(s))` on a finite state space.
+- Experiments studied exact relationships between finite transition systems, with recorded positive and negative controls. The private discovery implementation is not described here.
 - The original experiment included three holdouts of `4096 × 8` transition checks, followed by larger author-side positive and negative controls.
 - **Limit:** this is not an accepted EquiBench score, because EquiBench's language/category-specific notion of correspondence is different. The methodology needs a separate semantic adapter and blinded evaluation before that stronger claim.
 
-### CORE-013 — Bounded structural engine experiment
+### Private MathemaSpace implementation
 
-**Status:** public executable research artifact with limited claim scope.
-
-- [Original Mathemaspace repository](https://github.com/henryksobon300-code/Mathemaspace).
-- Read its source README for the exact tasks, test provenance and frozen boundary. It is one component, **not** a proven general-purpose system able to solve arbitrary research problems.
+**Status:** Not publicly released. This catalogue links to public discussions and descriptive research outcomes only; it does not link to the private source repository or describe the internal engine.
 
 ## 3. Other distinct experimental and engineering branches
 
@@ -85,16 +82,13 @@ The following threads have been recorded in project history but are not certifie
 
 | Track | What it studies | Limit/status |
 | --- | --- | --- |
-| MathemaSpace Genesis / V12 | Distinguishability and sufficiency of a representation | Archived prototypes; method and baseline versions must be matched before retesting |
-| MathemaSpace V13 | Preserving behaviour/cost while quotienting or merging states | Different task from V12; archived, externally unconfirmed |
-| MathemaSpace V14 | Choosing informative observations or discriminating tests | Different task from V12/V13; archived, externally unconfirmed |
-| ABC-RLE / MRS / ABC SBC-2 | Historical relational and compressed-structure engines | Multiple distinct implementations and protocols; no blanket claim of superiority |
+| MathemaSpace, ABC-RLE, MRS and historical prototypes | Multiple unreleased experimental branches | No private source code, module architecture or implementation details disclosed here; separate verification is required |
 | V19–V23 | Selected finite algebraic/quantum-code checks and construction attempts | Small-scale/synthetic tests and known mathematical mechanisms; exact version and checker required |
 | NASA ADAPT experiments | Reduction of observation channels while preserving distinguishability on selected scenarios | Archived author-side tests; source/version/negative controls needed for public confirmation |
 | Laurent-model GF(2) work | Reported example/counterexample structures | Needs an unambiguous problem definition and independent verification before a new claim |
 | MH370 drift-compatibility model | Model sensitivity of candidate debris-transport corridors | Hypothesis under assumptions, **not** identification of wreck location |
 | OMEGA / machine pattern studies | Numerical and structural research prototypes | Author-side experiments, not externally certified scientific discovery |
-| Rotor / stateful dynamic network | A patent-sensitive computational/engineering concept | Do not disclose private algorithm, claims or unreleased implementation without IP review |
+| Patent-sensitive engineering concepts | Technical implementation withheld | No algorithms, application claims or unreleased experimental details are supplied |
 
 ## 4. How these projects should be assessed
 
