@@ -48,13 +48,13 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 
 ## Experimental methods and MathemaSpace
 
-I also develop **MathemaSpace**, a collection of research experiments concerning typed relations, alternative representations, state transitions, constrained observations and machine-checkable evidence. Distinct versions solve different tasks and should not be conflated.
+I also conduct experimental research under the **MathemaSpace** name. Specific results are documented separately from any proprietary implementation. This public portfolio does not describe the underlying engine architecture.
 
-The public [CORE-013 reproducibility package](https://github.com/henryksobon300-code/Mathemaspace) is one bounded experimental test. Its README describes precisely what its tests can and cannot establish; it is not an institutional certification.
+The research engine and its source packages are kept in a private repository. This README does not provide public access to them or imply outside certification.
 
 A [Campaign 4 decomposition report](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) was independently reproduced by a maintainer: ten of 39 entries decomposed. Related connectivity gates already existed upstream; I therefore do **not** present it as a newly implemented feature.
 
-Additional distinct experiments are catalogued in the [experimental research register](research/EXPERIMENTAL_RESEARCH_INDEX.md): SYNTCOMP parity evidence, HAAL resetless diagnosis, finite Baum–Sweet calculations, Program Bridge equivalence, two further CSS equivalence pairs, and historical MathemaSpace/ABC-RLE/MRS branches. Each has a separate evidence status and limitations.
+Additional results are catalogued in the [experimental research register](research/EXPERIMENTAL_RESEARCH_INDEX.md), with distinct evidence status and limitations. Unreleased internal methods and implementation details are excluded.
 
 ## Research practice
 
