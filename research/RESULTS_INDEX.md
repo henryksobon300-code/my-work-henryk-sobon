@@ -52,13 +52,13 @@ These are **not automatically included in the merged-contribution count**. A mor
 
 | Research thread | Public status and limits |
 | --- | --- |
-| [MathemaSpace CORE-013](https://github.com/henryksobon300-code/Mathemaspace) | Public, bounded software experiment; read its explicit scope limits. Does not establish general-purpose discovery or institutional certification. |
+| MathemaSpace research prototypes | Research code is maintained privately. Public descriptions here document only selected findings, with no claim of outside certification or a general-purpose system. |
 | New CSS code equivalence pairs `10-2-3 / 10-2-3-b` and `12-2-4 / 12-2-4-b` | Reported author-side certificate package (22 Oct 2026); **not yet incorporated in external repository**. Private source and current public-package review should remain separate. |
 | Baum–Sweet / TheoremDB P2422 Hankel calculation | Reported finite modular non-vanishing checks for orders 1–30,000 in two fields. **Not a proof for all orders; novelty and literature priority unconfirmed.** Do not call this problem solved. |
 | MathemaSpace V18 / HAAL resetless state diagnosis | Reported responses for 71 public models. External technical feedback exposed flaws in the nonadaptive comparison and opportunities for belief-graph pruning; **not evidence of state-of-the-art superiority**. |
 | Program Bridge / finite transition-system equivalence | Exhaustive finite-state certificates for specified test families; **not an EquiBench result** under its category semantics. |
 | Rotor / stateful dynamic graph primitive | Patent-sensitive research and prototypes. The existence of correspondence or an application does not establish patentability, working hardware or independent novelty confirmation. **Keep technical private methods out of public GitHub** pending IP review. |
-| Other historical experimental branches: ABC-RLE, MRS, OMEGA, Genesis V12/V13/V14, NASA ADAPT, Laurent model, MH370 | Separately indexed internally. Reported experiments/claims are not independently certified here; no shared blanket performance or novelty claim. |
+| Other historical experimental branches | Separately indexed in nonpublic research archives; no shared blanket performance or novelty claim. |
 
 ## G. External review and correspondence
 
