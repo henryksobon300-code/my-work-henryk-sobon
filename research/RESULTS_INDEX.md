@@ -1,7 +1,7 @@
 # Research results index
 
 **Henryk Soboń — public research portfolio**  
-**Snapshot:** 24 October 2026 · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md)
+**Snapshot:** 25 October 2026 · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md)
 
 This is the **comprehensive index of identified public GitHub submissions**. It is deliberately not a ranking of scientific merit. In particular, **closed** does not always mean accepted, and a published GitHub issue is not a journal article or an official benchmark certificate. External review from private email is not reproduced here.
 
@@ -48,7 +48,7 @@ This is the **comprehensive index of identified public GitHub submissions**. It 
 
 ## F. Other computational projects and research threads
 
-These are **not automatically included in the merged-contribution count**:
+These are **not automatically included in the merged-contribution count**. A more precise, version-separated catalogue is at [Experimental research — evidence register](EXPERIMENTAL_RESEARCH_INDEX.md).
 
 | Research thread | Public status and limits |
 | --- | --- |
