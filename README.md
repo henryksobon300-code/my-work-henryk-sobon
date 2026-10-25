@@ -8,7 +8,7 @@ Independent researcher working with exact structural checks, program and graph r
 
 I try to make each public claim inspectable: a specific problem, evidence, a verifier where possible, the external review status, and the limits of the result. These are technical contributions and research experiments, not a claim of formal academic affiliation or a comprehensive new theory.
 
-[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[Website projects & public discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html)** · [Full GitHub source register](research/RESULTS_INDEX.md) · [Evidence and status register](RESEARCH_STATUS.md) · [External review record](research/EXTERNAL_REVIEW.md)
+[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[Website projects & public discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html)** · [Full GitHub source register](research/RESULTS_INDEX.md) · [Evidence and status register](RESEARCH_STATUS.md) · [Experimental research catalogue](research/EXPERIMENTAL_RESEARCH_INDEX.md) · [External review record](research/EXTERNAL_REVIEW.md)
 
 ## Merged pull requests authored by me
 
@@ -52,7 +52,9 @@ I also develop **MathemaSpace**, a collection of research experiments concerning
 
 The public [CORE-013 reproducibility package](https://github.com/henryksobon300-code/Mathemaspace) is one bounded experimental test. Its README describes precisely what its tests can and cannot establish; it is not an institutional certification.
 
-A [Campaign 4 decomposition report](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) was independently reproduced by a maintainer, but related connectivity gates already existed upstream; I therefore do **not** present it as a newly implemented feature.
+A [Campaign 4 decomposition report](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) was independently reproduced by a maintainer: ten of 39 entries decomposed. Related connectivity gates already existed upstream; I therefore do **not** present it as a newly implemented feature.
+
+Additional distinct experiments are catalogued in the [experimental research register](research/EXPERIMENTAL_RESEARCH_INDEX.md): SYNTCOMP parity evidence, HAAL resetless diagnosis, finite Baum–Sweet calculations, Program Bridge equivalence, two further CSS equivalence pairs, and historical MathemaSpace/ABC-RLE/MRS branches. Each has a separate evidence status and limitations.
 
 ## Research practice
 
@@ -60,4 +62,4 @@ I distinguish: **(1)** code merged into a third-party repository, **(2)** findin
 
 For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [complete public outcomes index](research/RESULTS_INDEX.md) tracks **all 11 authored issues and 4 PRs identified in the 24 October 2026 audit** and separately indexes experimental research. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
-*Last status review: 24 October 2026.*
+*Last status review: 25 October 2026.*
