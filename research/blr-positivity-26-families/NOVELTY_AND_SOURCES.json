@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-27",
+  "status": "CANDIDATE_PARTIAL_CONTRIBUTION_NOT_GLOBAL_PRIORITY_CERTIFIED",
+  "claim": "Original-weight BLR positivity for every integer j in 3..28 and every integer k>=j.",
+  "methods": "Known projection, periodicity, domination, Abel summation, interval arithmetic and verified linear systems.",
+  "search_queries_recorded": [
+    "Bellemare Langlois Ransford positivity conjecture proved",
+    "Ransford Cholesky positivity proof",
+    "positivity conjecture Nyman proof",
+    "Ransford positivity j=3",
+    "positivity conjecture j=4 Riemann",
+    "Bellemare positivity partial proof",
+    "f_3 f_k positivity conjecture",
+    "f_4 f_3 Nyman positivity"
+  ],
+  "search_result": "The originating paper and adjacent Nyman literature were found. No matching proof of this infinite-column range was located. Search incompleteness and unpublished work remain possible.",
+  "not_proved": [
+    "world first priority",
+    "full positivity conjecture",
+    "Riemann hypothesis",
+    "autonomous engine discovery"
+  ],
+  "no_external_referee_review": true,
+  "sources": {
+    "primary_problem": {
+      "url": "https://arxiv.org/abs/2011.02847",
+      "journal": "American Mathematical Monthly 126 (2019), 891–904",
+      "authors": [
+        "Hugues Bellemare",
+        "Yves Langlois",
+        "Thomas Ransford"
+      ],
+      "source_scope": "Conjectures 2/9; Theorem 12 gives a conditional eventual-positivity route; our finite-to-infinite certificates are a specific effective construction."
+    },
+    "RH_status": {
+      "url": "https://www.claymath.org/millennium/riemann-hypothesis/",
+      "observed_on": "2026-10-27",
+      "status": "Unsolved"
+    },
+    "github_issue18": {
+      "url": "https://github.com/qiskit-community/qcode-discovery/issues/18",
+      "observed_on": "2026-10-27",
+      "state": "open",
+      "comments": 0,
+      "scope": "standalone validated adapter and exact objective-mismatch regression; no decoder performance comparison or remote integration"
+    },
+    "doubling_prior_art": "https://arxiv.org/abs/2609.30069",
+    "covering_status_gate": {
+      "maintainer_url": "https://dmgordon.org/covering-designs/",
+      "specific_current_record": "not verified; legacy 502, alternative 403, linked Zenodo reader inaccessible"
+    }
+  }
+}
