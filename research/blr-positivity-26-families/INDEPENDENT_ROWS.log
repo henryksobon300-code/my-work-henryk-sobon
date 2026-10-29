@@ -1,0 +1,27 @@
+{"j": 3, "all_integer_k_from": 3, "finite_checks": 10, "infinite_threshold": 13, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 4, "all_integer_k_from": 4, "finite_checks": 9, "infinite_threshold": 13, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 5, "all_integer_k_from": 5, "finite_checks": 14, "infinite_threshold": 19, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 6, "all_integer_k_from": 6, "finite_checks": 19, "infinite_threshold": 25, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 7, "all_integer_k_from": 7, "finite_checks": 28, "infinite_threshold": 35, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 8, "all_integer_k_from": 8, "finite_checks": 29, "infinite_threshold": 37, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 9, "all_integer_k_from": 9, "finite_checks": 33, "infinite_threshold": 42, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 10, "all_integer_k_from": 10, "finite_checks": 41, "infinite_threshold": 51, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 11, "all_integer_k_from": 11, "finite_checks": 75, "infinite_threshold": 86, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 12, "all_integer_k_from": 12, "finite_checks": 89, "infinite_threshold": 101, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 13, "all_integer_k_from": 13, "finite_checks": 88, "infinite_threshold": 101, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 14, "all_integer_k_from": 14, "finite_checks": 87, "infinite_threshold": 101, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 15, "all_integer_k_from": 15, "finite_checks": 92, "infinite_threshold": 107, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 16, "all_integer_k_from": 16, "finite_checks": 120, "infinite_threshold": 136, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 17, "all_integer_k_from": 17, "finite_checks": 127, "infinite_threshold": 144, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 18, "all_integer_k_from": 18, "finite_checks": 183, "infinite_threshold": 201, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 19, "all_integer_k_from": 19, "finite_checks": 182, "infinite_threshold": 201, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 20, "all_integer_k_from": 20, "finite_checks": 181, "infinite_threshold": 201, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 21, "all_integer_k_from": 21, "finite_checks": 192, "infinite_threshold": 213, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 22, "all_integer_k_from": 22, "finite_checks": 184, "infinite_threshold": 206, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 23, "all_integer_k_from": 23, "finite_checks": 276, "infinite_threshold": 299, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 24, "all_integer_k_from": 24, "finite_checks": 332, "infinite_threshold": 356, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 25, "all_integer_k_from": 25, "finite_checks": 316, "infinite_threshold": 341, "projection_check": {"method": "interval Gaussian elimination"}, "status": "PASS"}
+{"j": 26, "all_integer_k_from": 26, "finite_checks": 475, "infinite_threshold": 501, "projection_check": {"method": "verified interval fixed-point box", "iterations": 1, "contraction_q": "50455224686841/1000000000000000000000000"}, "status": "PASS"}
+{"j": 27, "all_integer_k_from": 27, "finite_checks": 474, "infinite_threshold": 501, "projection_check": {"method": "verified interval fixed-point box", "iterations": 1, "contraction_q": "58865281610249/1000000000000000000000000"}, "status": "PASS"}
+{"j": 28, "all_integer_k_from": 28, "finite_checks": 473, "infinite_threshold": 501, "projection_check": {"method": "verified interval fixed-point box", "iterations": 1, "contraction_q": "83053005973139/1000000000000000000000000"}, "status": "PASS"}
+{"status": "PASS", "range_j": [3, 28], "finite_checks": 4129, "elapsed_seconds": 11.999570300999949}
