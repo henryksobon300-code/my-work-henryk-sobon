@@ -1,0 +1,27 @@
+{"j": 3, "status": "CERTIFIED", "all_k_from": 3, "infinite_k_threshold": 13, "finite_cases": 10}
+{"j": 4, "status": "CERTIFIED", "all_k_from": 4, "infinite_k_threshold": 13, "finite_cases": 9}
+{"j": 5, "status": "CERTIFIED", "all_k_from": 5, "infinite_k_threshold": 19, "finite_cases": 14}
+{"j": 6, "status": "CERTIFIED", "all_k_from": 6, "infinite_k_threshold": 25, "finite_cases": 19}
+{"j": 7, "status": "CERTIFIED", "all_k_from": 7, "infinite_k_threshold": 35, "finite_cases": 28}
+{"j": 8, "status": "CERTIFIED", "all_k_from": 8, "infinite_k_threshold": 37, "finite_cases": 29}
+{"j": 9, "status": "CERTIFIED", "all_k_from": 9, "infinite_k_threshold": 42, "finite_cases": 33}
+{"j": 10, "status": "CERTIFIED", "all_k_from": 10, "infinite_k_threshold": 51, "finite_cases": 41}
+{"j": 11, "status": "CERTIFIED", "all_k_from": 11, "infinite_k_threshold": 86, "finite_cases": 75}
+{"j": 12, "status": "CERTIFIED", "all_k_from": 12, "infinite_k_threshold": 101, "finite_cases": 89}
+{"j": 13, "status": "CERTIFIED", "all_k_from": 13, "infinite_k_threshold": 101, "finite_cases": 88}
+{"j": 14, "status": "CERTIFIED", "all_k_from": 14, "infinite_k_threshold": 101, "finite_cases": 87}
+{"j": 15, "status": "CERTIFIED", "all_k_from": 15, "infinite_k_threshold": 107, "finite_cases": 92}
+{"j": 16, "status": "CERTIFIED", "all_k_from": 16, "infinite_k_threshold": 136, "finite_cases": 120}
+{"j": 17, "status": "CERTIFIED", "all_k_from": 17, "infinite_k_threshold": 144, "finite_cases": 127}
+{"j": 18, "status": "CERTIFIED", "all_k_from": 18, "infinite_k_threshold": 201, "finite_cases": 183}
+{"j": 19, "status": "CERTIFIED", "all_k_from": 19, "infinite_k_threshold": 201, "finite_cases": 182}
+{"j": 20, "status": "CERTIFIED", "all_k_from": 20, "infinite_k_threshold": 201, "finite_cases": 181}
+{"j": 21, "status": "CERTIFIED", "all_k_from": 21, "infinite_k_threshold": 213, "finite_cases": 192}
+{"j": 22, "status": "CERTIFIED", "all_k_from": 22, "infinite_k_threshold": 206, "finite_cases": 184}
+{"j": 23, "status": "CERTIFIED", "all_k_from": 23, "infinite_k_threshold": 299, "finite_cases": 276}
+{"j": 24, "status": "CERTIFIED", "all_k_from": 24, "infinite_k_threshold": 356, "finite_cases": 332}
+{"j": 25, "status": "CERTIFIED", "all_k_from": 25, "infinite_k_threshold": 341, "finite_cases": 316}
+{"j": 26, "status": "CERTIFIED", "all_k_from": 26, "infinite_k_threshold": 501, "finite_cases": 475}
+{"j": 27, "status": "CERTIFIED", "all_k_from": 27, "infinite_k_threshold": 501, "finite_cases": 474}
+{"j": 28, "status": "CERTIFIED", "all_k_from": 28, "infinite_k_threshold": 501, "finite_cases": 473}
+{"status": "PASS", "max_j": 28, "elapsed_seconds": 20.181157942000027}
