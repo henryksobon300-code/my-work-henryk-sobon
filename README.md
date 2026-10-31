@@ -46,15 +46,16 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 - [GBD SAT correction — PR #3](https://github.com/Udopia/gbd-data/pull/3): **open**; `vdwb_k6_n400` satisfying assignment and proposed metadata correction.
 - [SYNTCOMP parity witness](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1): independently checkable author-side evidence, without claiming a competition result.
 
-## Experimental methods and MathemaSpace
+## Other public research records — evidence under review
 
-I also conduct experimental research under the **MathemaSpace** name. Specific results are documented separately from any proprietary implementation. This public portfolio does not describe the underlying engine architecture.
+These are additional documented research outputs, **not** merged upstream contributions or independent scientific endorsements. Their status is intentionally separate from the accepted results above.
 
-The research engine and its source packages are kept in a private repository. This README does not provide public access to them or imply outside certification.
+- **Quantum code `[[1000,406,6]]` — proposed distance certificate.** [Proof argument](research/qldpc-1000-406-d6/PROOF.md) · [public verifier ZIP](MathemaSpace_D6_PUBLIC.zip) · [original code PR #3863](https://github.com/unitaryfoundation/qldpc-challenge/pull/3863). The code and weight-six witnesses belong to @hirobumii. The separate lower-bound certificate is author-side and awaits outside reproduction.
+- **SciPy graph Laplacian integer overflow.** [Original issue #26549](https://github.com/scipy/scipy/issues/26549) · [proposed patch](research/scipy-26549/laplacian_dtype_promotion.patch). Local tests are reported; upstream acceptance and full SciPy CI are not established.
+- **BLR determinant positivity — 26 candidate infinite families.** [Public proofs, finite certificates and independent checker](research/blr-positivity-26-families/). This is a proposed partial result that requires external mathematical review. It does not solve the full conjecture or imply the Riemann hypothesis.
+- **Campaign 4 decomposition observation.** [Maintainer discussion #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942): ten of 39 entries were independently reproduced as decomposable. Connectivity checks already existed upstream; this is not a newly merged feature.
 
-A [Campaign 4 decomposition report](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) was independently reproduced by a maintainer: ten of 39 entries decomposed. Related connectivity gates already existed upstream; I therefore do **not** present it as a newly implemented feature.
-
-Additional results are catalogued in the [experimental research register](research/EXPERIMENTAL_RESEARCH_INDEX.md), with distinct evidence status and limitations. Unreleased internal methods and implementation details are excluded.
+Other finite experiments, unsuccessful approaches and unresolved claims remain in the [experimental research register](research/EXPERIMENTAL_RESEARCH_INDEX.md). The website is organized around results and their verification rather than how they were discovered.
 
 ## Research practice
 
@@ -62,4 +63,4 @@ I distinguish: **(1)** code merged into a third-party repository, **(2)** findin
 
 For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [complete public outcomes index](research/RESULTS_INDEX.md) tracks **all 11 authored issues and 4 PRs identified in the 24 October 2026 audit** and separately indexes experimental research. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
-*Last status review: 25 October 2026.*
+*Website and catalogue updated: 31 October 2026. Individual external-review statuses retain their stated verification dates.*
