@@ -11,7 +11,7 @@
 2. Strongest verified contributions first: 2 directly authored and merged PRs, then 2 maintainer-adopted findings.
 3. A fully browseable **evidence trail** for each case, including public discussion, independent replay, restrictions, and status.
 4. Open benchmark reports are **submissions**, not officially accepted competition results.
-5. MathemaSpace is an **umbrella for distinct experimental branches** and historical artifacts, not a claim of universally validated artificial intelligence or a single undisputed scientific discovery.
+5. Present each experimental result as an independent, bounded technical record; never advertise unrelated experiments as one independently certified discovery.
 6. Maintain a private/public boundary for external scientific correspondence, patents and private methods.
 
 ## Current sitemap and primary files
@@ -47,14 +47,14 @@ Recommended menu: About / Verified contributions / Submitted results / Research 
 - Never present `CLOSED` as `MERGED` or external review as formal peer review.
 - Avoid ranking positions, invented publication counts, fabricated DOI/ORCID, company logos, institutional affiliations or unsupported performance percentages.
 - Latest statuses require a fresh GitHub check before updating.
-- No detailed description of unpublished private RRM rotor claims and other unreleased MathemaSpace engine internals without owner's separate IP review.
+- No unpublished algorithms, patent-sensitive rotor internals or private project research sources without a separate IP review.
 - Private Gmail and research archives are *not* in this public repository.
 
 ## Next evidence milestones
 
 - Verify whether CHC-COMP #11 and other model issues receive independent benchmark acceptance.
 - Obtain upstream review of GBD PR #3.
-- Independently reproduce selected MathemaSpace numerical/structural experiments with frozen inputs and negative controls before creating standalone accomplishment pages.
+- Independently reproduce selected archived numerical and structural experiments with frozen inputs and negative controls before creating standalone accomplishment pages.
 - If new confirmed contributions arise, insert one new entry in the result index plus one bounded case study; do not turn them into a generic 'breakthrough' claim.
 
 This handoff documents the content and evidence standard. Visual redesign may change layout without altering these provenance distinctions.
