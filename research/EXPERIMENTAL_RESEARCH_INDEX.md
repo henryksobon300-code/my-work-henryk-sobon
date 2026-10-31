@@ -1,4 +1,4 @@
-# MathemaSpace and related research — experimental work register
+# Experimental research — results and evidence register
 
 **Henryk Soboń** · Public summary reviewed: 25 October 2026  
 [Main site](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Verified contributions and reports](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence ledger](../RESEARCH_STATUS.md)
@@ -72,17 +72,13 @@ A private scientific email discussing an idea is not equivalent to independent v
 - The original experiment included three holdouts of `4096 × 8` transition checks, followed by larger author-side positive and negative controls.
 - **Limit:** this is not an accepted EquiBench score, because EquiBench's language/category-specific notion of correspondence is different. The methodology needs a separate semantic adapter and blinded evaluation before that stronger claim.
 
-### Private MathemaSpace implementation
-
-**Status:** Not publicly released. This catalogue links to public discussions and descriptive research outcomes only; it does not link to the private source repository or describe the internal engine.
-
 ## 3. Other distinct experimental and engineering branches
 
 The following threads have been recorded in project history but are not certified independently within this portfolio. They must remain distinct rather than be pooled into a single reported success rate.
 
 | Track | What it studies | Limit/status |
 | --- | --- | --- |
-| MathemaSpace, ABC-RLE, MRS and historical prototypes | Multiple unreleased experimental branches | No private source code, module architecture or implementation details disclosed here; separate verification is required |
+| Historical computational prototypes | Distinct exploratory branches and finite tests | Source versions, controls and separate verification are needed before any broader claim |
 | V19–V23 | Selected finite algebraic/quantum-code checks and construction attempts | Small-scale/synthetic tests and known mathematical mechanisms; exact version and checker required |
 | NASA ADAPT experiments | Reduction of observation channels while preserving distinguishability on selected scenarios | Archived author-side tests; source/version/negative controls needed for public confirmation |
 | Laurent-model GF(2) work | Reported example/counterexample structures | Needs an unambiguous problem definition and independent verification before a new claim |
@@ -100,6 +96,6 @@ No general AGI capability, all-domain scientific superiority, novel mathematical
 
 ### Evidence and disclosure
 
-This is a **public descriptive index**, not an archive of source code or unconsented third-party messages. Original PRIVATE engines, mail transcripts, legal correspondence, unreleased patent material and any private container references remain excluded.
+This is a **public descriptive index**, not an archive of source code or unconsented third-party messages. Unreleased software, mail transcripts, legal correspondence, patent-sensitive material and private file references remain excluded.
 
 Last scope check: Gmail's relevant research and reviewer threads plus public GitHub records were re-examined on 25 October 2026. An exhaustive replay of every archived test, notebook and email attachment was **not** performed in this update.
