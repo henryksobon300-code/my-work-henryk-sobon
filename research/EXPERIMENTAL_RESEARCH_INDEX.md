@@ -1,7 +1,7 @@
 # Experimental research — results and evidence register
 
 **Henryk Soboń** · Public summary reviewed: 25 October 2026  
-[Main site](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Verified contributions and reports](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence ledger](../RESEARCH_STATUS.md)
+[Main site](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Verified contributions and reports](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence ledger](../RESEARCH_STATUS.md) · [Publication queue](PUBLICATION_STATUS.md)
 
 ## Purpose and status vocabulary
 
@@ -85,6 +85,10 @@ The following threads have been recorded in project history but are not certifie
 | MH370 drift-compatibility model | Model sensitivity of candidate debris-transport corridors | Hypothesis under assumptions, **not** identification of wreck location |
 | OMEGA / machine pattern studies | Numerical and structural research prototypes | Author-side experiments, not externally certified scientific discovery |
 | Patent-sensitive engineering concepts | Technical implementation withheld | No algorithms, application claims or unreleased experimental details are supplied |
+
+## 3A. Publication queue and additional records
+
+The [publication-status register](PUBLICATION_STATUS.md) distinguishes **complete public proof files already hosted** from archived results **whose full replay material is not released here**. It covers the `[[980,398,6]]` candidate, additional quantum-code upper bounds, Array-Generator and NetworkX, a BLR extension, finite Baum–Sweet computation, CSS data-equivalence pairs and further qLDPC/SDP tests. The cross-reference preserves the record without presenting historical reports as merged contributions or externally reviewed discoveries.
 
 ## 4. How these projects should be assessed
 
