@@ -101,11 +101,11 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <p>Submitted checkable UNSAT certificates for two specific bit-vector CHC instances, demo/06 O0 and O2. The maintainer confirmed the verdicts, updated the project's expected results and closed the issue.</p>
 <div class="inline-links"><a href="https://github.com/aaronbembenek/binary-chc-problems/issues/1">Original report &amp; public evidence ↗</a></div>
 </article>
+
 <article class="item">
-<div class="overline">Independent replication · bounded dataset finding</div>
-<h3>Ten decomposable Campaign 4 quantum codes</h3>
-<p>Identified ten decomposable entries among 39 records. The maintainer reconstructed the data independently and obtained the same ten; the relevant connectivity checks already existed upstream, so this is a confirmed data observation, not a newly merged verifier change.</p>
-<div class="inline-links"><a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2942">Original report and discussion ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835">Independent replication ↗</a></div>
+<div class="overline">Independently verified · formal certificate merged 30 October 2026</div><h3>Quantum CSS code [[1000,406,6]] — exact-distance proof</h3>
+<p>An author-side lower-bound argument and public verifier archive concern the fixed matrices of a code originally contributed by @hirobumii. The underlying code and its weight-six witnesses are the original author's work. The code author independently verified Henryk Soboń's proof; it was formalized in Lean and the formal certificate accepted in <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/4226">merged PR #4226</a> on 30 October 2026. The original code and its weight-six witnesses belong to @hirobumii.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/qldpc-1000-406-d6/PROOF.md">Read proof argument ↗</a> · <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/MathemaSpace_D6_PUBLIC.zip">Public verifier archive ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/3863">Original code PR ↗</a></div>
 </article>
 </div>
 </section>
@@ -128,41 +128,18 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <p class="small">All publicly identified issues and pull requests — including completed, pending and closed-without-merge records — are in the <a href="projects.html">complete results index</a>. Detailed status and evidence are in the <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/RESEARCH_STATUS.md">verification register</a>.</p>
 </section>
 <section id="additional" aria-labelledby="additional-title">
-<div class="kicker">More research beyond merged pull requests</div>
-<h2 id="additional-title">Experiments, certificates and independent feedback</h2>
-<p class="section-intro">Other research includes a formally accepted certificate alongside experiments awaiting outside review. Each record is kept visible <strong>with its individual verification status</strong>; the formally merged contribution is not attributed to a different PR author.</p>
+<div class="kicker">Research in technical review</div>
+<h2 id="additional-title">Additional mathematical and software findings</h2>
+<p class="section-intro">These separate technical results have publicly inspectable source materials but are awaiting further independent mathematical review or upstream adoption. They are not counted as merged contributions.</p>
 <div class="grid">
-<article class="item">
-<div class="overline">Author-side certificate · official evaluation pending</div><h3>SYNTCOMP parity-game witnesses</h3>
-<p>Reported an environment counterstrategy for a previously no-verdict parity benchmark and replayed it via Knor/Oink tooling. Further five-instance and solver experiments are recorded separately. No official solver score or certificate has been awarded.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md">Methods and limits ↗</a> · <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1">Public record ↗</a></div>
-</article>
-<article class="item">
-<div class="overline">Technical review · comparison limitations identified</div><h3>HAAL state diagnosis — 71 public models</h3>
-<p>A bounded resetless model-diagnosis experiment. External feedback found important flaws in the nonadaptive baseline and opportunities for graph pruning. The number 71/71 is not a proof of superior performance.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read experiment scope ↗</a></div>
-</article>
-<article class="item">
-<div class="overline">Exact finite experiments · not EquiBench results</div><h3>Program Bridge — state-machine equivalence</h3>
-<p>Explored exact transition-system isomorphisms using recovered state and command mappings, finite exhaustive verifiers and negative controls. A benchmark author clarified that the test does not establish the category-specific EquiBench notion of equivalence.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read experiment scope ↗</a></div>
-</article>
-<article class="item">
-<div class="overline">Finite modular computation · unlimited claim unproven</div><h3>Baum–Sweet Hankel calculations</h3>
-<p>Archived calculations report nonzero determinants for orders 1–30,000 modulo two primes. This is a finite computation, not a proof of the open statement for all orders. No novelty priority is claimed.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read limitations ↗</a></div>
-</article>
-<article class="item">
-<div class="overline">Author-side structural certificates · outside acceptance pending</div><h3>Two additional CSS equivalence pairs</h3>
-<p>Separate archived checks concern 10-2-3/10-2-3-b and 12-2-4/12-2-4-b, including proposed coordinate maps and row-space comparisons. These have not been merged upstream or independently certified in this portfolio.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read evidence status ↗</a></div>
-</article>
-<article class="item">
-<div class="overline">Independently verified · formal certificate merged 30 October 2026</div><h3>Quantum CSS code [[1000,406,6]] — exact-distance proof</h3>
-<p>An author-side lower-bound argument and public verifier archive concern the fixed matrices of a code originally contributed by @hirobumii. The underlying code and its weight-six witnesses are the original author's work. The code author independently verified Henryk Soboń's proof; it was formalized in Lean and the formal certificate accepted in <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/4226">merged PR #4226</a> on 30 October 2026. The original code and its weight-six witnesses belong to @hirobumii.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/qldpc-1000-406-d6/PROOF.md">Read proof argument ↗</a> · <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/MathemaSpace_D6_PUBLIC.zip">Public verifier archive ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/3863">Original code PR ↗</a></div>
-</article>
+<article class="item"><div class="overline">Proposed patch · not merged upstream</div><h3>SciPy graph-Laplacian integer overflow</h3>
+<p>A reproducible dense-integer dtype overflow and a proposed fix; upstream issue and local test evidence are available. No full SciPy CI acceptance is claimed.</p>
+<div class="inline-links"><a href="https://github.com/scipy/scipy/issues/26549">Original issue ↗</a> · <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/scipy-26549/laplacian_dtype_promotion.patch">Proposed patch ↗</a></div></article>
+<article class="item"><div class="overline">Public mathematical argument · external review pending</div><h3>BLR determinant positivity: 26 proposed families</h3>
+<p>Analytic arguments and finite certificates cover a stated j-range, without establishing the full conjecture or independent mathematical acceptance.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/tree/main/research/blr-positivity-26-families">Public proof and checkers ↗</a></div></article>
 </div>
+<p class="small"><a href="projects.html">Other reported research and evidence status ↗</a></p>
 </section>
 <section id="correspondence" aria-labelledby="external-title">
 <div class="kicker">Independent technical review</div>
