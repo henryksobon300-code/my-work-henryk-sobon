@@ -33,13 +33,13 @@ This ledger separates contributions merged into external repositories, maintaine
 | CHC-05 | [Two VMT/CHC array cases, issue #1](https://github.com/chc-comp/vmt-chc-benchmarks/issues/1) | **Open, checked 24 Oct 2026.** Author-side models; external acceptance pending. |
 | SYNT-01 | [Parity-realizability witness record](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1) | Author-side replayable environment counterstrategy for `steadygame_pb_12_pe_`; no official SYNTCOMP certificate or competition ranking claimed. |
 
-## Additional public research records — not externally certified
+## Additional public research records — individual verification states
 
-These records have a publicly accessible technical artifact but do **not** count as accepted third-party contributions.
+These records have publicly accessible technical artifacts with different levels of outside adoption. A formal-certificate PR by the original code author credits the separate proof by Soboń; it is not an additional PR authored or merged by Soboń.
 
 | Record | Public evidence | Claim boundary and next check |
 | --- | --- | --- |
-| QEC-06 | [`[[1000,406,6]]` proof argument](research/qldpc-1000-406-d6/PROOF.md) · [public verifier archive](MathemaSpace_D6_PUBLIC.zip) · [source code PR #3863](https://github.com/unitaryfoundation/qldpc-challenge/pull/3863) | A lower-bound certificate is proposed for a code due to @hirobumii. Independent replay of the archive and mathematical scrutiny are still needed; do not attribute the original code construction to this certificate. |
+| QEC-06 | [`[[1000,406,6]]` proof argument](research/qldpc-1000-406-d6/PROOF.md) · [public verifier archive](MathemaSpace_D6_PUBLIC.zip) · [source code PR #3863](https://github.com/unitaryfoundation/qldpc-challenge/pull/3863) | A lower-bound certificate is proposed for a code due to @hirobumii. The original code author independently verified Henryk Soboń's distance-6 proof and formalized it in Lean. The [formal-tier certificate was merged in PR #4226](https://github.com/unitaryfoundation/qldpc-challenge/pull/4226) on 30 Oct 2026. Do not attribute the code construction or PR authorship to Soboń. |
 | SCIPY-01 | [Issue #26549](https://github.com/scipy/scipy/issues/26549) · [public patch](research/scipy-26549/laplacian_dtype_promotion.patch) | Author-side local regression tests reported. No full upstream SciPy CI or maintainer acceptance demonstrated here. |
 | MATH-01 | [BLR 26-family proof/certificate package](research/blr-positivity-26-families/) | An all-`k` partial-positivity argument is proposed for `j=3,…,28`; checks and scripts are public, but a mathematical review and prior-work comparison are needed. Not a proof of the full positivity conjecture. |
 
