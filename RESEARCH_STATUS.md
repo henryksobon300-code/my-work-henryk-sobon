@@ -2,6 +2,8 @@
 
 **Henryk Soboń** · Last reviewed: 24 October 2026
 
+For the expanded inventory of research experiments and pending full public proof packages, see the [publication-status register](research/PUBLICATION_STATUS.md). A recorded test or draft does not upgrade its prior independent-review status.
+
 This ledger separates contributions merged into external repositories, maintainer-confirmed corrections, independently reviewed observations, and author-side results awaiting external verification. A merged PR is evidence that a *specific change* was accepted; it does not by itself establish a new mathematical theorem.
 
 ## Accepted contributions and corrections
