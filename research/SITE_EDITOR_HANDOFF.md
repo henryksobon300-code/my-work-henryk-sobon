@@ -8,7 +8,7 @@
 ## What the site must communicate
 
 1. **Independent technical researcher** rather than an asserted academic title or institute affiliation.
-2. Strongest verified contributions first: 2 directly authored and merged PRs, then 2 maintainer-adopted findings.
+2. Strongest verified contributions first: 2 directly authored and merged PRs, 2 maintainer-adopted findings, and an independently verified exact-distance proof formalized in a separately authored merged PR.
 3. A fully browseable **evidence trail** for each case, including public discussion, independent replay, restrictions, and status.
 4. Open benchmark reports are **submissions**, not officially accepted competition results.
 5. Present each experimental result as an independent, bounded technical record; never advertise unrelated experiments as one independently certified discovery.
@@ -21,7 +21,7 @@
 | Homepage | [Site](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · `index.html` | Photo, positioning and strongest externally verifiable contributions |
 | Browsable projects page | [Projects and discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · `projects.html` | Mobile-friendly directory and direct primary-source comment/review links |
 | GitHub intro | [README](../README.md) | Text-first public landing page and directory |
-| All projects/results | [RESULTS_INDEX.md](RESULTS_INDEX.md) | **Authoritative public inventory of all 11 identified issues and 4 PRs**, including closed/withdrawn/pending |
+| All projects/results | [RESULTS_INDEX.md](RESULTS_INDEX.md) | Curated index of substantive results and pending validation requests; superseded or rejected submissions are omitted from the public showcase |
 | Evidence ledger | [RESEARCH_STATUS.md](../RESEARCH_STATUS.md) | Claim limits, exact sources and update status |
 | Publication and evidence-status queue | [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) | Tracks 12 research records lacking a complete hosted public replay package; distinguishes local archive claims from accepted public contributions |
 | qLDPC verifier contribution | [CASE_QEC_INTERSECTION.md](CASE_QEC_INTERSECTION.md) | Specific merged PR #2740 |
@@ -57,4 +57,4 @@ Recommended menu: About / Verified contributions / Submitted results / Research 
 - Independently reproduce selected archived numerical and structural experiments with frozen inputs and negative controls before creating standalone accomplishment pages.
 - If new confirmed contributions arise, insert one new entry in the result index plus one bounded case study; do not turn them into a generic 'breakthrough' claim.
 
-This handoff documents the content and evidence standard. Visual redesign may change layout without altering these provenance distinctions.
+Keep outdated or rejected work out of the visible website. This handoff documents the content and evidence standard. Visual redesign may change layout without altering these provenance distinctions.
