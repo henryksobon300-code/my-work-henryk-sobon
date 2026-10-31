@@ -1,6 +1,8 @@
 # Exact distance of the frozen [[1000,406,≤6]] lifted-product instance
 
-Research date: 2026-10-28. The underlying code is due to **@hirobumii**, not to this investigation. The code and its weight-six witnesses were published in PR #3863, merged 2026-10-18. This note supplies an explicit lower-bound argument for the fixed matrices. No claim of worldwide priority is made.
+Research date: 2026-10-28. The underlying code is due to **@hirobumii**, not to this investigation. The code and its weight-six witnesses were published in PR #3863, merged 2026-10-18. This note supplies the original explicit lower-bound argument for the fixed matrices. No claim of worldwide priority is made.
+
+**Status update (30 October 2026):** @hirobumii independently checked Henryk Soboń's proof, formalized its CC-support analysis in Lean and merged a formal exact-distance certificate in [unitaryfoundation/qldpc-challenge PR #4226](https://github.com/unitaryfoundation/qldpc-challenge/pull/4226). The source code construction and formal PR belong to @hirobumii; Soboń is credited as the author of this original exact-distance proof. The following sections retain the original 28 October mathematical argument and replay procedure.
 
 ## 1. Fixed object and claim
 
@@ -124,6 +126,6 @@ python3 independent_check.py --math-only
 
 Use Python 3.10 or later. There are no pip packages, credentials, network calls, stochastic seeds, time limits, or solvers in these computations. Run the adapter normally, without Python's `-O` option, because its checks use assertions. The independent checker uses explicit exceptions and also runs with `python3 -O`.
 
-The finite programs check all hypotheses of the lemma and the linear algebra. The four-case proof above is a human-readable mathematical argument, not a proof object verified by Lean/Coq. The independent implementation is organizationally independent code written in this same investigation; it is not an external peer review. Corrupting a bridge transition or replacing a CC permutation by the identity is rejected by the included negative controls.
+The finite programs check all hypotheses of the lemma and the linear algebra. The four-case proof above was originally written as a human-readable mathematical argument, not as a Lean/Coq proof object. The independent implementation within this original package was written in the same investigation. Subsequent independent checking and Lean formalization are documented in PR #4226. Corrupting a bridge transition or replacing a CC permutation by the identity is rejected by the included negative controls.
 
-This result has not been submitted to the board and has no server-earned exact tier. Issue #4162 remains open: this certificate answers an unproved distance property of an existing entry in that research direction, but supplies neither a new code nor a new Pareto point and does not close the issue's entire request.
+**Historical note:** On 28 October this result had no board-earned exact tier. That status changed on 30 October with merged [formal certificate PR #4226](https://github.com/unitaryfoundation/qldpc-challenge/pull/4226). The result does not supply a new quantum code, a new Pareto point, or a solution to every question raised by issue #4162.
