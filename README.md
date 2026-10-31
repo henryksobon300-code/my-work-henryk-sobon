@@ -8,7 +8,7 @@ Independent researcher working with exact structural checks, program and graph r
 
 I try to make each public claim inspectable: a specific problem, evidence, a verifier where possible, the external review status, and the limits of the result. These are technical contributions and research experiments, not a claim of formal academic affiliation or a comprehensive new theory.
 
-[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[Website projects & public discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html)** · [Full GitHub source register](research/RESULTS_INDEX.md) · [Evidence and status register](RESEARCH_STATUS.md) · [Experimental research catalogue](research/EXPERIMENTAL_RESEARCH_INDEX.md) · [External review record](research/EXTERNAL_REVIEW.md)
+[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[Website projects & public discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html)** · [Full GitHub source register](research/RESULTS_INDEX.md) · **[Publication status and missing proof packages](research/PUBLICATION_STATUS.md)** · [Evidence and status register](RESEARCH_STATUS.md) · [Experimental research catalogue](research/EXPERIMENTAL_RESEARCH_INDEX.md) · [External review record](research/EXTERNAL_REVIEW.md)
 
 ## Merged pull requests authored by me
 
@@ -54,6 +54,8 @@ These are additional documented research outputs, **not** merged upstream contri
 - **SciPy graph Laplacian integer overflow.** [Original issue #26549](https://github.com/scipy/scipy/issues/26549) · [proposed patch](research/scipy-26549/laplacian_dtype_promotion.patch). Local tests are reported; upstream acceptance and full SciPy CI are not established.
 - **BLR determinant positivity — 26 candidate infinite families.** [Public proofs, finite certificates and independent checker](research/blr-positivity-26-families/). This is a proposed partial result that requires external mathematical review. It does not solve the full conjecture or imply the Riemann hypothesis.
 - **Campaign 4 decomposition observation.** [Maintainer discussion #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942): ten of 39 entries were independently reproduced as decomposable. Connectivity checks already existed upstream; this is not a newly merged feature.
+
+**Recorded results awaiting full public evidence:** the candidate `[[980,398,6]]`, a reported `d≤72` witness for the existing 684-qubit code, two further upper-bound witnesses for `[[360,10]]` and `[[180,6]]`, a proposed Array-Generator fix, a local NetworkX experiment and an unreviewed BLR extension are tracked in the [publication-status register](research/PUBLICATION_STATUS.md). **They are not additional upstream-accepted results.** Their complete proof packages are not yet hosted here.
 
 Other finite experiments, unsuccessful approaches and unresolved claims remain in the [experimental research register](research/EXPERIMENTAL_RESEARCH_INDEX.md). The website is organized around results and their verification rather than how they were discovered.
 
