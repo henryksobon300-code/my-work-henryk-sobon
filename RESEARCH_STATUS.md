@@ -4,7 +4,7 @@
 
 For the expanded inventory of research experiments and pending full public proof packages, see the [publication-status register](research/PUBLICATION_STATUS.md). A recorded test or draft does not upgrade its prior independent-review status.
 
-This ledger separates contributions merged into external repositories, maintainer-confirmed corrections, independently reviewed observations, and author-side results awaiting external verification. A merged PR is evidence that a *specific change* was accepted; it does not by itself establish a new mathematical theorem.
+This ledger separates contributions merged into external repositories, maintainer-confirmed corrections and author-side results awaiting external verification. A merged PR is evidence that a *specific change* was accepted; it does not by itself establish a new mathematical theorem.
 
 ## Accepted contributions and corrections
 
@@ -14,13 +14,6 @@ This ledger separates contributions merged into external repositories, maintaine
 | QEC-02 | Exact-distance status transfer to five permutation-equivalent Campaign 4 records | [Author PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11) · [issue #8](https://github.com/qiskit-community/qcode-discovery/issues/8) | **Merged, 23 Oct 2026.** Exact `[[288,12,12]]` reference; explicit permutations and replay verifier. 39 source records, 29 equivalence classes, five status transfers. |
 | QEC-03 | Explicit qubit permutations for four duplicate-code clusters | [Author issue #2643](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) · [maintainer PR #2702](https://github.com/unitaryfoundation/qldpc-challenge/pull/2702) | **Maintainer correction merged, 3 Oct 2026.** Four mappings independently re-derived by the maintainer; duplicate entries removed. PR #2702 was written by the maintainer, not by me. |
 | CHC-01 | Exact UNSAT certificates for two `demo/06` O0/O2 bit-vector CHC instances | [Author issue #1](https://github.com/aaronbembenek/binary-chc-problems/issues/1) | **Maintainer confirmed and benchmark results updated, 12 Oct 2026.** Scope is limited to those two exact benchmark files. |
-
-## Independently examined, with important qualifications
-
-| Record | Evidence | What it does—and does not—establish |
-| --- | --- | --- |
-| QEC-04 | [Campaign 4 decomposition report, issue #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) | Maintainer independently reproduced the finding that ten of 39 records decompose. **The relevant verifier connectivity gates already existed upstream.** This is a useful dataset analysis, not a new verifier feature. Issue closed 17 Oct 2026. |
-| QEC-05 | [Quantum-library reference package, PR #3362](https://github.com/unitaryfoundation/qldpc-challenge/pull/3362) | **Closed without merge, 13 Oct 2026.** Review identified overlap with existing upstream components and packaging problems. Not an accepted contribution. |
 
 ## Public submissions pending external adoption or certification
 
