@@ -42,4 +42,4 @@ These exchanges helped refine scope and experimental design. **They are not pres
 
 Publicly thank a contributor for a specific form of assistance, such as identifying a missing baseline or performing an independent replay, only when appropriate. Never manufacture testimonials. For direct extracts from private email or name-and-quote displays, obtain explicit permission from the correspondent and preserve their context.
 
-[Portfolio](../README.md) · [Complete public issue/PR index](RESULTS_INDEX.md)
+[Portfolio](../README.md) · [Complete public issue/PR index](RESULTS_INDEX.md) · [Publication status](PUBLICATION_STATUS.md)
