@@ -10,7 +10,7 @@ This inventory distinguishes **accepted external contributions** from **maintain
 
 **PUBLIC CODE/PACKAGE AVAILABLE** means the linked artifact can be downloaded from this repository. **DOCUMENTED / PACKAGE NOT YET HOSTED** means the source report or experiment exists in the project archive but its original replay package is not accessible on this public site. Such records are presented as publication work in progress, never as independently certified results. No original private correspondence, engines, patents, or restricted research packages are hosted here.
 
-## A. Independently checkable external contributions
+## Externally accepted contributions and corrections
 
 | ID | Result | Public record | Independent status |
 | --- | --- | --- | --- |
@@ -18,11 +18,10 @@ This inventory distinguishes **accepted external contributions** from **maintain
 | EXT-02 | Exact-distance metadata transferred for five permutation-equivalent Campaign 4 codes | [qcode-discovery PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11) · [case study](CASE_QCODE_CAMPAIGN4.md) | **Merged**, 23 Oct 2026; not five newly discovered codes. |
 | EXT-03 | Four duplicate qLDPC code clusters | [Issue #2643](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) · [maintainer PR #2702](https://github.com/unitaryfoundation/qldpc-challenge/pull/2702) | Independently checked; maintainer removed four redundant records. |
 | EXT-04 | Two binary CHC UNSAT benchmark corrections | [Original issue](https://github.com/aaronbembenek/binary-chc-problems/issues/1) | Maintainer confirmed and changed the expected results. |
-| EXT-05 | Ten decomposable Campaign 4 records | [Original report](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) | Maintainer reproduced observation; relevant connectivity checks already existed upstream. |
 
-All other authored issues/PRs, including unresolved and withdrawn submissions, remain separately counted in [RESULTS_INDEX.md](RESULTS_INDEX.md). Do not double-count issue and PR records describing the same experiment.
+Other substantive public outcomes are indexed in [RESULTS_INDEX.md](RESULTS_INDEX.md). Do not double-count an issue and the PR that resolves the same work.
 
-## B. Additional public proof or patch files already hosted
+## Publicly hosted technical artifacts
 
 | ID | Result | Files / source | Boundary |
 | --- | --- | --- | --- |
@@ -32,7 +31,7 @@ All other authored issues/PRs, including unresolved and withdrawn submissions, r
 | PUB-04 | Eight quic3 SAT model reports and controls | [Public CHC-COMP package](chc_comp_issue11/README.md) · [original issue](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11) | Awaiting external benchmark acceptance. |
 | PUB-05 | SYNTCOMP bounded parity witness record | [Public record](SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md) · [original issue](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1) | Author-side and native-verifier checks; no official competition ranking. |
 
-## C. Research results awaiting full public replay packages
+## Research records awaiting full public replay packages
 
 The rows below record specific **reported** findings recovered from project summaries and research correspondence. Their existence in the archive does **not** establish that all code, original matrices, negative controls, hashes, or official reviewer acknowledgements have been audited for public release. In particular, **no email attachment is silently treated as a published GitHub artifact**.
 
@@ -51,11 +50,7 @@ The rows below record specific **reported** findings recovered from project summ
 | QUEUE-11 | 17 Oct | qLDPC Challenge #3427 prototype: 32/32 controlled trials; six transformed 144-qubit code variants mapped by a new adapter. | **AUTHOR-SIDE EXPERIMENT, NO PUBLIC PACKAGE.** Check frozen data and baseline; not proof that the general challenge has been solved. |
 | QUEUE-12 | 26 Oct | GF(2) / bivariate-bicycle symbolic family observation: reported weight `4r` versus baseline `4r+2` in specified cases `r≥5`. | **PRIVATE-ARCHIVE CANDIDATE.** No worldwide priority, global optimality or exact quantum-code distance established. Do not publish implementation or private research history. |
 
-## D. Separate historical research branches
-
-Additional recorded topics — HAAL/resetless diagnosis (71 public models; baseline criticism), finite-state Program Bridge (distinct from EquiBench benchmark semantics), SYNTCOMP witnesses, pgReal/CHC, NASA ADAPT observation reduction, Rotor-Graph, OMEGA and JCSF engineering prototypes — are indexed at [Experimental research](EXPERIMENTAL_RESEARCH_INDEX.md) or [Evidence and status](../RESEARCH_STATUS.md). They are **not all independently certified** and are not consolidated into one artificial success metric. Patent-sensitive technical internals remain unpublished.
-
-## E. Requirements before promoting any queued item to a public proof
+## Requirements for publishing further evidence
 
 A queued item can be reclassified as **publicly reproducible** only after the published record has a specific frozen source/commit/dataset, an exact and limited claim, a shareable public artifact with its own content hash, a replay command and verification output, appropriate negative tests and baselines, attribution, and a precise statement about independent review. A code witness for an **upper** bound must not be labeled an **exact** distance without a separately proved lower bound.
 
