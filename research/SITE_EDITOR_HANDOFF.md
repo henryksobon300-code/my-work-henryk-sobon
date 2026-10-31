@@ -2,7 +2,7 @@
 
 **Owner:** Henryk Soboń · **GitHub Pages source:** `index.html` in `henryksobon300-code/my-work-henryk-sobon`  
 **Live URL:** https://henryksobon300-code.github.io/my-work-henryk-sobon/  
-**Snapshot:** 24 October 2026  
+**Snapshot:** 31 October 2026 (external PR/issue count remains the 24 October review baseline)  
 **Audience:** Future website designer or editor. Do not confuse the user with an institution.
 
 ## What the site must communicate
@@ -23,6 +23,7 @@
 | GitHub intro | [README](../README.md) | Text-first public landing page and directory |
 | All projects/results | [RESULTS_INDEX.md](RESULTS_INDEX.md) | **Authoritative public inventory of all 11 identified issues and 4 PRs**, including closed/withdrawn/pending |
 | Evidence ledger | [RESEARCH_STATUS.md](../RESEARCH_STATUS.md) | Claim limits, exact sources and update status |
+| Publication and evidence-status queue | [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) | Tracks 12 research records lacking a complete hosted public replay package; distinguishes local archive claims from accepted public contributions |
 | qLDPC verifier contribution | [CASE_QEC_INTERSECTION.md](CASE_QEC_INTERSECTION.md) | Specific merged PR #2740 |
 | Campaign 4 exactness transfer | [CASE_QCODE_CAMPAIGN4.md](CASE_QCODE_CAMPAIGN4.md) | Specific merged PR #11 |
 | Four equivalence clusters | [CASE_QEC_FOUR_CLUSTERS.md](CASE_QEC_FOUR_CLUSTERS.md) | Maintainer-adopted finding with correct author credit |
@@ -33,7 +34,7 @@
 
 ## Information architecture for a later custom-designed site
 
-**Home → Results index → Individual case page → Original public evidence.**
+**Home → Results index → Individual case page → Original public evidence** for already published work. **Home → Results → Publication-status queue → Required replay checks** for archived author-side candidates without a public proof package.
 
 Recommended menu: About / Verified contributions / Submitted results / Research methods / External review / Contact. Each individual case should display date, source repository, reproducible test, exact assertion, reviewer / acceptance status and limitations. Add filters by status and subject only when they improve navigation.
 
