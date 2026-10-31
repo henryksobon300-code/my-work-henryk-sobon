@@ -22,17 +22,11 @@ This page records review that a visitor can independently inspect in **public pr
 
 [Original report #1](https://github.com/aaronbembenek/binary-chc-problems/issues/1) includes the submitted evidence and the completed maintainer correction of two specific `demo/06` verdicts.
 
-### Campaign 4 decomposition observation
-
-[Report #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) ([direct maintainer's reconstruction](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835)) records an independent reconstruction of 39 records confirming ten reducible entries, **along with the maintainer's clarification that the relevant upstream connectivity checks already existed**.
-
 ## Other expert conversations — restricted to private records
 
 There have also been technical conversations about:
 
 - Unpublished mathematical/engineering concepts (technical questions about possible applications; no implementation details disclosed).
-- Resetless diagnosis on public automata models (criticism of the baseline and suggested pruning).
-- Formal equivalence of finite programs (clarifying what a finite-state isomorphism certificate does and does not prove relative to existing benchmarks).
 - Competition-grade parity-game witnesses and CHC model validation (reproducibility questions and outstanding official validation).
 - Possible modular-system applications for an adaptive graph concept (early interest only, no funding or signed collaboration).
 
