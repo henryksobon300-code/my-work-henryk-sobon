@@ -31,11 +31,18 @@ This ledger separates contributions merged into external repositories, maintaine
 | CHC-05 | [Two VMT/CHC array cases, issue #1](https://github.com/chc-comp/vmt-chc-benchmarks/issues/1) | **Open, checked 24 Oct 2026.** Author-side models; external acceptance pending. |
 | SYNT-01 | [Parity-realizability witness record](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1) | Author-side replayable environment counterstrategy for `steadygame_pb_12_pe_`; no official SYNTCOMP certificate or competition ranking claimed. |
 
-## Experimental research — not externally certified
+## Additional public research records — not externally certified
 
-**MathemaSpace** is an ongoing research program with separate experimental branches. Internal architecture and unreleased implementations are not disclosed here. Experimental results require original code versions, frozen inputs, baselines, negative controls, independent replay and an explicit novelty/literature review before broader scientific claims can be made.
+These records have a publicly accessible technical artifact but do **not** count as accepted third-party contributions.
 
-The MathemaSpace research engine and implementation remain in a private repository. Their code is not distributed through this public site, and no institutional certification or general AI claim is made here.
+| Record | Public evidence | Claim boundary and next check |
+| --- | --- | --- |
+| QEC-06 | [`[[1000,406,6]]` proof argument](research/qldpc-1000-406-d6/PROOF.md) · [public verifier archive](MathemaSpace_D6_PUBLIC.zip) · [source code PR #3863](https://github.com/unitaryfoundation/qldpc-challenge/pull/3863) | A lower-bound certificate is proposed for a code due to @hirobumii. Independent replay of the archive and mathematical scrutiny are still needed; do not attribute the original code construction to this certificate. |
+| SCIPY-01 | [Issue #26549](https://github.com/scipy/scipy/issues/26549) · [public patch](research/scipy-26549/laplacian_dtype_promotion.patch) | Author-side local regression tests reported. No full upstream SciPy CI or maintainer acceptance demonstrated here. |
+| MATH-01 | [BLR 26-family proof/certificate package](research/blr-positivity-26-families/) | An all-`k` partial-positivity argument is proposed for `j=3,…,28`; checks and scripts are public, but a mathematical review and prior-work comparison are needed. Not a proof of the full positivity conjecture. |
+| QEC-07 | [Code `[[980,398,6]]` source audit not yet public](research/RESULTS_INDEX.md) | A separate unpublished candidate is awaiting original-matrix, distance, multiplicity, baseline and checker verification. **No confirmed improvement is claimed.** |
+
+External statuses for the first section were reviewed on 24 October 2026. Adding this section on 31 October does not retrospectively recertify those submissions.
 
 ## Documentation principles
 
