@@ -114,7 +114,7 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <h2 id="impact-title">From unresolved records to independently checkable results</h2>
 <p>Some research challenges are not about producing a new formula, but about resolving a specific unknown, detecting a hidden equivalence, or making an existing mathematical fact usable in public tools. My independent contributions have led to concrete changes in externally maintained projects: four duplicate quantum-code entries were <a href="https://github.com/unitaryfoundation/qldpc-challenge/issues/2643">identified and removed after outside verification</a>; five code records received verified exact-distance status through an <a href="https://github.com/qiskit-community/qcode-discovery/pull/11">accepted pull request</a>; and two benchmark entries previously marked UNKNOWN were <a href="https://github.com/aaronbembenek/binary-chc-problems/issues/1">independently confirmed UNSAT and corrected</a>.</p>
 <p>A separate <a href="https://github.com/satcompetition/2026/issues/2">SAT benchmark report</a> contains an explicit satisfying assignment for an instance recorded as UNKNOWN, but the proposed upstream dataset correction is <a href="https://github.com/Udopia/gbd-data/pull/3">still under review</a>. An UNKNOWN label is not, by itself, evidence that every leading solver failed on the instance. The supported claim is narrower: an explicit witness was reported and made available for independent checking.</p>
-<p>I pursue these questions through a broader, privately developed computational research programme. Its individual outputs are documented with their evidence and limitations; the programme itself has not been established as outperforming named solvers or research groups in controlled comparisons.</p>
+<p>Additional studies are documented as individual, bounded claims with their own inputs, certificates, source links and outstanding checks. They are not presented as accepted results until that evidence exists.</p>
 <p class="small"><a href="projects.html">Browse all case studies, original reviewers' comments and current verification status ↗</a></p>
 </section>
 <section id="review" aria-labelledby="review-title">
@@ -139,7 +139,7 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 </article>
 <article class="item">
 <div class="overline">Technical review · comparison limitations identified</div><h3>HAAL state diagnosis — 71 public models</h3>
-<p>A bounded MathemaSpace V18 experiment on resetless model diagnosis. External feedback found important flaws in the nonadaptive baseline and opportunities for graph pruning. The number 71/71 is not a proof of superior performance.</p>
+<p>A bounded resetless model-diagnosis experiment. External feedback found important flaws in the nonadaptive baseline and opportunities for graph pruning. The number 71/71 is not a proof of superior performance.</p>
 <div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read experiment scope ↗</a></div>
 </article>
 <article class="item">
@@ -158,9 +158,9 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 <div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Read evidence status ↗</a></div>
 </article>
 <article class="item">
-<div class="overline">Research programme · unreleased internals protected</div><h3>MathemaSpace and related research</h3>
-<p>Several distinct research directions are under development. No unpublished engine implementation, internal architecture or patent-sensitive technical material is released through this portfolio.</p>
-<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/EXPERIMENTAL_RESEARCH_INDEX.md">Full research map ↗</a></div>
+<div class="overline">Public proof package · independent replay pending</div><h3>Quantum CSS code [[1000,406,6]] — distance certificate</h3>
+<p>An author-side lower-bound argument and public verifier archive concern the fixed matrices of a code originally contributed by @hirobumii. The underlying code and its weight-six witnesses are the original author's work. External acceptance of the additional distance certificate has not been established.</p>
+<div class="inline-links"><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/qldpc-1000-406-d6/PROOF.md">Read proof argument ↗</a> · <a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/MathemaSpace_D6_PUBLIC.zip">Public verifier archive ↗</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/3863">Original code PR ↗</a></div>
 </article>
 </div>
 </section>
@@ -178,9 +178,8 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 </section>
 <section id="methods" aria-labelledby="methods-title">
 <div class="kicker">Experimental research</div>
-<h2 id="methods-title">MathemaSpace and reproducibility</h2>
-<p>MathemaSpace is an ongoing collection of research experiments. This portfolio describes documented results and their evidence status, but does not disclose the unpublished internal design or source implementation.</p>
-<p>Private engine packages remain in access-controlled repositories. No private package is linked here as though it were publicly available.</p>
+<h2 id="methods-title">Verification and reproducibility</h2>
+<p>Each published record identifies a specific testable claim and makes the available evidence and remaining uncertainties explicit. A submitted result is not the same as an independently accepted result.</p>
 <div class="method">
 <h3>How I document results</h3>
 <p>I aim to state the exact problem and source data, freeze code and inputs, include a replay path and negative controls, and report failed approaches as well as successful ones. Independent confirmation of a concrete result is distinct from evidence that the underlying method is scientifically new.</p>
@@ -188,7 +187,7 @@ a.skip{position:absolute;left:-9999px;top:7px;background:#253651;color:#fff;padd
 </section>
 </main>
 <footer class="wrap footer">
-<p>Henryk Soboń · Independent technical research · Status reviewed 25 October 2026.</p>
+<p>Henryk Soboń · Independent technical research · Catalogue updated 31 October 2026; see individual records for review dates.</p>
 <p>Primary-source links establish only the stated scope of each contribution. No academic affiliation, competition certification or scientific priority is implied.</p>
 </footer>
 </body>
