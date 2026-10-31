@@ -1,7 +1,7 @@
 # Research results index
 
 **Henryk Soboń — public research portfolio**  
-**Catalogue updated:** 31 October 2026 (issue/PR inventory last fully reviewed 24 October 2026) · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md)
+**Catalogue updated:** 31 October 2026 (issue/PR inventory last fully reviewed 24 October 2026) · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md) · [Publication status / unhosted packages](PUBLICATION_STATUS.md)
 
 This is the **comprehensive index of identified public GitHub submissions**. It is deliberately not a ranking of scientific merit. In particular, **closed** does not always mean accepted, and a published GitHub issue is not a journal article or an official benchmark certificate. External review from private email is not reproduced here.
 
@@ -61,6 +61,12 @@ These are **not automatically included in the merged-contribution count**. A mor
 | Program Bridge / finite transition-system equivalence | Exhaustive finite-state certificates for specified test families; **not an EquiBench result** under its category semantics. |
 | Stateful dynamic-graph experiments | Early engineering prototypes, not independently established scientific novelty; no public claim of patentability, working hardware or external certification. |
 | Other historical experimental branches | Separately indexed in nonpublic research archives; no shared blanket performance or novelty claim. |
+
+### F1. Recorded material not yet hosted with full public replay files
+
+The [publication and evidence-status register](PUBLICATION_STATUS.md) tracks **12 additional research records** and the checks required to release or verify them. This is a separate queue, not twelve accepted new discoveries. It includes the `[[980,398,6]]` candidate, an upper-bound witness `d≤72` for the existing 684-qubit code, two further upper-bound witnesses for `[[360,10]]` and `[[180,6]]`, Array-Generator and NetworkX cases, and an unreviewed BLR range extension. Other mathematical and software experiments are listed with their precise limitations.
+
+Their source correspondence and local notebooks are **not equivalent to public GitHub proof packages**. No independent replay or acceptance is implied; private engine code remains unhosted.
 
 ## G. External review and correspondence
 
