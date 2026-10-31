@@ -5,25 +5,15 @@
 
 ## Purpose and status vocabulary
 
-This index addresses research that would be lost if the portfolio included **only merged GitHub PRs**. It is a map of distinguishable workstreams, not a claim that every workstream produced a novel peer-reviewed discovery.
+This index preserves bounded computational research that has a meaningful mathematical result or testable certificate. It is not a claim that every experiment produced a novel peer-reviewed discovery.
 
 - **Externally reproduced:** a named outside reviewer or maintainer independently checked a particular computation. The exact scope remains narrow.
 - **Public author-side evidence:** a public repository/issue contains the author's replay or witness, but upstream reviewers have not adopted its conclusion.
 - **Private/archived author-side evidence:** test packages exist in the private research correspondence; those experiments have not been re-run for this portfolio and are not openly reproducible from this page.
-- **Research concept/IP:** exploratory implementation or engineering proposal, not certified theoretical novelty or commercial deployment.
 
 A private scientific email discussing an idea is not equivalent to independent validation, and no correspondence is quoted here without permission.
 
-## 1. Public independently inspected findings that are not another merged author PR
-
-### QEC-OBS-01 — Ten decomposable BB/CSS records, Campaign 4
-
-**Status:** externally reproduced observation, not a new merged verifier feature.
-
-- The public [original issue #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) reports ten reducible entries among 39 Campaign 4 records.
-- In a [public technical reply](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835), the maintainer independently reconstructed the source records and reproduced the ten classifications.
-- **Critical limit:** the repository already had relevant connectivity checks; this was not a newly discovered missing check that I subsequently merged.
-- Count it once as a checked dataset observation; do not count as a new code or an additional merged PR.
+## Public author-side research certificates
 
 ### SYN-2026 — Parity-realizability certificates
 
@@ -35,7 +25,7 @@ A private scientific email discussing an idea is not equivalent to independent v
 - **Missing:** a full public replay bundle linked here and an official organizer evaluation or certificate. The publicly available description must not be called a competition win.
 - The organizer's private feedback is not published here or used as a personal endorsement.
 
-## 2. Author-side exact, finite, or reproducible experiments requiring broader review
+## Finite calculations and code-equivalence investigations
 
 ### QEC-DATA-02 — Additional CSS data equivalence checks
 
@@ -55,42 +45,11 @@ A private scientific email discussing an idea is not equivalent to independent v
 - **Limit:** nonzero determinants mod a prime for specific finite orders are evidence only for those orders. This is **not** a proof for all n. World novelty and priority were not established.
 - Reproduction and primary source availability should be checked before publicly asserting the package's stronger reproducibility guarantees.
 
-### HAAL-V18 — Resetless model/state diagnosis
-
-**Status:** author-reported bounded study with substantive external methodological criticism, not proven state-of-the-art performance.
-
-- V18 reported a yes/no answer on **71 public HAAL protocol models** for an adaptive distinguishing-sequence existence question.
-- A technical reviewer pointed out that a preset distinguishing sequence cannot exist where an adaptive one does not, so the attempted PDS-versus-ADS comparison was not well balanced. Further pruning and baseline issues were identified.
-- **Limit:** a `71/71` response count is **not** a superiority score, a complete active-automata-learning solution, or a scientific novelty proof.
-- Full experiment replay and corrected baseline evaluation remain separate work.
-
-### PROG-BRIDGE — Exact finite transition-system equivalence
-
-**Status:** reported finite-state certificates; external feedback established a semantic mismatch with a published benchmark.
-
-- Experiments studied exact relationships between finite transition systems, with recorded positive and negative controls. The private discovery implementation is not described here.
-- The original experiment included three holdouts of `4096 × 8` transition checks, followed by larger author-side positive and negative controls.
-- **Limit:** this is not an accepted EquiBench score, because EquiBench's language/category-specific notion of correspondence is different. The methodology needs a separate semantic adapter and blinded evaluation before that stronger claim.
-
-## 3. Other distinct experimental and engineering branches
-
-The following threads have been recorded in project history but are not certified independently within this portfolio. They must remain distinct rather than be pooled into a single reported success rate.
-
-| Track | What it studies | Limit/status |
-| --- | --- | --- |
-| Historical computational prototypes | Distinct exploratory branches and finite tests | Source versions, controls and separate verification are needed before any broader claim |
-| V19–V23 | Selected finite algebraic/quantum-code checks and construction attempts | Small-scale/synthetic tests and known mathematical mechanisms; exact version and checker required |
-| NASA ADAPT experiments | Reduction of observation channels while preserving distinguishability on selected scenarios | Archived author-side tests; source/version/negative controls needed for public confirmation |
-| Laurent-model GF(2) work | Reported example/counterexample structures | Needs an unambiguous problem definition and independent verification before a new claim |
-| MH370 drift-compatibility model | Model sensitivity of candidate debris-transport corridors | Hypothesis under assumptions, **not** identification of wreck location |
-| OMEGA / machine pattern studies | Numerical and structural research prototypes | Author-side experiments, not externally certified scientific discovery |
-| Patent-sensitive engineering concepts | Technical implementation withheld | No algorithms, application claims or unreleased experimental details are supplied |
-
-## 3A. Publication queue and additional records
+## Publication queue and additional records
 
 The [publication-status register](PUBLICATION_STATUS.md) distinguishes **complete public proof files already hosted** from archived results **whose full replay material is not released here**. It covers the `[[980,398,6]]` candidate, additional quantum-code upper bounds, Array-Generator and NetworkX, a BLR extension, finite Baum–Sweet computation, CSS data-equivalence pairs and further qLDPC/SDP tests. The cross-reference preserves the record without presenting historical reports as merged contributions or externally reviewed discoveries.
 
-## 4. How these projects should be assessed
+## Evidence requirements
 
 To promote a row to **verified public achievement**, retain original dataset identity, frozen code version, exact claim, independent or orthogonal checker, positive and negative controls, baseline/limitations, and review/adoption source. An independent critic identifying an invalid baseline is a useful part of research history, **not** evidence that the original claim passed.
 
