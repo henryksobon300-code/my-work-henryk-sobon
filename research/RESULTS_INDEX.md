@@ -1,7 +1,7 @@
 # Research results index
 
 **Henryk Soboń — public research portfolio**  
-**Snapshot:** 25 October 2026 · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md)
+**Catalogue updated:** 31 October 2026 (issue/PR inventory last fully reviewed 24 October 2026) · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md)
 
 This is the **comprehensive index of identified public GitHub submissions**. It is deliberately not a ranking of scientific merit. In particular, **closed** does not always mean accepted, and a published GitHub issue is not a journal article or an official benchmark certificate. External review from private email is not reproduced here.
 
@@ -52,12 +52,14 @@ These are **not automatically included in the merged-contribution count**. A mor
 
 | Research thread | Public status and limits |
 | --- | --- |
-| MathemaSpace research prototypes | Research code is maintained privately. Public descriptions here document only selected findings, with no claim of outside certification or a general-purpose system. |
+| **CSS code `[[1000,406,6]]` distance certificate** | [Public proof argument](qldpc-1000-406-d6/PROOF.md) · [verifier archive](../MathemaSpace_D6_PUBLIC.zip) · [original author PR #3863](https://github.com/unitaryfoundation/qldpc-challenge/pull/3863). Original code and weight-six witnesses belong to @hirobumii; the additional lower-bound argument is author-side and needs outside replay. |
+| **SciPy graph Laplacian integer overflow** | [Original issue #26549](https://github.com/scipy/scipy/issues/26549) · [proposed patch](scipy-26549/laplacian_dtype_promotion.patch). Local test evidence is reported; upstream acceptance/full CI are not claimed. |
+| **BLR determinant positivity: 26 proposed infinite families** | [Public arguments, scripts and finite certificates](blr-positivity-26-families/). Proposed partial result requires independent mathematical review; not a proof of the full conjecture. |
 | New CSS code equivalence pairs `10-2-3 / 10-2-3-b` and `12-2-4 / 12-2-4-b` | Reported author-side certificate package (22 Oct 2026); **not yet incorporated in external repository**. Private source and current public-package review should remain separate. |
 | Baum–Sweet / TheoremDB P2422 Hankel calculation | Reported finite modular non-vanishing checks for orders 1–30,000 in two fields. **Not a proof for all orders; novelty and literature priority unconfirmed.** Do not call this problem solved. |
-| MathemaSpace V18 / HAAL resetless state diagnosis | Reported responses for 71 public models. External technical feedback exposed flaws in the nonadaptive comparison and opportunities for belief-graph pruning; **not evidence of state-of-the-art superiority**. |
+| HAAL / resetless state diagnosis (71 models) | Reported responses for 71 public models. External technical feedback exposed flaws in the nonadaptive comparison and opportunities for belief-graph pruning; **not evidence of state-of-the-art superiority**. |
 | Program Bridge / finite transition-system equivalence | Exhaustive finite-state certificates for specified test families; **not an EquiBench result** under its category semantics. |
-| Rotor / stateful dynamic graph primitive | Patent-sensitive research and prototypes. The existence of correspondence or an application does not establish patentability, working hardware or independent novelty confirmation. **Keep technical private methods out of public GitHub** pending IP review. |
+| Stateful dynamic-graph experiments | Early engineering prototypes, not independently established scientific novelty; no public claim of patentability, working hardware or external certification. |
 | Other historical experimental branches | Separately indexed in nonpublic research archives; no shared blanket performance or novelty claim. |
 
 ## G. External review and correspondence
