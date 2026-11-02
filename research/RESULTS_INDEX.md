@@ -48,6 +48,14 @@ The [publication and evidence-status register](PUBLICATION_STATUS.md) tracks **1
 
 Their source correspondence and local notebooks are **not equivalent to public GitHub proof packages**. No independent replay or acceptance is implied; private engine code remains unhosted.
 
+## Status hygiene and withdrawn claims
+
+The main website lists only merged contributions, maintainer-confirmed findings, active public submissions and explicitly bounded public research. A proposal rejected as incorrect, superseded by prior work without an independent added contribution, or withdrawn after failed validation should be removed from the **active** catalogue after checking the original maintainer discussion. Preserve a dated historical record rather than deleting the original GitHub issue or rewriting the review history.
+
+An open issue is not proof of acceptance, but it is also not proof of rejection. A closed issue may be fixed, declined, duplicated or merely administratively closed; review the actual resolution before changing status. An earlier discovery by another author must be attributed, and any incremental contribution described narrowly.
+
+**Audit boundary (2 November 2026):** current GitHub state was checked for qLDPC PR #2740, qcode-discovery PR #11, qLDPC certificate PR #4226, GBD PR #3, CHC-COMP issues #9–11, VMT/CHC issue #1, SAT Competition issue #2 and SciPy issue #26549. The three PRs #2740, #11 and #4226 are merged; GBD PR #3 and the listed benchmark/software issues are open. This check is not a comprehensive historical audit of all email discussions, attachments or closed submissions.
+
 ## External review and correspondence
 
 A [public review summary](EXTERNAL_REVIEW.md) records **public** review milestones and category-level private feedback. For mail-only discussions, personal messages, attachments and quotations are kept out of the public repository. A private internal source inventory should retain message dates, links and validation notes.
