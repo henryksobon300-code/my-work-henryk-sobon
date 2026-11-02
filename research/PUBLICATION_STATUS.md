@@ -1,6 +1,6 @@
 # Research publication and evidence status
 
-**Henryk Soboń · Public-facing inventory · 31 October 2026**
+**Henryk Soboń · Public-facing inventory · 31 October 2026; selected external statuses checked 2 November 2026**
 
 [Home](../README.md) · [Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Public PR and issue index](RESULTS_INDEX.md) · [Experimental work](EXPERIMENTAL_RESEARCH_INDEX.md) · [External review](EXTERNAL_REVIEW.md)
 
