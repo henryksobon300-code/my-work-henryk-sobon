@@ -8,7 +8,7 @@ Independent researcher working with exact structural checks, program and graph r
 
 I try to make each public claim inspectable: a specific problem, evidence, a verifier where possible, the external review status, and the limits of the result. These are technical contributions and research experiments, not a claim of formal academic affiliation or a comprehensive new theory.
 
-[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[Website projects & public discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html)** · [Full GitHub source register](research/RESULTS_INDEX.md) · **[Publication status and missing proof packages](research/PUBLICATION_STATUS.md)** · [Evidence and status register](RESEARCH_STATUS.md) · [Experimental research catalogue](research/EXPERIMENTAL_RESEARCH_INDEX.md) · [External review record](research/EXTERNAL_REVIEW.md)
+[Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · **[Website projects & public discussions](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html)** · [Full GitHub source register](research/RESULTS_INDEX.md) · **[Publication status and missing proof packages](research/PUBLICATION_STATUS.md)** · [Evidence and status register](RESEARCH_STATUS.md) · [Experimental research catalogue](research/EXPERIMENTAL_RESEARCH_INDEX.md) · [External review record](research/EXTERNAL_REVIEW.md) · [Evidence and presentation standard](research/PORTFOLIO_REVIEW_STANDARD.md)
 
 ## Merged pull requests authored by me
 
@@ -64,4 +64,4 @@ I distinguish: **(1)** code merged into a third-party repository, **(2)** findin
 
 For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [curated public outcomes index](research/RESULTS_INDEX.md) collects substantive accepted results, outstanding validation requests and selected experiments. Superseded and rejected attempts are not advertised as discoveries. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
-*Website and catalogue updated: 31 October 2026. Individual external-review statuses retain their stated verification dates.*
+*Portfolio documentation updated: 2 November 2026. Individual external-review statuses retain their stated verification dates; this update does not imply a fresh scientific replay.*
