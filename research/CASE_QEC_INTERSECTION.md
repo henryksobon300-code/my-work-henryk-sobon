@@ -26,7 +26,7 @@ The pull request incorporated the stacked-matrix rank computation into the qLDPC
 - [Merged original code and review discussion — PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740)
 - [First independent maintainer review](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5405628122)
 - [Second pass verifying the requested fixes](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5408209621)
-- - [Related earlier code-equivalence report — four clusters](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) (separate contribution; not the origin of the mathematical identity)
+- [Related earlier code-equivalence report — four clusters](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) (separate contribution; not the origin of the mathematical identity)
 - Merge commit: `6535af57ee494f77dfe9f4c22f737b5486fbb7b4`.
 
 ## Limitations
