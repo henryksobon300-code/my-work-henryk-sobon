@@ -3,6 +3,8 @@
 **Henryk Soboń — public research portfolio**  
 **Catalogue updated:** 2 November 2026 (selected issue/PR statuses rechecked 2 November; broader issue inventory last fully reviewed 24 October 2026) · [Website home](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results on the website](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Evidence/status ledger](../RESEARCH_STATUS.md) · [Publication status / unhosted packages](PUBLICATION_STATUS.md)
 
+**Documentation quality standard:** [Evidence, attribution, review scope and publication checklist](PORTFOLIO_REVIEW_STANDARD.md).
+
 This is a **curated index of substantive public results and review requests**, not a catalogue of every unsuccessful or redundant experiment. A public issue is not a journal article or an official benchmark certificate. The original GitHub projects retain their own public histories; private email correspondence is not reproduced here.
 
 ## Merged author pull requests (2)
