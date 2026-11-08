@@ -4,7 +4,7 @@
 
 **Quantum error correction · qLDPC codes · formal verification · reproducible computational research**
 
-Independent researcher working with exact structural checks, program and graph representations, SAT/CHC benchmarks and machine-checkable certificates.
+Independent researcher focused on interdisciplinary applications of formal methods, including exact structural checks, program and graph representations, SAT/CHC benchmarks and machine-checkable certificates.
 
 I try to make each public claim inspectable: a specific problem, evidence, a verifier where possible, the external review status, and the limits of the result. These are technical contributions and research experiments, not a claim of formal academic affiliation or a comprehensive new theory.
 
