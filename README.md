@@ -45,7 +45,7 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 
 - [CHC-COMP: eight quic3 SAT models — issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11): **open**, with author-side validation and negative controls; awaiting external adoption.
 - [Additional CHC-COMP and VMT models](RESEARCH_STATUS.md): submitted for review; no organizer certification claimed.
-- [GBD SAT correction — PR #3](https://github.com/Udopia/gbd-data/pull/3): **open**; `vdwb_k6_n400` satisfying assignment and proposed metadata correction.
+- [SAT witness for benchmark `vdwb_k6_n400`](https://github.com/satcompetition/2026/issues/2): a publicly supplied assignment of 400 variables, reported to satisfy **31,600/31,600 clauses**, plus a negative control. [GBD PR #3](https://github.com/Udopia/gbd-data/pull/3) was **closed without merge on 11 Nov 2026**, with no stated maintainer verdict; classification adoption is **not confirmed**. [Evidence and status explained](research/CASE_SAT_VDWB_K6_N400.md).
 - [SYNTCOMP parity witness](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1): independently checkable author-side evidence, without claiming a competition result.
 
 ## Other public research records — distinct verification states
