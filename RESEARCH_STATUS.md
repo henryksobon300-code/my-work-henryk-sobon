@@ -1,6 +1,6 @@
 # Research contributions — evidence and status
 
-**Henryk Soboń** · Last reviewed: 24 October 2026
+**Henryk Soboń** · Base ledger reviewed 24 October 2026; selected GitHub status additions verified 11 November 2026
 
 For the expanded inventory of research experiments and pending full public proof packages, see the [publication-status register](research/PUBLICATION_STATUS.md). A recorded test or draft does not upgrade its prior independent-review status.
 
