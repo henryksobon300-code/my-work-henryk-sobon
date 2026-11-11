@@ -41,6 +41,8 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 
 ## Ongoing external review
 
+- [qLDPC exact-distance certificates for two n=180 CSS codes — PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336): **Draft, not merged (checked 11 Nov 2026)**. Two publicly published third-party programs reported completed searches in both CSS sectors for both codes (8/8 recorded runs), with proposed `solver`-level certificates and replay script. GitHub CI checks passed; **maintainer review and official exact-distance adoption are pending**. No private MathemaSpace engine code is in this PR.
+
 - [CHC-COMP: eight quic3 SAT models — issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11): **open**, with author-side validation and negative controls; awaiting external adoption.
 - [Additional CHC-COMP and VMT models](RESEARCH_STATUS.md): submitted for review; no organizer certification claimed.
 - [GBD SAT correction — PR #3](https://github.com/Udopia/gbd-data/pull/3): **open**; `vdwb_k6_n400` satisfying assignment and proposed metadata correction.
@@ -64,4 +66,4 @@ I distinguish: **(1)** code merged into a third-party repository, **(2)** findin
 
 For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [curated public outcomes index](research/RESULTS_INDEX.md) collects substantive accepted results, outstanding validation requests and selected experiments. Superseded and rejected attempts are not advertised as discoveries. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
-*Portfolio documentation updated: 2 November 2026. Individual external-review statuses retain their stated verification dates; this update does not imply a fresh scientific replay.*
+*Portfolio documentation updated: 11 November 2026 (new qLDPC PR #5336 and GitHub-status review). Other records retain their individually stated verification dates; this update does not imply a fresh scientific replay.*
