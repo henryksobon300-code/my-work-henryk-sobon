@@ -75,28 +75,11 @@ In either VV graph, the six signed generators are distinct and none is the ident
 
 For hypothesis 4 one can reason algebraically: `|{u,v} Δ P_r({u,v})|=2` means that `u` and `v` are adjacent along that permutation's 20-cycle. Simultaneous adjacency for all three distinct signed generators is impossible. Independently, the checker exhausts all `binom(100,2)=4950` CC pairs in each sector and finds zero pairs satisfying all three size-two conditions.
 
-### The one-CC case and the role of original V13
+### Independent one-CC graph-distance check
 
-The assistant supplies the observable family `(i,j)↦j mod m`, for `m=1,2,4,5,10,20`, and the actual six generator transitions on the 100 states. The unchanged V13 constructs a Moore quotient and checks the bridge for every candidate. There are 12 minimization calls and 12 verification calls; every complete input and output is stored in `results/engine_io.jsonl`.
+For the one-CC case, the lower bound can be established using only the publicly specified finite graphs. The independent checker builds the 100-vertex VV incidence graphs from the sparse check matrices and computes all-pairs shortest-path distances. For the possible CC displacements, its reported minimum required VV path-cost sum is seven in each sector, exceeding the budget available to an operator of total weight at most five.
 
-A verified bridge maps every original graph walk to a quotient walk of the same length. Quotient distance is therefore a **lower** bound on the original distance. This direction of the inequality matters: an abstraction may introduce shorter paths, so it cannot by itself certify an upper bound for the original graph.
-
-For `m=20`, quotient steps in the X-check sector are `±1,±1,±7`, and the three CC displacements are `±1,±3,±3`. Their shortest quotient distances are `1,3,3`, summing to seven. For the Z-check sector the quotient steps are `±1,±3,±3`, while the CC displacements are `±1,±1,±7`. The distances are `1,1,3`, summing to five. Both establish hypothesis 3. The adapter obtains these bounds from the returned quotient transitions and actual CC endpoints for **all 100 starting coordinates**, rather than hardcoding the answer.
-
-The coarser quotients are valid bridges but do not give a sufficiently large lower bound:
-
-| m | X-check required VV, lower bound | Z-check required VV, lower bound | Enough to exclude weight ≤5? |
-|---|---:|---:|---|
-| 1 | 0 | 0 | no |
-| 2 | 3 | 3 | no |
-| 4 | 3 | 3 | no |
-| 5 | 3 | 3 | no |
-| 10 | 3 | 3 | no |
-| 20 | 7 | 5 | yes |
-
-This is failure of a sufficient-bound test, not evidence that the coarse bridge is incorrect or that the original problem is UNSAT. The independent checker does not use phase quotients for this mathematical step: all-pairs distances in the full 100-vertex block graphs give minimum path-cost sums seven in **both** sectors, also sufficient. Thus the proof survives an independent implementation without V13.
-
-V13 does not discover the group, observable, graph lemma, or quantum-code construction. Its demonstrated role is finite bridge construction and checking. This experiment does not establish that it is necessary for the proof, faster than competing methods, or a universal invention system.
+This finite graph-distance check is sufficient for hypothesis 3 and does not depend on any proprietary research engine, abstraction implementation or private intermediate state. The public result concerns this fixed mathematical instance; it makes no claim about the novelty, generality, speed or necessity of the research tooling used during its discovery.
 
 ## 5. From the lower bound to exact quantum distance
 
