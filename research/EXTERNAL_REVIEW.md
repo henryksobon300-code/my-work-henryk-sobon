@@ -4,7 +4,7 @@
 
 This page records review that a visitor can independently inspect in **public primary sources**. Private correspondence is indexed separately and is **not posted or quoted without permission**. Technical correspondence is not equivalent to formal peer review.
 
-## Independently inspected and accepted contributions
+## Public independent checks and accepted changes
 
 ### Campaign 4 — qcode-discovery
 
@@ -21,6 +21,13 @@ This page records review that a visitor can independently inspect in **public pr
 ### Two binary-CHC benchmark corrections
 
 [Original report #1](https://github.com/aaronbembenek/binary-chc-problems/issues/1) includes the submitted evidence and the completed maintainer correction of two specific `demo/06` verdicts.
+
+### Ten decomposable Campaign 4 CSS records
+
+I reported ten Campaign 4 CSS records that split into smaller code blocks. Vincent Russo rebuilt all 39 inputs and independently confirmed exactly those ten decompositions. The qLDPC Challenge verifier already checks connectedness.
+
+- [Original issue #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942)
+- [Vincent Russo's independent verification](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835)
 
 ## Other expert conversations — restricted to private records
 

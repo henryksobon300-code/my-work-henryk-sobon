@@ -14,12 +14,13 @@ This is a **curated index of substantive public results and review requests**, n
 | A01 | qLDPC verifier: GF(2) CSS row-space intersection diagnostic | [My PR #2740](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740) · [review](https://github.com/unitaryfoundation/qldpc-challenge/pull/2740#pullrequestreview-5405628122) · [case study](CASE_QEC_INTERSECTION.md) | **Merged 4 Oct 2026.** Applied known identity with tests. |
 | A02 | Campaign 4: 5 exact-distance status transfers for permutation-equivalent CSS codes | [My PR #11](https://github.com/qiskit-community/qcode-discovery/pull/11) · [reviewer confirmation](https://github.com/qiskit-community/qcode-discovery/pull/11#issuecomment-6368684584) · [case study](CASE_QCODE_CAMPAIGN4.md) | **Merged 23 Oct 2026.** Independent review and merge. |
 
-## Confirmed findings that led to maintainer changes (2 distinct issues)
+## Maintainer-confirmed findings (3 distinct issues)
 
 | ID | Scope | Evidence | Result |
 | --- | --- | --- | --- |
 | B01 | 4 previously unresolved quantum code equivalence clusters | [My issue #2643](https://github.com/unitaryfoundation/qldpc-challenge/issues/2643) · [maintainer's PR #2702](https://github.com/unitaryfoundation/qldpc-challenge/pull/2702) · [case study](CASE_QEC_FOUR_CLUSTERS.md) | **Issue completed / maintainer PR merged 3 Oct 2026.** The PR is the maintainer's work, not mine. |
 | B02 | 2 bit-vector CHC demo/06 instances O0/O2 have UNSAT certificates | [My issue #1](https://github.com/aaronbembenek/binary-chc-problems/issues/1) · [original public issue and evidence](https://github.com/aaronbembenek/binary-chc-problems/issues/1) | **Completed 12 Oct 2026.** Maintainer confirmed verdicts and corrected expected results. |
+| B03 | Structural decomposition of ten Campaign 4 CSS records | [My issue #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942) · [independent check](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835) | **Independently confirmed 12 Oct 2026.** Vincent Russo rebuilt all 39 records and confirmed exactly the ten reported decompositions. The verifier's connectedness checks already covered these cases. |
 
 ## Public evidence awaiting independent adoption or confirmation (six issues; one active PR and one PR closed without merge)
 
@@ -31,7 +32,7 @@ This is a **curated index of substantive public results and review requests**, n
 | D04 | CHC-COMP: `goal71` model | [Benchmark issue #9](https://github.com/chc-comp/chc-comp26-benchmarks/issues/9) | **Open.** Awaiting third-party confirmation. |
 | D05 | VMT/CHC: two array initialization models | [Benchmark issue #1](https://github.com/chc-comp/vmt-chc-benchmarks/issues/1) | **Open.** Awaiting third-party confirmation. |
 | D06 | SYNTCOMP parity-game witness and five-instance provenance | [Own issue #1](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1) · [author-side research record](SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md) | **Open (author archive).** No competition certification or ranking established. |
-| D07 | Two n=180 CSS code entries: proposed exact distance 14 in X and Z | [My PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) · [public independent-solver reproduction](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336/files) | **Draft, no review or merge (11 Nov 2026).** Eight completed searches reported by two public third-party solvers; certificate level `solver`, not proof-log or formal. All required PR checks passed. No code-construction claim and no private MathemaSpace source. |
+| D07 | Two n=180 CSS code entries: proposed exact distance 14 in X and Z | [My PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) · [public independent-solver reproduction](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336/files) | **Draft, no review or merge (11 Nov 2026).** Eight completed searches reported by two public third-party solvers; certificate level `solver`, not proof-log or formal. Prose, lint, format and replay workflows passed. Full verify was cancelled. No code-construction claim and no private MathemaSpace source. |
 
 ## Other computational projects and research threads
 
@@ -59,7 +60,7 @@ The main website lists only merged contributions, maintainer-confirmed findings,
 
 An open issue is not proof of acceptance, but it is also not proof of rejection. A closed issue may be fixed, declined, duplicated or merely administratively closed; review the actual resolution before changing status. An earlier discovery by another author must be attributed, and any incremental contribution described narrowly.
 
-**Audit boundary (11 November 2026, selected statuses only):** current GitHub state was checked for qLDPC PR #2740, qcode-discovery PR #11, qLDPC certificate PR #4226, GBD PR #3, CHC-COMP issues #9–11, VMT/CHC issue #1, SAT Competition issue #2 and SciPy issue #26549. The three PRs #2740, #11 and #4226 are merged; GBD PR #3 was **closed without merge** on 11 Nov 2026 with no explanatory review; the original SAT Competition issue #2 remains open. The listed other benchmark/software issues remain open. The new PR #5336 was checked on 11 November: open Draft, CI PASS, no review. This check is not a comprehensive historical audit of all email discussions, attachments or closed submissions.
+**Audit boundary (11 November 2026, selected statuses only):** current GitHub state was checked for qLDPC PR #2740, qcode-discovery PR #11, qLDPC certificate PR #4226, GBD PR #3, CHC-COMP issues #9–11, VMT/CHC issue #1, SAT Competition issue #2 and SciPy issue #26549. The three PRs #2740, #11 and #4226 are merged; GBD PR #3 was **closed without merge** on 11 Nov 2026 with no explanatory review; the original SAT Competition issue #2 remains open. The listed other benchmark/software issues remain open. The new PR #5336 was checked on 11 November: open Draft, prose and other completed checks passed, full verify cancelled, no review. This check is not a comprehensive historical audit of all email discussions, attachments or closed submissions.
 
 ## External review and correspondence
 
