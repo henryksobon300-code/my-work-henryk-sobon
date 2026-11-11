@@ -19,6 +19,7 @@ This ledger separates contributions merged into external repositories, maintaine
 
 | Record | Evidence | Status / claim boundary |
 | --- | --- | --- |
+| QEC-07 | [Two n=180 CSS distance-14 certificates, author PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) | **Draft, open, not merged (checked 11 Nov 2026)**. Two independent *public third-party* solvers, `exactA` and `exactB`, reported complete searches excluding lighter operators in X/Z for both codes (8/8); `solver`-level certificates and a public replay driver were submitted. CI PASS does not imply mathematical acceptance; maintainers have not reviewed or merged the claims. Private MathemaSpace engine source is excluded. |
 | SAT-01 | [SAT Competition issue #2](https://github.com/satcompetition/2026/issues/2) · [GBD PR #3](https://github.com/Udopia/gbd-data/pull/3) | **GBD PR open, checked 24 Oct 2026.** Author-side 400-variable assignment reports all 31,600 clauses satisfied. Proposed database change `unknown` → `sat` is not yet merged. |
 | CHC-02 | [Eight quic3 benchmarks, CHC-COMP issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11) | **Open, checked 31 Oct 2026.** Public model ZIP, exact generator, hashes and 8/8 author-side checks are linked in [issue #11 reproduction guide](research/chc_comp_issue11/README.md). Current-organizer validator previously failed to return a result in the reviewer’s time window; no exact reproduction command was provided. The 2026 YAML files already say `expected_verdict: true` only as auto-added placeholders, whereas the 2025 metadata lacks the verdict. No official model replay or final correction is claimed. |
 | CHC-03 | [O3 array benchmark, CHC-COMP issue #10](https://github.com/chc-comp/chc-comp26-benchmarks/issues/10) | **Open, checked 24 Oct 2026.** Author-side validation claim; external acceptance pending. |
@@ -36,7 +37,7 @@ These records have publicly accessible technical artifacts with different levels
 | SCIPY-01 | [Issue #26549](https://github.com/scipy/scipy/issues/26549) · [public patch](research/scipy-26549/laplacian_dtype_promotion.patch) | Author-side local regression tests reported. No full upstream SciPy CI or maintainer acceptance demonstrated here. |
 | MATH-01 | [BLR 26-family proof/certificate package](research/blr-positivity-26-families/) | An all-`k` partial-positivity argument is proposed for `j=3,…,28`; checks and scripts are public, but a mathematical review and prior-work comparison are needed. Not a proof of the full positivity conjecture. |
 
-External statuses for the first section were reviewed on 24 October 2026. Adding this section on 31 October does not retrospectively recertify those submissions.
+External statuses for the accepted-work section were reviewed on 24 October 2026. The new QEC-07 row was checked on 11 November; it does not retrospectively recertify other submissions.
 
 ## Documentation principles
 
