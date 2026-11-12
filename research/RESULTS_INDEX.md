@@ -46,12 +46,12 @@ These are **not automatically included in the merged-contribution count**. A mor
 | **QEC-11 — Lower leading decoding error at fixed `[[980,398,6]]` parameters** | [Proof, matrices and Python replay](qldpc-980-low-noise/). At small independent depolarizing noise with perfect syndrome measurement and ML recovery, the leading coefficient is 3.869% smaller than for the existing code in PR #3867. |
 | **SciPy graph Laplacian integer overflow** | [Original issue #26549](https://github.com/scipy/scipy/issues/26549) · [proposed patch](scipy-26549/laplacian_dtype_promotion.patch). Local test evidence is reported; upstream acceptance/full CI are not claimed. |
 | **BLR determinant positivity: 26 proposed infinite families** | [Public arguments, scripts and finite certificates](blr-positivity-26-families/). Proposed partial result requires independent mathematical review; not a proof of the full conjecture. |
-| New CSS code equivalence pairs `10-2-3 / 10-2-3-b` and `12-2-4 / 12-2-4-b` | Reported author-side certificate package (22 Oct 2026); **not yet incorporated in external repository**. Private source and current public-package review should remain separate. |
+| **QEC-12 — Two CSS code equivalence pairs** | [Explicit permutations and replay](qldpc-css-equivalences/) for `10-2-3` / `10-2-3-b` and `12-2-4` / `12-2-4-b`. Both X and Z row spaces agree at the pinned catalogue revision. |
 | Baum–Sweet / TheoremDB P2422 Hankel calculation | Reported finite modular non-vanishing checks for orders 1–30,000 in two fields. **Not a proof for all orders; novelty and literature priority unconfirmed.** Do not call this problem solved. |
 
 ### Recorded material not yet hosted with full public replay files
 
-The [publication and evidence-status register](PUBLICATION_STATUS.md) tracks **9 additional research records**, including Array-Generator and NetworkX cases and an unreviewed BLR range extension. Each record describes its evidence and review status.
+The [publication and evidence-status register](PUBLICATION_STATUS.md) tracks **8 additional research records**, including Array-Generator and NetworkX cases and an unreviewed BLR range extension. Each record describes its evidence and review status.
 
 Their source correspondence and local notebooks are **not equivalent to public GitHub proof packages**. No independent replay or acceptance is implied; private engine code remains unhosted.
 

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>QEC-12 — Two equivalent pairs of CSS catalogue entries | Henryk Soboń</title>
+<meta name="description" content="Explicit qubit permutations and reproducible binary row-space checks for two qLDPC Challenge catalogue pairs.">
+<link rel="canonical" href="https://henryksobon300-code.github.io/my-work-henryk-sobon/research/qldpc-css-equivalences/">
+<style>
+:root{color-scheme:dark;--bg:#0e1420;--panel:#151e2c;--ink:#f0f3f9;--muted:#b6c2d3;--link:#9dd0ff;--line:#344255}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--link);text-underline-offset:3px}a:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+header,footer{border-bottom:1px solid var(--line)}footer{border-bottom:0;border-top:1px solid var(--line)}
+.wrap{max-width:880px;padding:0 24px;margin:auto}header .wrap,footer .wrap{padding-top:18px;padding-bottom:18px}
+main.wrap{padding-top:44px;padding-bottom:50px}.meta{font-size:.85rem;color:var(--muted)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;letter-spacing:-.035em;margin:12px 0 18px}
+h2{font-size:1.38rem;margin:0 0 12px}p{margin:0 0 14px;color:var(--muted)}
+section{margin-top:32px}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;background:var(--panel)}
+td,th{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line)}td strong{color:#b5dfcc}
+pre,details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}pre{overflow:auto}
+details+details{margin-top:10px}summary{cursor:pointer;font-weight:650}details p{margin:12px 0 8px}
+.supports{margin-bottom:0}.supports dt{font-weight:600}.supports dd{margin:0 0 9px;overflow-wrap:anywhere}
+@media(max-width:600px){.wrap{padding-right:19px;padding-left:19px}main.wrap{padding-top:30px}td,th{padding:8px}}
+</style>
+</head>
+<body>
+<header><nav class="wrap" aria-label="Navigation"><a href="../../projects.html#qec-12">Research results</a></nav></header>
+<main class="wrap">
+<p class="meta">QEC-12 · Henryk Soboń · 13 November 2026</p>
+<h1>Two equivalent pairs of CSS catalogue entries</h1>
+<p>In each pair, one qubit permutation maps both the X and Z stabilizer row spaces onto those of the second entry. Each list uses zero-based indices, with source qubit <em>i</em> mapped to position <em>p[i]</em> in the target.</p>
+<div class="table-wrap">
+<table aria-label="Verified CSS permutations">
+<thead><tr><th scope="col">Source → target</th><th scope="col">Permutation</th><th scope="col">X ranks</th><th scope="col">Z ranks</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="https://github.com/unitaryfoundation/qldpc-challenge/blob/30953fadd41e29f83d1186976d95cddc87cfb4dd/codes/10-2-3.json"><code>10-2-3.json</code></a> → <a href="https://github.com/unitaryfoundation/qldpc-challenge/blob/30953fadd41e29f83d1186976d95cddc87cfb4dd/codes/10-2-3-b.json"><code>10-2-3-b.json</code></a></th><td><code>[0, 6, 4, 2, 8, 5, 9, 3, 1, 7]</code></td><td>4/4/4</td><td>4/4/4</td></tr>
+<tr><th scope="row"><a href="https://github.com/unitaryfoundation/qldpc-challenge/blob/30953fadd41e29f83d1186976d95cddc87cfb4dd/codes/12-2-4.json"><code>12-2-4.json</code></a> → <a href="https://github.com/unitaryfoundation/qldpc-challenge/blob/30953fadd41e29f83d1186976d95cddc87cfb4dd/codes/12-2-4-b.json"><code>12-2-4-b.json</code></a></th><td><code>[0, 1, 4, 5, 8, 9, 3, 2, 7, 6, 11, 10]</code></td><td>5/5/5</td><td>5/5/5</td></tr>
+</tbody>
+</table>
+</div>
+<section aria-labelledby="proof">
+<h2 id="proof">Row-space checks</h2>
+<p>The qLDPC Challenge verifier reports the ranks of the permuted source, the target and their stacked matrix. All three ranks agree in each sector. Enumerating every vector in each row space gives the same verdict. Swapping the first two images of either permutation breaks the equality in both sectors.</p>
+<p><a href="https://github.com/unitaryfoundation/qldpc-challenge/blob/30953fadd41e29f83d1186976d95cddc87cfb4dd/research/audits/permutation_equivalence.py">Challenge permutation verifier</a> · <a href="https://github.com/unitaryfoundation/qldpc-challenge/commit/30953fadd41e29f83d1186976d95cddc87cfb4dd">Pinned catalogue revision</a></p>
+</section>
+<section aria-labelledby="replay">
+<h2 id="replay">Reproduce the checks</h2>
+<p><a href="verify.py" download>Download the Python verifier</a>. The script uses Python 3.10 or newer and its standard library. It retrieves the four pinned catalogue files and checks their SHA-256 values before testing the permutations.</p>
+<pre><code>python3 verify.py</code></pre>
+<p>For offline replay, save the four linked JSON files in one folder and pass that folder with <code>--source-dir</code>.</p>
+</section>
+<section aria-labelledby="scope">
+<h2 id="scope">Catalogue scope</h2>
+<p>The equivalence is between the stabilizer groups. The entries carry separate layouts, circuits or distance certificates. Catalogue changes are subject to maintainer review.</p>
+</section>
+</main>
+<footer><div class="wrap"><a href="../../projects.html#qec-12">Back to the research catalogue</a></div></footer>
+</body>
+</html>

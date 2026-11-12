@@ -27,14 +27,9 @@ A private scientific email discussing an idea is not equivalent to independent v
 
 ## Finite calculations and code-equivalence investigations
 
-### QEC-DATA-02 — Additional CSS data equivalence checks
+### QEC-DATA-02 — Two CSS catalogue equivalences (QEC-12)
 
-**Status:** archived author-side certificates; not upstream merged and not independently reviewed for this register.
-
-- Reported pairs: `10-2-3` versus `10-2-3-b`, and `12-2-4` versus `12-2-4-b`.
-- An author-side archive contains mathematical consistency checks and negative controls. Its private methods and source are not provided here.
-- **Limit:** this is equivalence of specific database entries, not discovery of new `[[n,k,d]]` code parameters or a new theorem.
-- The archive has not been independently rechecked for publication through this page. Private provenance and algorithmic history remain unpublished.
+The [public permutations and verifier](qldpc-css-equivalences/) cover `10-2-3` / `10-2-3-b` and `12-2-4` / `12-2-4-b`. The Challenge verifier and full row-space enumeration both confirm the equivalences on the pinned catalogue data. External review is pending.
 
 ### MATH-FIN-01 — Baum–Sweet / TheoremDB P2422
 
