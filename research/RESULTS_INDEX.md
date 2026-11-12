@@ -43,6 +43,7 @@ These are **not automatically included in the merged-contribution count**. A mor
 | **CSS code `[[1000,406,6]]` distance certificate** | [Public proof argument](qldpc-1000-406-d6/PROOF.md) · [verifier archive](../MathemaSpace_D6_PUBLIC.zip) · [original author PR #3863](https://github.com/unitaryfoundation/qldpc-challenge/pull/3863). Original code and weight-six witnesses belong to @hirobumii; Henryk Soboń's additional proof was independently checked by the original code author, formalized in Lean and accepted as a [formal distance-6 certificate in merged PR #4226](https://github.com/unitaryfoundation/qldpc-challenge/pull/4226) on 30 Oct 2026. The formal certificate PR was authored by @hirobumii, not Soboń. |
 | **QEC-09 — Two tighter Campaign 7 PBB distance bounds** | [Public certificates and verifier](qcode-distance-bounds/). Reproducible author-side upper bounds for the two catalogue records. |
 | **QEC-10 — Weight-72 logical for `684-6-77`** | [Certificate and verifier](qldpc-684-distance-bound/). The explicit Z witness establishes `d≤72` on the existing code. |
+| **QEC-11 — Lower leading decoding error at fixed `[[980,398,6]]` parameters** | [Proof, matrices and Python replay](qldpc-980-low-noise/). At small independent depolarizing noise with perfect syndrome measurement and ML recovery, the leading coefficient is 3.869% smaller than for the existing code in PR #3867. |
 | **SciPy graph Laplacian integer overflow** | [Original issue #26549](https://github.com/scipy/scipy/issues/26549) · [proposed patch](scipy-26549/laplacian_dtype_promotion.patch). Local test evidence is reported; upstream acceptance/full CI are not claimed. |
 | **BLR determinant positivity: 26 proposed infinite families** | [Public arguments, scripts and finite certificates](blr-positivity-26-families/). Proposed partial result requires independent mathematical review; not a proof of the full conjecture. |
 | New CSS code equivalence pairs `10-2-3 / 10-2-3-b` and `12-2-4 / 12-2-4-b` | Reported author-side certificate package (22 Oct 2026); **not yet incorporated in external repository**. Private source and current public-package review should remain separate. |
@@ -50,7 +51,7 @@ These are **not automatically included in the merged-contribution count**. A mor
 
 ### Recorded material not yet hosted with full public replay files
 
-The [publication and evidence-status register](PUBLICATION_STATUS.md) tracks **10 additional research records**, including the `[[980,398,6]]` candidate, Array-Generator and NetworkX cases, and an unreviewed BLR range extension. Each record describes its evidence and review status.
+The [publication and evidence-status register](PUBLICATION_STATUS.md) tracks **9 additional research records**, including Array-Generator and NetworkX cases and an unreviewed BLR range extension. Each record describes its evidence and review status.
 
 Their source correspondence and local notebooks are **not equivalent to public GitHub proof packages**. No independent replay or acceptance is implied; private engine code remains unhosted.
 

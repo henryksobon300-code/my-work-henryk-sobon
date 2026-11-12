@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>QEC-11 — Lower leading decoding error at fixed [[980,398,6]] parameters | Henryk Soboń</title>
+<meta name="description" content="An exact comparison of two 980-qubit CSS lifted-product codes under independent depolarizing noise and ideal decoding.">
+<link rel="canonical" href="https://henryksobon300-code.github.io/my-work-henryk-sobon/research/qldpc-980-low-noise/">
+<style>
+:root{color-scheme:dark;--bg:#0e1420;--panel:#151e2c;--ink:#f0f3f9;--muted:#b6c2d3;--link:#9dd0ff;--line:#344255}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--link);text-underline-offset:3px}a:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+header,footer{border-bottom:1px solid var(--line)}footer{border-bottom:0;border-top:1px solid var(--line)}
+.wrap{max-width:880px;padding:0 24px;margin:auto}header .wrap,footer .wrap{padding-top:18px;padding-bottom:18px}
+main.wrap{padding-top:44px;padding-bottom:50px}.meta{font-size:.85rem;color:var(--muted)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;letter-spacing:-.035em;margin:12px 0 18px}
+h2{font-size:1.38rem;margin:0 0 12px}p{margin:0 0 14px;color:var(--muted)}
+section{margin-top:32px}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;background:var(--panel)}
+td,th{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line)}td strong{color:#b5dfcc}
+pre,details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}pre{overflow:auto}
+details+details{margin-top:10px}summary{cursor:pointer;font-weight:650}details p{margin:12px 0 8px}
+.supports{margin-bottom:0}.supports dt{font-weight:600}.supports dd{margin:0 0 9px;overflow-wrap:anywhere}
+@media(max-width:600px){.wrap{padding-right:19px;padding-left:19px}main.wrap{padding-top:30px}td,th{padding:8px}}
+</style>
+</head>
+<body>
+<header><nav class="wrap" aria-label="Navigation"><a href="../../projects.html#qec-11">Research results</a></nav></header>
+<main class="wrap">
+<p class="meta">QEC-11 · Henryk Soboń · 12 November 2026</p>
+<h1>Lower leading decoding error at fixed [[980,398,6]] parameters</h1>
+<p>A distinct CSS lifted-product code has a <strong>3.869% smaller leading logical failure coefficient</strong> than the qLDPC Challenge code in PR #3867. The calculation assumes independent depolarizing noise, perfect syndrome measurements and maximum-likelihood recovery. The coefficient describes the limit as the physical error probability <em>p</em> approaches zero.</p>
+<div class="table-wrap">
+<table aria-label="Exact comparison of both CSS codes">
+<thead><tr><th scope="col">Quantity</th><th scope="col">Code from PR #3867</th><th scope="col">Candidate</th></tr></thead>
+<tbody>
+<tr><th scope="row">Parameters and maximum check weight</th><td>[[980,398,6]], 8</td><td>[[980,398,6]], 8</td></tr>
+<tr><th scope="row">Weight-six nontrivial Pauli operators</th><td>20,027</td><td>19,110</td></tr>
+<tr><th scope="row">Unavoidable weight-three failures</th><td>171,878</td><td>165,228</td></tr>
+<tr><th scope="row">Coefficient of <em>p</em><sup>3</sup></th><td>171,878/27</td><td><strong>165,228/27</strong></td></tr>
+</tbody>
+</table>
+</div>
+<section aria-labelledby="proof">
+<h2 id="proof">Proof and results</h2>
+<p>Each ambiguous weight-three syndrome has multiple equally likely logical alternatives. A class of size <em>r</em> contributes <em>r</em> − 1 unavoidable failures. A classification of all nonzero kernel supports through weight six makes this an exact count. It also proves distance six for both codes. The unequal Pauli counts establish inequivalence under qubit permutations and single-qubit Clifford operations.</p>
+<p><a href="https://github.com/henryksobon300-code/my-work-henryk-sobon/blob/main/research/qldpc-980-low-noise/PROOF.md">Read the full proof</a> · <a href="candidate.json" download>Download the candidate matrix</a> · <a href="results.json" download>Download the exact counts</a></p>
+</section>
+<section aria-labelledby="replay">
+<h2 id="replay">Reproduce the calculation</h2>
+<p><a href="replay.zip" download>Download matrices and replay scripts (44 KB)</a>. Extract the ZIP and run the command below. Python 3.10 or later and its standard library suffice.</p>
+<pre><code>python3 replay.py</code></pre>
+<details><summary>Archive SHA-256</summary><pre><code>06962654cee908f81b4eae017498222bc67ac99987539dd352e33b3ddb544509</code></pre></details>
+</section>
+<section aria-labelledby="source">
+<h2 id="source">Source and review status</h2>
+<p>@hirobumii contributed the comparison code in <a href="https://github.com/unitaryfoundation/qldpc-challenge/pull/3867">qLDPC Challenge PR #3867</a>. Henryk Soboń developed the candidate and the comparison with AI assistance. Two separate implementations agree on the counts. External review of the candidate is pending.</p>
+</section>
+</main>
+<footer><div class="wrap"><a href="../../projects.html#qec-11">Back to the research catalogue</a></div></footer>
+</body>
+</html>

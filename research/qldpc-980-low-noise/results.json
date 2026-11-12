@@ -1,0 +1,227 @@
+{
+  "baseline": {
+    "X": {
+      "cycles_per_block": 3185,
+      "minimum_pure_logicals": 9576,
+      "VV_six_cycle_logicals": 9555,
+      "one_CC_six_logicals": 21,
+      "ambiguous_weight3_patterns": 156205,
+      "ambiguous_syndromes": 73395,
+      "class_histogram": {
+        "2": 67074,
+        "3": 3521,
+        "4": 2653,
+        "6": 147
+      },
+      "unavoidable_weight3_failures": 82810,
+      "minimum_one_CC_VV_cost": 5,
+      "CC_permutation_cycle_lengths": [
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      ],
+      "representative_triples_checked": 4192244,
+      "minimum_pure_distance": 6,
+      "weight_le_6_stabilizers": 0
+    },
+    "Z": {
+      "cycles_per_block": 3479,
+      "minimum_pure_logicals": 10451,
+      "VV_six_cycle_logicals": 10437,
+      "one_CC_six_logicals": 14,
+      "ambiguous_weight3_patterns": 168427,
+      "ambiguous_syndromes": 79359,
+      "class_histogram": {
+        "2": 74060,
+        "3": 1771,
+        "4": 3087,
+        "6": 441
+      },
+      "unavoidable_weight3_failures": 89068,
+      "minimum_one_CC_VV_cost": 5,
+      "CC_permutation_cycle_lengths": [
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      ],
+      "representative_triples_checked": 4192244,
+      "minimum_pure_distance": 6,
+      "weight_le_6_stabilizers": 0
+    },
+    "minimum_Pauli_distance": 6,
+    "total_weight6_Pauli_logicals": 20027,
+    "mixed_weight6_Pauli_logicals": 0,
+    "leading_depolarizing_numerator": 171878,
+    "leading_depolarizing_denominator": 27,
+    "ranks": {
+      "X": 291,
+      "Z": 291
+    },
+    "max_check_weight": 8
+  },
+  "candidate": {
+    "X": {
+      "cycles_per_block": 3185,
+      "minimum_pure_logicals": 9555,
+      "VV_six_cycle_logicals": 9555,
+      "one_CC_six_logicals": 0,
+      "ambiguous_weight3_patterns": 155820,
+      "ambiguous_syndromes": 73206,
+      "class_histogram": {
+        "2": 66885,
+        "3": 3528,
+        "4": 2646,
+        "6": 147
+      },
+      "unavoidable_weight3_failures": 82614,
+      "minimum_one_CC_VV_cost": 7,
+      "CC_permutation_cycle_lengths": [
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      ],
+      "representative_triples_checked": 4192244,
+      "minimum_pure_distance": 6,
+      "weight_le_6_stabilizers": 0
+    },
+    "Z": {
+      "cycles_per_block": 3185,
+      "minimum_pure_logicals": 9555,
+      "VV_six_cycle_logicals": 9555,
+      "one_CC_six_logicals": 0,
+      "ambiguous_weight3_patterns": 155820,
+      "ambiguous_syndromes": 73206,
+      "class_histogram": {
+        "2": 66885,
+        "3": 3528,
+        "4": 2646,
+        "6": 147
+      },
+      "unavoidable_weight3_failures": 82614,
+      "minimum_one_CC_VV_cost": 7,
+      "CC_permutation_cycle_lengths": [
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      ],
+      "representative_triples_checked": 4192244,
+      "minimum_pure_distance": 6,
+      "weight_le_6_stabilizers": 0
+    },
+    "minimum_Pauli_distance": 6,
+    "total_weight6_Pauli_logicals": 19110,
+    "mixed_weight6_Pauli_logicals": 0,
+    "leading_depolarizing_numerator": 165228,
+    "leading_depolarizing_denominator": 27,
+    "ranks": {
+      "X": 291,
+      "Z": 291
+    },
+    "max_check_weight": 8
+  },
+  "relative_leading_coefficient_reduction": {
+    "numerator": 475,
+    "denominator": 12277,
+    "percent": 3.86902337704651
+  },
+  "inequivalent_under_local_Clifford_and_permutation": true,
+  "method": "Independent low-pivot GF2; matrices only; meet-of-three-paths cycles; exhaustive ALL edge triples; finite-support lemma in PROOF.md.",
+  "elapsed_seconds": 17.867,
+  "ok": true
+}
