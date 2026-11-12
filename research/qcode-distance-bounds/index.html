@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>QEC-09 — Two tighter Campaign 7 distance bounds | Henryk Soboń</title>
+<meta name="description" content="Explicit Pauli witnesses and a Python verifier for two Campaign 7 non-CSS PBB codes in Qiskit qcode-discovery.">
+<link rel="canonical" href="https://henryksobon300-code.github.io/my-work-henryk-sobon/research/qcode-distance-bounds/">
+<style>
+:root{color-scheme:dark;--bg:#0e1420;--panel:#151e2c;--ink:#f0f3f9;--muted:#b6c2d3;--link:#9dd0ff;--line:#344255}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--link);text-underline-offset:3px}a:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+header,footer{border-bottom:1px solid var(--line)}footer{border-bottom:0;border-top:1px solid var(--line)}
+.wrap{max-width:880px;padding:0 24px;margin:auto}header .wrap,footer .wrap{padding-top:18px;padding-bottom:18px}
+main.wrap{padding-top:44px;padding-bottom:50px}.meta{font-size:.85rem;color:var(--muted)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;letter-spacing:-.035em;margin:12px 0 18px}
+h2{font-size:1.38rem;margin:0 0 12px}p{margin:0 0 14px;color:var(--muted)}
+section{margin-top:32px}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;background:var(--panel)}
+td,th{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line)}td strong{color:#b5dfcc}
+pre,details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}pre{overflow:auto}
+details+details{margin-top:10px}summary{cursor:pointer;font-weight:650}details p{margin:12px 0 8px}
+.supports{margin-bottom:0}.supports dt{font-weight:600}.supports dd{margin:0 0 9px;overflow-wrap:anywhere}
+@media(max-width:600px){.wrap{padding-right:19px;padding-left:19px}main.wrap{padding-top:30px}td,th{padding:8px}}
+</style>
+</head>
+<body>
+<header><nav class="wrap" aria-label="Navigation"><a href="../../projects.html#qec-09">Research results</a></nav></header>
+<main class="wrap">
+<p class="meta">QEC-09 · Henryk Soboń · 12 November 2026</p>
+<h1>Two tighter distance bounds for Campaign 7 codes</h1>
+<p>Explicit logical Pauli operators tighten the distance upper bounds for two non-CSS perturbed bivariate bicycle (PBB) codes in Qiskit’s <code>qcode-discovery</code> catalogue.</p>
+<div class="table-wrap"><table aria-label="Campaign 7 distance upper bounds">
+<thead><tr><th scope="col">Catalogue record</th><th scope="col">[[n,k]]</th><th scope="col">Catalogue upper bound</th><th scope="col">Verified upper bound</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="https://github.com/qiskit-community/qcode-discovery/blob/da9178fd65ffc2eec3dab46089f9879eb02d4b23/results/campaign7_publication_merged.jsonl#L14"><code>f0fdaa4514a87ad2</code></a></th><td>[[360,10]]</td><td>22</td><td><strong>16</strong></td></tr>
+<tr><th scope="row"><a href="https://github.com/qiskit-community/qcode-discovery/blob/da9178fd65ffc2eec3dab46089f9879eb02d4b23/results/campaign7_publication_merged.jsonl#L28"><code>331facaa1752ec16</code></a></th><td>[[180,6]]</td><td>20</td><td><strong>14</strong></td></tr>
+</tbody>
+</table></div>
+<p>These are upper bounds. The exact minimum distances remain open in this report. Upstream review is pending.</p>
+<section aria-labelledby="replay">
+<h2 id="replay">Reproduce the check</h2>
+<p><a href="VERIFY_TWO_TRUSTED_BOUNDS_PUBLIC_20261027.py" download>Download the Python verifier and both certificates</a>. The script uses only the Python 3 standard library.</p>
+<pre><code>python3 VERIFY_TWO_TRUSTED_BOUNDS_PUBLIC_20261027.py</code></pre>
+<p>Expected output is <code>PASS</code> for both records, with upper bounds 16 and 14. The verifier reconstructs the stabilizers from the public polynomials and checks their ranks, the witness weights and the two anticommuting pairs. For each record it rejects a damaged witness, an incorrect weight and a stabilizer substituted for the logical operator.</p>
+<p>The linked source records are pinned to commit <code>da9178f</code>. Both sets of polynomial parameters and catalogue bounds matched the upstream <code>main</code> data checked on 12 November 2026.</p>
+</section>
+<section aria-labelledby="proof">
+<h2 id="proof">Certificates</h2>
+<p>Each witness commutes with every stabilizer and anticommutes with a partner that also commutes with every stabilizer. A stabilizer would commute with the partner. Thus the witness is a nontrivial logical operator, and its weight bounds the distance from above.</p>
+<p>The two blocks use zero-based indices <code>block × (ℓ × m) + x × m + y</code>.</p>
+<details>
+<summary>Pauli certificate for <code>f0fdaa4514a87ad2</code></summary>
+<p>Stabilizer rank 350. The witness and its partner each have zero syndrome. Their symplectic product is 1.</p>
+<dl class="supports">
+<dt>Witness X support</dt><dd>Empty</dd>
+<dt>Witness Z support</dt><dd><code>20, 30, 32, 62, 73, 77, 107, 115, 158, 160, 170, 202, 215, 253, 255, 298</code></dd>
+<dt>Partner X support</dt><dd><code>1, 4, 6, 9, 19, 22, 24, 27, 37, 40, 42, 45, 55, 58, 60, 63, 73, 76, 78, 81, 91, 94, 96, 99, 109, 112, 114, 117, 127, 130, 132, 135, 145, 148, 150, 153, 163, 166, 168, 171</code></dd>
+<dt>Partner Z support</dt><dd><code>194, 197, 198, 199, 201, 202, 204, 207, 211, 212, 214, 215, 230, 233, 234, 235, 237, 238, 240, 243, 247, 248, 250, 251, 266, 269, 270, 271, 273, 274, 276, 279, 283, 284, 286, 287, 302, 305, 306, 307, 309, 310, 312, 315, 319, 320, 322, 323, 338, 341, 342, 343, 345, 346, 348, 351, 355, 356, 358, 359</code></dd>
+</dl>
+</details>
+<details>
+<summary>Pauli certificate for <code>331facaa1752ec16</code></summary>
+<p>Stabilizer rank 174. The witness and its partner each have zero syndrome. Their symplectic product is 1.</p>
+<dl class="supports">
+<dt>Witness X support</dt><dd>Empty</dd>
+<dt>Witness Z support</dt><dd><code>12, 22, 28, 46, 57, 67, 91, 102, 117, 122, 128, 143, 154, 159</code></dd>
+<dt>Partner X support</dt><dd><code>1, 4, 6, 9, 19, 22, 24, 27, 37, 40, 42, 45, 55, 58, 60, 63, 73, 76, 78, 81</code></dd>
+<dt>Partner Z support</dt><dd><code>93, 99, 101, 107, 111, 117, 119, 125, 129, 135, 137, 143, 147, 153, 155, 161, 165, 171, 173, 179</code></dd>
+</dl>
+</details>
+</section>
+</main>
+<footer><div class="wrap"><a href="../../projects.html#qec-09">Back to the research catalogue</a></div></footer>
+</body>
+</html>
