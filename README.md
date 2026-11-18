@@ -25,6 +25,18 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 - Certified five records as permutation-equivalent to an already exact `[[288,12,12]]` representative using explicit qubit maps, exact row-space checks and a replay verifier.
 - The audit covered 39 records in 29 equivalence classes. The change transfers exactness; it does not claim a newly discovered quantum code. [Read case study](research/CASE_QCODE_CAMPAIGN4.md).
 
+### 3. qLDPC Challenge — n=180 exact-distance research note
+
+- **Merged 18 November 2026** — [unitaryfoundation/qldpc-challenge PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336).
+- Merged a preliminary research note on two existing 180-qubit CSS codes and computational evidence related to their distance.
+- **Research note accepted; exact distance 14 is not thereby certified.** The PR explicitly leaves the official distance-confidence values unchanged.
+
+### 4. qLDPC Challenge — weight-72 logical witness submission
+
+- **PR merged 18 November 2026** — [unitaryfoundation/qldpc-challenge PR #5591](https://github.com/unitaryfoundation/qldpc-challenge/pull/5591).
+- Vincent Russo [independently checked](https://github.com/unitaryfoundation/qldpc-challenge/pull/5591#issuecomment-6979095564) the new nontrivial weight-72 Z logical witness: zero X syndrome and outside the Z stabilizer row space, establishing an **upper bound d ≤ 72** for the existing 684-qubit code.
+- **The catalog distance entry has not been updated:** the proposed second code file was removed because the board forbids duplicate stabilizer-group entries. The official entry still shows 75; a new correctly formatted distance-revision PR authored by me is required.
+
 ## Findings confirmed and acted on by maintainers
 
 ### Four duplicate qLDPC code clusters
@@ -41,7 +53,7 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 
 ## Ongoing external review
 
-- [qLDPC exact-distance certificates for two n=180 CSS codes — PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336): **Draft, not merged (checked 11 Nov 2026)**. Two publicly published third-party programs reported completed searches in both CSS sectors for both codes (8/8 recorded runs), with proposed `solver`-level certificates and replay script. GitHub CI checks passed; **maintainer review and official exact-distance adoption are pending**. No private MathemaSpace engine code is in this PR.
+- The [n=180 CSS research note — PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) was **merged 18 Nov 2026**, without adopting an exact-distance assertion. Details are listed above under merged author PRs. No private MathemaSpace code was included.
 
 - [CHC-COMP: eight quic3 SAT models — issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11): **open**, with author-side validation and negative controls; awaiting external adoption.
 - [Additional CHC-COMP and VMT models](RESEARCH_STATUS.md): submitted for review; no organizer certification claimed.
@@ -56,7 +68,7 @@ The following research outputs have **different** verification states. In partic
 - **SciPy graph Laplacian integer overflow.** [Original issue #26549](https://github.com/scipy/scipy/issues/26549) · [proposed patch](research/scipy-26549/laplacian_dtype_promotion.patch). Local tests are reported; upstream acceptance and full SciPy CI are not established.
 - **BLR determinant positivity — 26 candidate infinite families.** [Public proofs, finite certificates and independent checker](research/blr-positivity-26-families/). This is a proposed partial result that requires external mathematical review. It does not solve the full conjecture or imply the Riemann hypothesis.
 
-**Recorded results awaiting full public evidence:** the candidate `[[980,398,6]]`, a reported `d≤72` witness for the existing 684-qubit code, two further upper-bound witnesses for `[[360,10]]` and `[[180,6]]`, a proposed Array-Generator fix, a local NetworkX experiment and an unreviewed BLR extension are tracked in the [publication-status register](research/PUBLICATION_STATUS.md). **They are not additional upstream-accepted results.** Their complete proof packages are not yet hosted here.
+**Recorded results awaiting full public evidence:** the candidate `[[980,398,6]]`, two further upper-bound witnesses for `[[360,10]]` and `[[180,6]]`, a proposed Array-Generator fix, a local NetworkX experiment and an unreviewed BLR extension are tracked in the [publication-status register](research/PUBLICATION_STATUS.md). **Any remaining items are not additional upstream-accepted results.** Their complete proof packages are not yet hosted here.
 
 Other finite experiments, unsuccessful approaches and unresolved claims remain in the [experimental research register](research/EXPERIMENTAL_RESEARCH_INDEX.md). The website is organized around results and their verification rather than how they were discovered.
 
@@ -66,4 +78,4 @@ I distinguish: **(1)** code merged into a third-party repository, **(2)** findin
 
 For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [curated public outcomes index](research/RESULTS_INDEX.md) collects substantive accepted results, outstanding validation requests and selected experiments. Superseded and rejected attempts are not advertised as discoveries. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
-*Portfolio documentation updated: 11 November 2026 (new qLDPC PR #5336 and GitHub-status review). Other records retain their individually stated verification dates; this update does not imply a fresh scientific replay.*
+*Portfolio documentation updated: 19 November 2026 (two qLDPC PR merges and Vincent Russo's verification/comment). This does not imply a fresh scientific replay or official adoption of the revised 684-qubit catalog distance.*
