@@ -35,7 +35,13 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 
 - **PR merged 18 November 2026** — [unitaryfoundation/qldpc-challenge PR #5591](https://github.com/unitaryfoundation/qldpc-challenge/pull/5591).
 - Vincent Russo [independently checked](https://github.com/unitaryfoundation/qldpc-challenge/pull/5591#issuecomment-6979095564) the new nontrivial weight-72 Z logical witness: zero X syndrome and outside the Z stabilizer row space, establishing an **upper bound d ≤ 72** for the existing 684-qubit code.
-- **The catalog distance entry has not been updated:** the proposed second code file was removed because the board forbids duplicate stabilizer-group entries. The official entry still shows 75; a new correctly formatted distance-revision PR authored by me is required.
+- The initial merged PR did not itself change the existing catalog record; the follow-up revision below was subsequently merged.
+
+### 5. qLDPC Challenge — adopted 684-qubit distance upper-bound revision
+
+- **Merged 19 November 2026** — [unitaryfoundation/qldpc-challenge PR #6789](https://github.com/unitaryfoundation/qldpc-challenge/pull/6789).
+- Revised the existing 684-qubit CSS catalog entry from the recorded distance upper bound 75 to **72**, using the independently checked nontrivial weight-72 Z logical witness. Preserved the original construction and X-side witness.
+- **This establishes only `d ≤ 72`, not exact distance 72.** PR #5591 documents the earlier witness submission; PR #6789 is its correctly formatted catalog revision, not a separate mathematical discovery.
 
 ## Findings confirmed and acted on by maintainers
 
@@ -78,4 +84,4 @@ I distinguish: **(1)** code merged into a third-party repository, **(2)** findin
 
 For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [curated public outcomes index](research/RESULTS_INDEX.md) collects substantive accepted results, outstanding validation requests and selected experiments. Superseded and rejected attempts are not advertised as discoveries. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
-*Portfolio documentation updated: 19 November 2026 (two qLDPC PR merges and Vincent Russo's verification/comment). This does not imply a fresh scientific replay or official adoption of the revised 684-qubit catalog distance.*
+*Portfolio documentation updated: 19 November 2026 (including merged 684-qubit catalog revision PR #6789). A distance upper bound is not an exact-distance certificate.*
