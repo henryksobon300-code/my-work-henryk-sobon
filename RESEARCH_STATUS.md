@@ -1,6 +1,6 @@
 # Research contributions — evidence and status
 
-**Henryk Soboń** · Base ledger reviewed 24 October 2026; selected GitHub status additions verified 11 November 2026
+**Henryk Soboń** · Base ledger reviewed 24 October 2026; selected GitHub statuses rechecked 26 November 2026
 
 For the expanded inventory of research experiments and pending full public proof packages, see the [publication-status register](research/PUBLICATION_STATUS.md). A recorded test or draft does not upgrade its prior independent-review status.
 
@@ -20,7 +20,7 @@ This ledger separates contributions merged into external repositories, maintaine
 
 | Record | Evidence | Status / claim boundary |
 | --- | --- | --- |
-| QEC-07 | [Two n=180 CSS distance-14 certificates, author PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) | **Draft, open, not merged (checked 11 Nov 2026)**. Two independent *public third-party* solvers, `exactA` and `exactB`, reported complete searches excluding lighter operators in X/Z for both codes (8/8); `solver`-level certificates and a public replay driver were submitted. Prose, lint, format and replay workflows passed. Full verify was cancelled. Maintainer review is pending. Private MathemaSpace engine source is excluded. |
+
 | SAT-01 | [SAT Competition issue #2](https://github.com/satcompetition/2026/issues/2) · [GBD PR #3](https://github.com/Udopia/gbd-data/pull/3) | **GBD PR #3 CLOSED WITHOUT MERGE by owner, 11 Nov 2026 (08:07:56 UTC); no explanatory review/comment.** Original [SAT Competition issue #2](https://github.com/satcompetition/2026/issues/2) remains open. Public author-side 400-variable witness reportedly satisfies 31,600/31,600 clauses; negative control fails at original clause 12,954. No upstream acceptance or fresh independent replay established. [Details](research/CASE_SAT_VDWB_K6_N400.md). |
 | CHC-02 | [Eight quic3 benchmarks, CHC-COMP issue #11](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11) | **Open, checked 31 Oct 2026.** Public model ZIP, exact generator, hashes and 8/8 author-side checks are linked in [issue #11 reproduction guide](research/chc_comp_issue11/README.md). Current-organizer validator previously failed to return a result in the reviewer’s time window; no exact reproduction command was provided. The 2026 YAML files already say `expected_verdict: true` only as auto-added placeholders, whereas the 2025 metadata lacks the verdict. No official model replay or final correction is claimed. |
 | CHC-03 | [O3 array benchmark, CHC-COMP issue #10](https://github.com/chc-comp/chc-comp26-benchmarks/issues/10) | **Open, checked 24 Oct 2026.** Author-side validation claim; external acceptance pending. |
@@ -36,13 +36,13 @@ These records have publicly accessible technical artifacts with different levels
 | --- | --- | --- |
 | QEC-06 | [`[[1000,406,6]]` proof argument](research/qldpc-1000-406-d6/PROOF.md) · [public verifier archive](MathemaSpace_D6_PUBLIC.zip) · [source code PR #3863](https://github.com/unitaryfoundation/qldpc-challenge/pull/3863) | A lower-bound certificate is proposed for a code due to @hirobumii. The original code author independently verified Henryk Soboń's distance-6 proof and formalized it in Lean. The [formal-tier certificate was merged in PR #4226](https://github.com/unitaryfoundation/qldpc-challenge/pull/4226) on 30 Oct 2026. Do not attribute the code construction or PR authorship to Soboń. |
 | QEC-09 | [Two tighter Campaign 7 PBB distance bounds](https://henryksobon300-code.github.io/my-work-henryk-sobon/research/qcode-distance-bounds/) | Author-side Pauli certificates verify \(d \leq 16\) and \(d \leq 14\) for two identified qcode-discovery records. The Python verifier passed for both. Upstream review is pending. |
-| QEC-10 | [Weight-72 Z logical for `684-6-77`](https://henryksobon300-code.github.io/my-work-henryk-sobon/research/qldpc-684-distance-bound/) | The public verifier reproduces `d_Z ≤ 72` and `d ≤ 72` for the existing qLDPC Challenge code. Upstream review is pending. |
+| QEC-10 | [Public witness](research/qldpc-684-distance-bound/) · [merged catalogue revision #6789](https://github.com/unitaryfoundation/qldpc-challenge/pull/6789) | Vincent Russo independently verified the witness. Author PRs #5591 and #6789 merged 18 and 19 Nov 2026 respectively; the existing catalogue upper bound is now 72. This is not exact distance. |
 | QEC-11 | [Lower leading decoding error for a distinct `[[980,398,6]]` code](https://henryksobon300-code.github.io/my-work-henryk-sobon/research/qldpc-980-low-noise/) | Two implementations reproduce distance six and a 3.869% reduction of the leading ML failure coefficient under independent depolarizing noise with perfect syndrome measurements. External review is pending. |
 | QEC-12 | [Two CSS catalogue pairs equivalent under qubit permutation](https://henryksobon300-code.github.io/my-work-henryk-sobon/research/qldpc-css-equivalences/) | Exact X and Z row-space checks passed in the Challenge verifier and in full span enumeration. External review is pending. |
 | SCIPY-01 | [Issue #26549](https://github.com/scipy/scipy/issues/26549) · [public patch](research/scipy-26549/laplacian_dtype_promotion.patch) | Author-side local regression tests reported. No full upstream SciPy CI or maintainer acceptance demonstrated here. |
 | MATH-01 | [BLR 26-family proof/certificate package](research/blr-positivity-26-families/) | An all-`k` partial-positivity argument is proposed for `j=3,…,28`; checks and scripts are public, but a mathematical review and prior-work comparison are needed. Not a proof of the full positivity conjecture. |
 
-External statuses for the accepted-work section were reviewed on 24 October 2026. The new QEC-07 row was checked on 11 November; it does not retrospectively recertify other submissions.
+Selected statuses rechecked 26 November 2026; historical entries retain their stated validation scope.
 
 ## Documentation principles
 
@@ -53,3 +53,13 @@ External statuses for the accepted-work section were reviewed on 24 October 2026
 - Dates and statuses are a checked snapshot, not continuously updated claims.
 
 Contact and source contributions are available through [my GitHub profile](https://github.com/henryksobon300-code).
+
+## Selected status audit — 26 November 2026
+
+Five author PRs are merged: #2740, qcode-discovery #11, #5336, #5591 and #6789. PR #5336 accepts a preliminary n=180 research note, not exact distance 14. PRs #5591 and #6789 concern the same weight-72 witness and its catalogue adoption. Formal-certificate PR #4226 is separately authored by @hirobumii and already merged.
+
+- [SymPy #31142](https://github.com/sympy/sympy/pull/31142): Open and unmerged. Automated checks on commit `64c30bc967b018df6af8d918702f7f0a47887235` passed; the revised implementation awaits maintainer review. Earlier feedback on an older implementation is not approval of the current revision.
+- [NetworkX #8979](https://github.com/networkx/networkx/pull/8979): Reported a concrete extreme-float regression in another contributor's spanning-arborescence PR. The PR author acknowledged the cancellation bug, committed a correction and added two regression tests. The PR remains open and unmerged; this confirmation covers the reported regression, not the separate local candidate or all numeric and partition cases. [Report](https://github.com/networkx/networkx/pull/8979#issuecomment-7143906292) · [Acknowledgement and correction](https://github.com/networkx/networkx/pull/8979#issuecomment-7184429671).
+- SciPy #26747 remains an open draft; igraph #3005 is closed without merge.
+
+This audit checks public status and review evidence; it does not rerun all local calculations.

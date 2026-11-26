@@ -1,6 +1,6 @@
 # External review — public record and claim boundaries
 
-**Snapshot: 24 October 2026** · [Research results index](RESULTS_INDEX.md)
+**Selected review records updated: 26 November 2026** · [Research results index](RESULTS_INDEX.md)
 
 This page records review that a visitor can independently inspect in **public primary sources**. Private correspondence is indexed separately and is **not posted or quoted without permission**. Technical correspondence is not equivalent to formal peer review.
 
@@ -28,6 +28,28 @@ I reported ten Campaign 4 CSS records that split into smaller code blocks. Vince
 
 - [Original issue #2942](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942)
 - [Vincent Russo's independent verification](https://github.com/unitaryfoundation/qldpc-challenge/issues/2942#issuecomment-6124605835)
+
+### 684-qubit weight-72 witness — independently checked and adopted
+
+Vincent Russo [rechecked the witness against the existing catalogue matrices](https://github.com/unitaryfoundation/qldpc-challenge/pull/5591#issuecomment-6979095564). [PR #5591](https://github.com/unitaryfoundation/qldpc-challenge/pull/5591) merged 18 November; the correctly formatted [catalogue revision #6789](https://github.com/unitaryfoundation/qldpc-challenge/pull/6789) merged 19 November. This establishes an upper bound of 72, not exact distance, and the two PRs concern the same witness.
+
+### Exact distance six — formal certificate by the original code author
+
+[PR #4226](https://github.com/unitaryfoundation/qldpc-challenge/pull/4226), authored by @hirobumii, merged 30 October 2026. It credits Henryk Soboń's supplied proof and records the Lean formalization and replay for the unchanged `[[1000,406,6]]` code. The code construction and formal-certificate PR belong to @hirobumii.
+
+### Two n=180 codes — research note accepted
+
+[Author PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) merged 18 November 2026 as a preliminary research record. The merge does not certify exact distance 14 or change official distance-confidence values.
+
+### NetworkX — concrete regression acknowledged by the PR author
+
+Reported a concrete extreme-float regression in another contributor's spanning-arborescence PR. The PR author acknowledged the cancellation bug, committed a correction and added two regression tests. The PR remains open and unmerged; this confirmation covers the reported regression, not the separate local candidate or all numeric and partition cases.
+
+[My report](https://github.com/networkx/networkx/pull/8979#issuecomment-7143906292) · [PR-author acknowledgement and correction](https://github.com/networkx/networkx/pull/8979#issuecomment-7184429671). The correction was committed in revision `5f71f10925dd1e3b96e4f30164df2024d6ed332e`. The author's report of 221 passing tests is attributed to that author; this audit does not claim a fresh independent test run.
+
+### SymPy — revised implementation still awaiting review
+
+[PR #31142](https://github.com/sympy/sympy/pull/31142): Open and unmerged. Automated checks on commit `64c30bc967b018df6af8d918702f7f0a47887235` passed; the revised implementation awaits maintainer review. Earlier feedback on an older implementation is not approval of the current revision. Public comments on the earlier implementation include requests for reuse of existing cycle logic and a reported regression; they are not final approval.
 
 ## Other expert conversations — restricted to private records
 

@@ -1,6 +1,6 @@
 # Research publication and evidence status
 
-**Henryk Soboń · Public-facing inventory · originally reviewed 31 October 2026; selected GitHub additions checked 11 November 2026**
+**Henryk Soboń · Public-facing inventory · originally reviewed 31 October 2026; selected GitHub statuses rechecked 26 November 2026**
 
 [Home](../README.md) · [Research website](https://henryksobon300-code.github.io/my-work-henryk-sobon/) · [Browse results](https://henryksobon300-code.github.io/my-work-henryk-sobon/projects.html) · [Public PR and issue index](RESULTS_INDEX.md) · [Experimental work](EXPERIMENTAL_RESEARCH_INDEX.md) · [External review](EXTERNAL_REVIEW.md)
 
@@ -31,9 +31,9 @@ Other substantive public outcomes are indexed in [RESULTS_INDEX.md](RESULTS_INDE
 | PUB-04 | Eight quic3 SAT model reports and controls | [Public CHC-COMP package](chc_comp_issue11/README.md) · [original issue](https://github.com/chc-comp/chc-comp26-benchmarks/issues/11) | Awaiting external benchmark acceptance. |
 | PUB-05 | SYNTCOMP bounded parity witness record | [Public record](SYNTCOMP_2026_PARITY_PUBLIC_CONTRIBUTION_RECORD.md) · [original issue](https://github.com/henryksobon300-code/my-work-henryk-sobon/issues/1) | Author-side and native-verifier checks; no official competition ranking. |
 | PUB-SAT | `vdwb_k6_n400`: reported witness for one CNF previously marked UNKNOWN | [Original public assignment and verifier](https://github.com/satcompetition/2026/issues/2) · [case study](CASE_SAT_VDWB_K6_N400.md) · [GBD PR #3](https://github.com/Udopia/gbd-data/pull/3) | **Public author-side evidence; GBD PR closed without merge on 11 Nov 2026**. No independent upstream SAT verdict adoption recorded. |
-| PUB-06 | Two existing n=180 CSS entries: proposed `d_X=d_Z=d=14` | [Author PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) · [public replay, third-party solvers and proposed certificates](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336/files) | **Draft, not accepted (checked 11 Nov 2026).** Both public third-party programs `exactA` and `exactB` returned completed searches for X/Z of both entries, 8/8 runs; proposed `solver`-level certificates, not formal proofs. GitHub CI passed; maintainer approval and official exact status remain pending. No original private research engine is submitted. |
+| PUB-06 | Two existing n=180 CSS entries: preliminary distance research | [Author PR #5336](https://github.com/unitaryfoundation/qldpc-challenge/pull/5336) | **Research note merged 18 Nov 2026.** The accepted scope does not certify exact distance 14; official confidence values remain unchanged. |
 | QEC-09 | Two tighter Campaign 7 PBB distance bounds | [Public certificates and verifier](qcode-distance-bounds/) | Author-side verification of upper bounds `d≤16` and `d≤14` on two qcode-discovery records. Upstream review is pending. |
-| QEC-10 | Weight-72 Z logical for the existing `684-6-77` code | [Certificate and verifier](qldpc-684-distance-bound/) · [original construction PR #3637](https://github.com/unitaryfoundation/qldpc-challenge/pull/3637) | Author-side replay confirms `d_Z≤72` and `d≤72`. Upstream review is pending. |
+| QEC-10 | Weight-72 Z logical for the existing 684-qubit code | [Certificate and verifier](qldpc-684-distance-bound/) · [catalogue revision PR #6789](https://github.com/unitaryfoundation/qldpc-challenge/pull/6789) | Independently checked by Vincent Russo. Witness documentation #5591 and catalogue revision #6789 merged 18 and 19 Nov 2026. Establishes `d≤72`, not exact distance. |
 | QEC-11 | Distinct `[[980,398,6]]` lifted-product code with a lower leading ML error coefficient | [Proof and replay](qldpc-980-low-noise/) · [comparison code PR #3867](https://github.com/unitaryfoundation/qldpc-challenge/pull/3867) | Author-side replay reproduces 19,110 vs 20,027 minimum-weight Pauli operators and a 3.869% leading-coefficient reduction under independent depolarizing noise and perfect syndrome measurement. External review is pending. |
 | QEC-12 | Two CSS catalogue pairs equivalent under qubit permutation | [Permutations and replay](qldpc-css-equivalences/) | The Challenge verifier and full row-space enumeration agree on both pinned pairs. Two perturbed permutations are rejected. |
 
@@ -57,3 +57,12 @@ The rows below record specific **reported** findings recovered from project summ
 A queued item can be reclassified as **publicly reproducible** only after the published record has a specific frozen source/commit/dataset, an exact and limited claim, a shareable public artifact with its own content hash, a replay command and verification output, appropriate negative tests and baselines, attribution, and a precise statement about independent review. A code witness for an **upper** bound must not be labeled an **exact** distance without a separately proved lower bound.
 
 **Current audit boundary:** Public GitHub inventory plus identified archive notes through 31 October 2026. This is an expanded inventory, **not an exhaustive replay of every historic mailbox attachment or notebook**. Items in the queue are not presented as peer-reviewed publications or as independently confirmed novel discoveries.
+
+## Public review additions checked 26 November 2026
+
+All five authored merges (#2740, qcode #11, #5336, #5591, #6789) are recorded in the [current results index](RESULTS_INDEX.md). The first and follow-up 684-qubit PRs document one witness and its adoption.
+
+- [NetworkX #8979](https://github.com/networkx/networkx/pull/8979): Reported a concrete extreme-float regression in another contributor's spanning-arborescence PR. The PR author acknowledged the cancellation bug, committed a correction and added two regression tests. The PR remains open and unmerged; this confirmation covers the reported regression, not the separate local candidate or all numeric and partition cases. [Author confirmation](https://github.com/networkx/networkx/pull/8979#issuecomment-7184429671). This public regression report is separate from the historical QUEUE-05 experiment.
+- [SymPy #31142](https://github.com/sympy/sympy/pull/31142): Open and unmerged. Automated checks on commit `64c30bc967b018df6af8d918702f7f0a47887235` passed; the revised implementation awaits maintainer review. Earlier feedback on an older implementation is not approval of the current revision.
+
+Earlier package inventories retain their original audit boundaries.

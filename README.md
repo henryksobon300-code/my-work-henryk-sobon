@@ -57,11 +57,11 @@ I try to make each public claim inspectable: a specific problem, evidence, a ver
 - The project maintainer confirmed both UNSAT results, updated the expected-results table and closed the issue in October 2026.
 - This establishes the verdicts for two exact test instances, not a general solver.
 
-## Current software contributions (24 November 2026)
+## Current software contributions (26 November 2026)
 
-- **[SymPy PR #31142](https://github.com/sympy/sympy/pull/31142)** — negative integer exponents in modular solving; **open, not merged**. Automated testing and maintainer review are separate requirements; follow the linked PR for the current check results.
+- **[SymPy PR #31142](https://github.com/sympy/sympy/pull/31142)** — negative integer exponents in modular solving; **open, not merged**. Automated checks for commit `64c30bc967b018df6af8d918702f7f0a47887235` passed; maintainer approval of the revised implementation is pending.
 - **[SciPy PR #26747](https://github.com/scipy/scipy/pull/26747)** — prevention of integer overflow in graph Laplacian calculations; **open draft, not merged**. A [source-level before/after regression replay](research/scipy-26549/PR26747_SOURCE_REPLAY_20261124.md) now documents 49 failing baseline cases versus 67 passing targeted cases after the fix, plus 1,193 local passing module tests. Full upstream build, human review and acceptance remain outstanding.
-- **[NetworkX issue #8964](https://github.com/networkx/networkx/issues/8964)** — candidate fix and regression tests under local investigation; no upstream acceptance claimed.
+- **[NetworkX PR #8979](https://github.com/networkx/networkx/pull/8979) — regression confirmed and addressed by the PR author.** [My concrete report](https://github.com/networkx/networkx/pull/8979#issuecomment-7143906292) was [acknowledged and corrected](https://github.com/networkx/networkx/pull/8979#issuecomment-7184429671) with added regression tests. The PR belongs to @Roshanraj2580 and remains **open, not merged**. This is separate from the broader local candidate.
 - **[PauLie issue #73](https://github.com/QPauLie/PauLie/issues/73)** and **[SymPy issue #30430](https://github.com/sympy/sympy/issues/30430)** — additional candidate fixes pending integration and verification; no merged contributions claimed.
 
 These are intentionally separate from the five merged author PRs listed above. Private research bundles are not published here.
@@ -93,4 +93,4 @@ I distinguish: **(1)** code merged into a third-party repository, **(2)** findin
 
 For technical details, rejected proposals, known limitations and the current status of outstanding reports, see the [evidence register](RESEARCH_STATUS.md). The [curated public outcomes index](research/RESULTS_INDEX.md) collects substantive accepted results, outstanding validation requests and selected experiments. Superseded and rejected attempts are not advertised as discoveries. The [external review summary](research/EXTERNAL_REVIEW.md) links publicly inspectable review; private emails are not published.
 
-*Portfolio documentation updated: 24 November 2026 (including source-level SciPy regression evidence and merged 684-qubit catalog revision PR #6789). A distance upper bound is not an exact-distance certificate.*
+*Portfolio documentation updated: 26 November 2026 (five author PR merges rechecked, NetworkX regression acknowledgement added, SymPy remains open). A distance upper bound is not an exact-distance certificate.*
